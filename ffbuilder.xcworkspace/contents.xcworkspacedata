@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ffappendkeywords/ffappendkeywords.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:fftextdiff/fftextdiff.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:vbstyles/vbstyles.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ffstyles/ffstyles.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ffdictionary/ffdictionary.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ffplaylists/ffplaylists.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ffanalyzer/ffanalyzer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ffviews/ffviews.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ffcontents/ffcontents.xcodeproj">
+   </FileRef>
+</Workspace>

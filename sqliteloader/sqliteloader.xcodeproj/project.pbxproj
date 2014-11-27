@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B45AB0A1A137C10000A0CF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B45AB091A137C10000A0CF7 /* main.m */; };
+		0B45AB121A137C69000A0CF7 /* SQLiteWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B45AB111A137C69000A0CF7 /* SQLiteWrapper.m */; };
+		0B45AB141A137E67000A0CF7 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B45AB131A137E67000A0CF7 /* libsqlite3.0.dylib */; };
+		0B45AB171A1381CB000A0CF7 /* Loader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B45AB161A1381CB000A0CF7 /* Loader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B45AB041A137C10000A0CF7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B45AB061A137C10000A0CF7 /* sqliteloader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sqliteloader; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B45AB091A137C10000A0CF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B45AB101A137C69000A0CF7 /* SQLiteWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteWrapper.h; sourceTree = "<group>"; };
+		0B45AB111A137C69000A0CF7 /* SQLiteWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteWrapper.m; sourceTree = "<group>"; };
+		0B45AB131A137E67000A0CF7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		0B45AB151A1381CB000A0CF7 /* Loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loader.h; sourceTree = "<group>"; };
+		0B45AB161A1381CB000A0CF7 /* Loader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B45AB031A137C10000A0CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B45AB141A137E67000A0CF7 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B45AAFD1A137C10000A0CF7 = {
+			isa = PBXGroup;
+			children = (
+				0B45AB131A137E67000A0CF7 /* libsqlite3.0.dylib */,
+				0B45AB081A137C10000A0CF7 /* sqliteloader */,
+				0B45AB071A137C10000A0CF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B45AB071A137C10000A0CF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B45AB061A137C10000A0CF7 /* sqliteloader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B45AB081A137C10000A0CF7 /* sqliteloader */ = {
+			isa = PBXGroup;
+			children = (
+				0B45AB101A137C69000A0CF7 /* SQLiteWrapper.h */,
+				0B45AB111A137C69000A0CF7 /* SQLiteWrapper.m */,
+				0B45AB091A137C10000A0CF7 /* main.m */,
+				0B45AB151A1381CB000A0CF7 /* Loader.h */,
+				0B45AB161A1381CB000A0CF7 /* Loader.m */,
+			);
+			path = sqliteloader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B45AB051A137C10000A0CF7 /* sqliteloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B45AB0D1A137C10000A0CF7 /* Build configuration list for PBXNativeTarget "sqliteloader" */;
+			buildPhases = (
+				0B45AB021A137C10000A0CF7 /* Sources */,
+				0B45AB031A137C10000A0CF7 /* Frameworks */,
+				0B45AB041A137C10000A0CF7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sqliteloader;
+			productName = sqliteloader;
+			productReference = 0B45AB061A137C10000A0CF7 /* sqliteloader */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B45AAFE1A137C10000A0CF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Peter Kollath";
+				TargetAttributes = {
+					0B45AB051A137C10000A0CF7 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 0B45AB011A137C10000A0CF7 /* Build configuration list for PBXProject "sqliteloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B45AAFD1A137C10000A0CF7;
+			productRefGroup = 0B45AB071A137C10000A0CF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B45AB051A137C10000A0CF7 /* sqliteloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B45AB021A137C10000A0CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B45AB0A1A137C10000A0CF7 /* main.m in Sources */,
+				0B45AB171A1381CB000A0CF7 /* Loader.m in Sources */,
+				0B45AB121A137C69000A0CF7 /* SQLiteWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B45AB0B1A137C10000A0CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0B45AB0C1A137C10000A0CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0B45AB0E1A137C10000A0CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B45AB0F1A137C10000A0CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B45AB011A137C10000A0CF7 /* Build configuration list for PBXProject "sqliteloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B45AB0B1A137C10000A0CF7 /* Debug */,
+				0B45AB0C1A137C10000A0CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B45AB0D1A137C10000A0CF7 /* Build configuration list for PBXNativeTarget "sqliteloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B45AB0E1A137C10000A0CF7 /* Debug */,
+				0B45AB0F1A137C10000A0CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B45AAFE1A137C10000A0CF7 /* Project object */;
+}

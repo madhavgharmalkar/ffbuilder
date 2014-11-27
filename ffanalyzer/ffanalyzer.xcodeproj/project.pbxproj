@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B45AB251A13C372000A0CF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B45AB241A13C372000A0CF7 /* main.m */; };
+		0B45AB2F1A13C696000A0CF7 /* FlatFileImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B45AB2C1A13C696000A0CF7 /* FlatFileImporter.m */; };
+		0B45AB301A13C696000A0CF7 /* VBFolioBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B45AB2E1A13C696000A0CF7 /* VBFolioBuilder.m */; };
+		0B45AB331A13C937000A0CF7 /* GPStreamReadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B45AB321A13C937000A0CF7 /* GPStreamReadFile.m */; };
+		0B45AB361A13C955000A0CF7 /* GPDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B45AB351A13C955000A0CF7 /* GPDebugger.m */; };
+		0B45AB391A13C9A1000A0CF7 /* FlatFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B45AB381A13C9A1000A0CF7 /* FlatFileUtils.m */; };
+		0B45AB3C1A13CC71000A0CF7 /* RKSortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B45AB3B1A13CC71000A0CF7 /* RKSortedList.m */; };
+		0B45AB3F1A13D06B000A0CF7 /* GPTagHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B45AB3E1A13D06B000A0CF7 /* GPTagHelper.m */; };
+		0B45AB421A13D4B7000A0CF7 /* GPDebuggerStyleStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B45AB411A13D4B7000A0CF7 /* GPDebuggerStyleStream.m */; };
+		0B45ABD51A189D61000A0CF7 /* RKKeySet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B45ABD41A189D61000A0CF7 /* RKKeySet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B45AB1F1A13C372000A0CF7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B45AB211A13C372000A0CF7 /* ffanalyzer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ffanalyzer; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B45AB241A13C372000A0CF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B45AB2B1A13C696000A0CF7 /* FlatFileImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatFileImporter.h; sourceTree = "<group>"; };
+		0B45AB2C1A13C696000A0CF7 /* FlatFileImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatFileImporter.m; sourceTree = "<group>"; };
+		0B45AB2D1A13C696000A0CF7 /* VBFolioBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBFolioBuilder.h; sourceTree = "<group>"; };
+		0B45AB2E1A13C696000A0CF7 /* VBFolioBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBFolioBuilder.m; sourceTree = "<group>"; };
+		0B45AB311A13C937000A0CF7 /* GPStreamReadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPStreamReadFile.h; sourceTree = "<group>"; };
+		0B45AB321A13C937000A0CF7 /* GPStreamReadFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPStreamReadFile.m; sourceTree = "<group>"; };
+		0B45AB341A13C955000A0CF7 /* GPDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPDebugger.h; sourceTree = "<group>"; };
+		0B45AB351A13C955000A0CF7 /* GPDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPDebugger.m; sourceTree = "<group>"; };
+		0B45AB371A13C9A1000A0CF7 /* FlatFileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatFileUtils.h; sourceTree = "<group>"; };
+		0B45AB381A13C9A1000A0CF7 /* FlatFileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatFileUtils.m; sourceTree = "<group>"; };
+		0B45AB3A1A13CC71000A0CF7 /* RKSortedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSortedList.h; sourceTree = "<group>"; };
+		0B45AB3B1A13CC71000A0CF7 /* RKSortedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSortedList.m; sourceTree = "<group>"; };
+		0B45AB3D1A13D06B000A0CF7 /* GPTagHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTagHelper.h; sourceTree = "<group>"; };
+		0B45AB3E1A13D06B000A0CF7 /* GPTagHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTagHelper.m; sourceTree = "<group>"; };
+		0B45AB401A13D4B7000A0CF7 /* GPDebuggerStyleStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPDebuggerStyleStream.h; sourceTree = "<group>"; };
+		0B45AB411A13D4B7000A0CF7 /* GPDebuggerStyleStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPDebuggerStyleStream.m; sourceTree = "<group>"; };
+		0B45ABD31A189D61000A0CF7 /* RKKeySet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKKeySet.h; sourceTree = "<group>"; };
+		0B45ABD41A189D61000A0CF7 /* RKKeySet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKKeySet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B45AB1E1A13C372000A0CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B45AB181A13C372000A0CF7 = {
+			isa = PBXGroup;
+			children = (
+				0B45AB231A13C372000A0CF7 /* ffanalyzer */,
+				0B45AB221A13C372000A0CF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B45AB221A13C372000A0CF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B45AB211A13C372000A0CF7 /* ffanalyzer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B45AB231A13C372000A0CF7 /* ffanalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				0B45AB241A13C372000A0CF7 /* main.m */,
+				0B45AB2B1A13C696000A0CF7 /* FlatFileImporter.h */,
+				0B45AB2C1A13C696000A0CF7 /* FlatFileImporter.m */,
+				0B45AB2D1A13C696000A0CF7 /* VBFolioBuilder.h */,
+				0B45AB2E1A13C696000A0CF7 /* VBFolioBuilder.m */,
+				0B45AB311A13C937000A0CF7 /* GPStreamReadFile.h */,
+				0B45AB321A13C937000A0CF7 /* GPStreamReadFile.m */,
+				0B45AB341A13C955000A0CF7 /* GPDebugger.h */,
+				0B45AB351A13C955000A0CF7 /* GPDebugger.m */,
+				0B45AB401A13D4B7000A0CF7 /* GPDebuggerStyleStream.h */,
+				0B45AB411A13D4B7000A0CF7 /* GPDebuggerStyleStream.m */,
+				0B45AB371A13C9A1000A0CF7 /* FlatFileUtils.h */,
+				0B45AB381A13C9A1000A0CF7 /* FlatFileUtils.m */,
+				0B45AB3A1A13CC71000A0CF7 /* RKSortedList.h */,
+				0B45AB3B1A13CC71000A0CF7 /* RKSortedList.m */,
+				0B45AB3D1A13D06B000A0CF7 /* GPTagHelper.h */,
+				0B45AB3E1A13D06B000A0CF7 /* GPTagHelper.m */,
+				0B45ABD31A189D61000A0CF7 /* RKKeySet.h */,
+				0B45ABD41A189D61000A0CF7 /* RKKeySet.m */,
+			);
+			path = ffanalyzer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B45AB201A13C372000A0CF7 /* ffanalyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B45AB281A13C372000A0CF7 /* Build configuration list for PBXNativeTarget "ffanalyzer" */;
+			buildPhases = (
+				0B45AB1D1A13C372000A0CF7 /* Sources */,
+				0B45AB1E1A13C372000A0CF7 /* Frameworks */,
+				0B45AB1F1A13C372000A0CF7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ffanalyzer;
+			productName = ffanalyzer;
+			productReference = 0B45AB211A13C372000A0CF7 /* ffanalyzer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B45AB191A13C372000A0CF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Peter Kollath";
+				TargetAttributes = {
+					0B45AB201A13C372000A0CF7 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 0B45AB1C1A13C372000A0CF7 /* Build configuration list for PBXProject "ffanalyzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B45AB181A13C372000A0CF7;
+			productRefGroup = 0B45AB221A13C372000A0CF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B45AB201A13C372000A0CF7 /* ffanalyzer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B45AB1D1A13C372000A0CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B45AB331A13C937000A0CF7 /* GPStreamReadFile.m in Sources */,
+				0B45AB361A13C955000A0CF7 /* GPDebugger.m in Sources */,
+				0B45AB3C1A13CC71000A0CF7 /* RKSortedList.m in Sources */,
+				0B45AB3F1A13D06B000A0CF7 /* GPTagHelper.m in Sources */,
+				0B45AB2F1A13C696000A0CF7 /* FlatFileImporter.m in Sources */,
+				0B45ABD51A189D61000A0CF7 /* RKKeySet.m in Sources */,
+				0B45AB301A13C696000A0CF7 /* VBFolioBuilder.m in Sources */,
+				0B45AB421A13D4B7000A0CF7 /* GPDebuggerStyleStream.m in Sources */,
+				0B45AB391A13C9A1000A0CF7 /* FlatFileUtils.m in Sources */,
+				0B45AB251A13C372000A0CF7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B45AB261A13C372000A0CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0B45AB271A13C372000A0CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0B45AB291A13C372000A0CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B45AB2A1A13C372000A0CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B45AB1C1A13C372000A0CF7 /* Build configuration list for PBXProject "ffanalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B45AB261A13C372000A0CF7 /* Debug */,
+				0B45AB271A13C372000A0CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B45AB281A13C372000A0CF7 /* Build configuration list for PBXNativeTarget "ffanalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B45AB291A13C372000A0CF7 /* Debug */,
+				0B45AB2A1A13C372000A0CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B45AB191A13C372000A0CF7 /* Project object */;
+}

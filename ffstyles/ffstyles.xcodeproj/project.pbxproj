@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BD09B9C1A1A310D00BAC06D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD09B9B1A1A310D00BAC06D /* main.m */; };
+		0BD09BB41A1A312400BAC06D /* FlatFileImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD09BA31A1A312400BAC06D /* FlatFileImporter.m */; };
+		0BD09BB51A1A312400BAC06D /* FlatFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD09BA51A1A312400BAC06D /* FlatFileUtils.m */; };
+		0BD09BB61A1A312400BAC06D /* GPDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD09BA71A1A312400BAC06D /* GPDebugger.m */; };
+		0BD09BB71A1A312400BAC06D /* GPDebuggerStyleStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD09BA91A1A312400BAC06D /* GPDebuggerStyleStream.m */; };
+		0BD09BB81A1A312400BAC06D /* GPStreamReadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD09BAB1A1A312400BAC06D /* GPStreamReadFile.m */; };
+		0BD09BB91A1A312400BAC06D /* GPTagHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD09BAD1A1A312400BAC06D /* GPTagHelper.m */; };
+		0BD09BBA1A1A312400BAC06D /* RKKeySet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD09BAF1A1A312400BAC06D /* RKKeySet.m */; };
+		0BD09BBB1A1A312400BAC06D /* RKSortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD09BB11A1A312400BAC06D /* RKSortedList.m */; };
+		0BD09BBC1A1A312400BAC06D /* VBFolioBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD09BB31A1A312400BAC06D /* VBFolioBuilder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0BD09B961A1A310D00BAC06D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0BD09B981A1A310D00BAC06D /* ffstyles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ffstyles; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BD09B9B1A1A310D00BAC06D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BD09BA21A1A312400BAC06D /* FlatFileImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatFileImporter.h; sourceTree = "<group>"; };
+		0BD09BA31A1A312400BAC06D /* FlatFileImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatFileImporter.m; sourceTree = "<group>"; };
+		0BD09BA41A1A312400BAC06D /* FlatFileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatFileUtils.h; sourceTree = "<group>"; };
+		0BD09BA51A1A312400BAC06D /* FlatFileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatFileUtils.m; sourceTree = "<group>"; };
+		0BD09BA61A1A312400BAC06D /* GPDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPDebugger.h; sourceTree = "<group>"; };
+		0BD09BA71A1A312400BAC06D /* GPDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPDebugger.m; sourceTree = "<group>"; };
+		0BD09BA81A1A312400BAC06D /* GPDebuggerStyleStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPDebuggerStyleStream.h; sourceTree = "<group>"; };
+		0BD09BA91A1A312400BAC06D /* GPDebuggerStyleStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPDebuggerStyleStream.m; sourceTree = "<group>"; };
+		0BD09BAA1A1A312400BAC06D /* GPStreamReadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPStreamReadFile.h; sourceTree = "<group>"; };
+		0BD09BAB1A1A312400BAC06D /* GPStreamReadFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPStreamReadFile.m; sourceTree = "<group>"; };
+		0BD09BAC1A1A312400BAC06D /* GPTagHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTagHelper.h; sourceTree = "<group>"; };
+		0BD09BAD1A1A312400BAC06D /* GPTagHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTagHelper.m; sourceTree = "<group>"; };
+		0BD09BAE1A1A312400BAC06D /* RKKeySet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKKeySet.h; sourceTree = "<group>"; };
+		0BD09BAF1A1A312400BAC06D /* RKKeySet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKKeySet.m; sourceTree = "<group>"; };
+		0BD09BB01A1A312400BAC06D /* RKSortedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSortedList.h; sourceTree = "<group>"; };
+		0BD09BB11A1A312400BAC06D /* RKSortedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSortedList.m; sourceTree = "<group>"; };
+		0BD09BB21A1A312400BAC06D /* VBFolioBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBFolioBuilder.h; sourceTree = "<group>"; };
+		0BD09BB31A1A312400BAC06D /* VBFolioBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBFolioBuilder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BD09B951A1A310D00BAC06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD09B8F1A1A310D00BAC06D = {
+			isa = PBXGroup;
+			children = (
+				0BD09B9A1A1A310D00BAC06D /* ffstyles */,
+				0BD09B991A1A310D00BAC06D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BD09B991A1A310D00BAC06D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BD09B981A1A310D00BAC06D /* ffstyles */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BD09B9A1A1A310D00BAC06D /* ffstyles */ = {
+			isa = PBXGroup;
+			children = (
+				0BD09BA21A1A312400BAC06D /* FlatFileImporter.h */,
+				0BD09BA31A1A312400BAC06D /* FlatFileImporter.m */,
+				0BD09BA41A1A312400BAC06D /* FlatFileUtils.h */,
+				0BD09BA51A1A312400BAC06D /* FlatFileUtils.m */,
+				0BD09BA61A1A312400BAC06D /* GPDebugger.h */,
+				0BD09BA71A1A312400BAC06D /* GPDebugger.m */,
+				0BD09BA81A1A312400BAC06D /* GPDebuggerStyleStream.h */,
+				0BD09BA91A1A312400BAC06D /* GPDebuggerStyleStream.m */,
+				0BD09BAA1A1A312400BAC06D /* GPStreamReadFile.h */,
+				0BD09BAB1A1A312400BAC06D /* GPStreamReadFile.m */,
+				0BD09BAC1A1A312400BAC06D /* GPTagHelper.h */,
+				0BD09BAD1A1A312400BAC06D /* GPTagHelper.m */,
+				0BD09BAE1A1A312400BAC06D /* RKKeySet.h */,
+				0BD09BAF1A1A312400BAC06D /* RKKeySet.m */,
+				0BD09BB01A1A312400BAC06D /* RKSortedList.h */,
+				0BD09BB11A1A312400BAC06D /* RKSortedList.m */,
+				0BD09BB21A1A312400BAC06D /* VBFolioBuilder.h */,
+				0BD09BB31A1A312400BAC06D /* VBFolioBuilder.m */,
+				0BD09B9B1A1A310D00BAC06D /* main.m */,
+			);
+			path = ffstyles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BD09B971A1A310D00BAC06D /* ffstyles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BD09B9F1A1A310D00BAC06D /* Build configuration list for PBXNativeTarget "ffstyles" */;
+			buildPhases = (
+				0BD09B941A1A310D00BAC06D /* Sources */,
+				0BD09B951A1A310D00BAC06D /* Frameworks */,
+				0BD09B961A1A310D00BAC06D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ffstyles;
+			productName = ffstyles;
+			productReference = 0BD09B981A1A310D00BAC06D /* ffstyles */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BD09B901A1A310D00BAC06D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Peter Kollath";
+				TargetAttributes = {
+					0BD09B971A1A310D00BAC06D = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 0BD09B931A1A310D00BAC06D /* Build configuration list for PBXProject "ffstyles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0BD09B8F1A1A310D00BAC06D;
+			productRefGroup = 0BD09B991A1A310D00BAC06D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BD09B971A1A310D00BAC06D /* ffstyles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BD09B941A1A310D00BAC06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD09BB41A1A312400BAC06D /* FlatFileImporter.m in Sources */,
+				0BD09BB91A1A312400BAC06D /* GPTagHelper.m in Sources */,
+				0BD09BB71A1A312400BAC06D /* GPDebuggerStyleStream.m in Sources */,
+				0BD09BB81A1A312400BAC06D /* GPStreamReadFile.m in Sources */,
+				0BD09BB51A1A312400BAC06D /* FlatFileUtils.m in Sources */,
+				0BD09BBC1A1A312400BAC06D /* VBFolioBuilder.m in Sources */,
+				0BD09B9C1A1A310D00BAC06D /* main.m in Sources */,
+				0BD09BBB1A1A312400BAC06D /* RKSortedList.m in Sources */,
+				0BD09BB61A1A312400BAC06D /* GPDebugger.m in Sources */,
+				0BD09BBA1A1A312400BAC06D /* RKKeySet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0BD09B9D1A1A310D00BAC06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0BD09B9E1A1A310D00BAC06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0BD09BA01A1A310D00BAC06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0BD09BA11A1A310D00BAC06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BD09B931A1A310D00BAC06D /* Build configuration list for PBXProject "ffstyles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BD09B9D1A1A310D00BAC06D /* Debug */,
+				0BD09B9E1A1A310D00BAC06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BD09B9F1A1A310D00BAC06D /* Build configuration list for PBXNativeTarget "ffstyles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BD09BA01A1A310D00BAC06D /* Debug */,
+				0BD09BA11A1A310D00BAC06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BD09B901A1A310D00BAC06D /* Project object */;
+}
