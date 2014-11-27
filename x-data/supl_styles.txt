@@ -1,0 +1,84 @@
+style	LE_Collection
+
+prop	color	#442200
+prop	text-align	center
+prop	padding-bottom	24pt
+prop	line-height	120%
+prop	padding-top	24pt
+prop	padding-right	36pt
+prop	margin-top	18pt
+prop	font-size	142%
+prop	margin-bottom	18pt
+prop	font-weight	bold
+prop	padding-left	36pt
+prop	image-before	pim_collection_a
+prop	image-before-size	680pt
+prop	image-after	pim_collection_b
+prop	image-after-size	680pt
+
+style	LE_Writings
+
+prop	color	#663300
+prop	text-align	center
+prop	padding-bottom	24pt
+prop	line-height	120%
+prop	padding-top	24pt
+prop	padding-right	8pt
+prop	margin-top	27pt
+prop	margin-right	72pt
+prop	font-size	171%
+prop	margin-bottom	0pt
+prop	font-weight	bold
+prop	padding-left	8pt
+prop	margin-left	72pt
+prop	image-before	pim_writings
+prop	image-before-size	680pt
+prop	image-after	pim_writings
+prop	image-after-size	680pt
+
+style	PA_Book_Title
+
+prop	color	#663300
+prop	text-align	center
+prop	padding-bottom	12pt
+prop	line-height	120%
+prop	padding-top	12pt
+prop	padding-right	12pt
+prop	margin-top	27pt
+prop	margin-right	72pt
+prop	font-size	171%
+prop	margin-bottom	0pt
+prop	font-weight	bold
+prop	padding-left	12pt
+prop	margin-left	72pt
+prop	image-before	pim_book_a
+prop	image-before-size	680pt
+prop	image-after	pim_book_b
+prop	image-after-size	680pt
+
+style	PA_Book_Title_49
+
+prop	color	#663300
+prop	text-align	center
+prop	padding-bottom	12pt
+prop	line-height	120%
+prop	padding-top	12pt
+prop	padding-right	12pt
+prop	margin-top	27pt
+prop	margin-right	72pt
+prop	font-size	171%
+prop	margin-bottom	0pt
+prop	font-weight	bold
+prop	padding-left	12pt
+prop	margin-left	72pt
+prop	image-before	pim_book_a
+prop	image-before-size	680pt
+prop	image-after	pim_book_b
+prop	image-after-size	680pt
+
+
+
+
+
+
+

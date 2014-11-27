@@ -1,0 +1,1521 @@
+1003	1002	Bhagavad-gītā 1.1 -- July 7, 1973, London	Bhagavad-gītā 1.1
+1004	1002	Bhagavad-gītā 1.1 in Hindi -- August 25, 1976, Hyderabad	Bhagavad-gītā 1.1
+1005	1002	Bhagavad-gītā 1.2-3 -- July 9, 1973, London	Bhagavad-gītā 1.2-3
+1006	1002	Bhagavad-gītā 1.4-5 -- July 10, 1973, London	Bhagavad-gītā 1.4-5
+1007	1002	Bhagavad-gītā 1.6-7 -- July 11, 1973, London	Bhagavad-gītā 1.6-7
+1008	1002	Bhagavad-gītā 1.10 -- July 12, 1973, London	Bhagavad-gītā 1.10
+1009	1002	Bhagavad-gītā 1.12 -- July 13, 1973, London	Bhagavad-gītā 1.12
+1010	1002	Bhagavad-gītā 1.13-14 -- July 14, 1973, London	Bhagavad-gītā 1.13-14
+1011	1002	Bhagavad-gītā 1.15 -- July 15, 1973, London	Bhagavad-gītā 1.15
+1012	1002	Bhagavad-gītā 1.16-19 -- July 16, 1973, London	Bhagavad-gītā 1.16-19
+1013	1002	Bhagavad-gītā 1.20 -- July 17, 1973, London	Bhagavad-gītā 1.20
+1014	1002	Bhagavad-gītā 1.21-22 -- July 18, 1973, London	Bhagavad-gītā 1.21-22
+1015	1002	Bhagavad-gītā 1.23 -- July 19, 1973, London	Bhagavad-gītā 1.23
+1016	1002	Bhagavad-gītā 1.24-25 -- July 20, 1973, London	Bhagavad-gītā 1.24-25
+1017	1002	Bhagavad-gītā 1.26-27 -- July 21, 1973, London	Bhagavad-gītā 1.26-27
+1018	1002	Bhagavad-gītā 1.28-29 -- July 22, 1973, London	Bhagavad-gītā 1.28-29
+1019	1002	Bhagavad-gītā 1.30 -- July 23, 1973, London	Bhagavad-gītā 1.30
+1020	1002	Bhagavad-gītā 1.31 -- July 24, 1973, London	Bhagavad-gītā 1.31
+1021	1002	Bhagavad-gītā 1.32-35 -- July 25, 1973, London	Bhagavad-gītā 1.32-35
+1022	1002	Bhagavad-gītā 1.36 -- July 26, 1973, London	Bhagavad-gītā 1.36
+1023	1002	Bhagavad-gītā 1.37-39 -- July 27, 1973, London	Bhagavad-gītā 1.37-39
+1024	1002	Bhagavad-gītā 1.40 -- July 28, 1973, London	Bhagavad-gītā 1.40
+1025	1002	Bhagavad-gītā 1.41-42 -- July 29, 1973, London	Bhagavad-gītā 1.41-42
+1026	1002	Bhagavad-gītā 1.43 -- July 30, 1973, London	Bhagavad-gītā 1.43
+1027	1002	Bhagavad-gītā 1.44 -- July 31, 1973, London	Bhagavad-gītā 1.44
+1028	1002	Bhagavad-gītā 1.45-46 -- August 1, 1973, London	Bhagavad-gītā 1.45-46
+1030	1029	Bhagavad-gītā 2.1 -- December 6, 1972, Ahmedabad	Bhagavad-gītā 2.1
+1031	1029	Bhagavad-gītā 2.1 -- December 7, 1972, Ahmedabad	Bhagavad-gītā 2.1
+1032	1029	Bhagavad-gītā 2.1-10 and Talk -- November 25, 1968, Los Angeles	Bhagavad-gītā 2.1-10 and Talk
+1033	1029	Bhagavad-gītā 2.1-11 -- October 17, 1975, Johannesburg	Bhagavad-gītā 2.1-11
+1034	1029	Bhagavad-gītā 2.1–5 -- June 16, 1974, Germany	Bhagavad-gītā 2.1–5
+1035	1029	Bhagavad-gita 2.1--2.12 Reading -- June 15, 1976, Detroit	Bhagavad-gita 2.1--2.12 Reading 
+1036	1029	Bhagavad-gītā 2.2 -- August 3, 1973, London	Bhagavad-gītā 2.2
+1037	1029	Bhagavad-gītā 2.2-6 -- December 11, 1972, Ahmedabad	Bhagavad-gītā 2.2-6
+1038	1029	Bhagavad-gītā 2.3 -- August 4, 1973, London	Bhagavad-gītā 2.3
+1039	1029	Bhagavad-gītā 2.4-5 -- August 5, 1973, London	Bhagavad-gītā 2.4-5
+1040	1029	Bhagavad-gītā 2.6 -- August 6, 1973, London	Bhagavad-gītā 2.6
+1041	1029	Bhagavad-gītā 2.7 -- August 7, 1973, London	Bhagavad-gītā 2.7
+1042	1029	Bhagavad-gītā 2.7-11 -- March 2, 1966, New York	Bhagavad-gītā 2.7-11
+1043	1029	Bhagavad-gītā 2.8 -- August 8, 1973, London	Bhagavad-gītā 2.8
+1044	1029	Bhagavad-gītā 2.8-12 -- November 27, 1968, Los Angeles	Bhagavad-gītā 2.8-12
+1045	1029	Bhagavad-gītā 2.9 -- February 21, 1973, Auckland	Bhagavad-gītā 2.9
+1046	1029	Bhagavad-gītā 2.9 -- August 15, 1973, London	Bhagavad-gītā 2.9
+1047	1029	Bhagavad-gītā 2.10 -- August 16, 1973, London	Bhagavad-gītā 2.10
+1048	1029	Bhagavad-gītā 2.11 -- March 4, 1966, New York	Bhagavad-gītā 2.11
+1049	1029	Bhagavad-gītā 2.11 -- July 16, 1972, Edinburgh	Bhagavad-gītā 2.11
+1050	1029	Bhagavad-gītā 2.11 -- August 17, 1973, London	Bhagavad-gītā 2.11
+1051	1029	Bhagavad-gītā 2.11 -- October 1, 1975, Mauritius	Bhagavad-gītā 2.11
+1052	1029	Bhagavad-gītā 2.11 -- Rotary Club Address at Hotel Imperial -- March 25, 1976, Delhi	Bhagavad-gītā 2.11
+1053	1029	Bhagavad-gītā 2.11 -- February 11, 1975, Mexico City	Bhagavad-gītā 2.11 
+1054	1029	Bhagavad-gītā 2.12 -- March 7, 1966, New York	Bhagavad-gītā 2.12
+1055	1029	Bhagavad-gītā 2.12 -- March 9, 1966, New York	Bhagavad-gītā 2.12
+1056	1029	Bhagavad-gītā 2.12 -- November 17, 1972, Hyderabad	Bhagavad-gītā 2.12
+1057	1029	Bhagavad-gītā 2.12 -- August 18, 1973, London	Bhagavad-gītā 2.12
+1058	1029	Bhagavad-gītā 2.12 -- February 12, 1975, Mexico City	Bhagavad-gītā 2.12
+1059	1029	Bhagavad-gītā 2.12 -- December 12, 1976, Hyderabad	Bhagavad-gītā 2.12
+1060	1029	Bhagavad-gītā 2.13 -- March 11, 1966, New York	Bhagavad-gītā 2.13
+1061	1029	Bhagavad-gītā 2.13 -- September 13, 1971, Mombassa	Bhagavad-gītā 2.13
+1062	1029	Bhagavad-gītā 2.13 -- September 8, 1972, Pittsburgh	Bhagavad-gītā 2.13
+1063	1029	Bhagavad-gītā 2.13 -- October 12, 1972, Manila	Bhagavad-gītā 2.13
+1064	1029	Bhagavad-gītā 2.13 -- November 18, 1972, Hyderabad	Bhagavad-gītā 2.13
+1065	1029	Bhagavad-gītā 2.13 -- November 19, 1972, Hyderabad	Bhagavad-gītā 2.13
+1066	1029	Bhagavad-gītā 2.13 -- August 19, 1973, London	Bhagavad-gītā 2.13
+1067	1029	Bhagavad-gītā 2.13 -- June 18, 1974, Germany	Bhagavad-gītā 2.13
+1068	1029	Bhagavad-gītā 2.13 -- June 22, 1974, Bad Homburg, Germany	Bhagavad-gītā 2.13
+1069	1029	Bhagavad-gītā 2.13-17 -- November 29, 1968, Los Angeles	Bhagavad-gītā 2.13-17
+1070	1029	Bhagavad-gītā 2.14 -- August 20, 1973, London	Bhagavad-gītā 2.14
+1071	1029	Bhagavad-gītā 2.14 -- June 23, 1974, Germany	Bhagavad-gītā 2.14
+1072	1029	Bhagavad-gītā 2.14 -- February 14, 1975, Mexico City	Bhagavad-gītā 2.14
+1073	1029	Bhagavad-gītā 2.15 -- November 21, 1972, Hyderabad	Bhagavad-gītā 2.15
+1074	1029	Bhagavad-gītā 2.15 -- August 21, 1973, London	Bhagavad-gītā 2.15
+1075	1029	Bhagavad-gītā 2.15 -- February 15, 1975, Mexico City	Bhagavad-gītā 2.15
+1076	1029	Bhagavad-gītā 2.16 -- August 22, 1973, London	Bhagavad-gītā 2.16
+1077	1029	Bhagavad-gītā 2.16 -- February 16, 1975, Mexico City	Bhagavad-gītā 2.16
+1078	1029	Bhagavad-gītā 2.17 -- November 22, 1972, Hyderabad	Bhagavad-gītā 2.17
+1079	1029	Bhagavad-gītā 2.17 -- August 23, 1973, London	Bhagavad-gītā 2.17
+1080	1029	Bhagavad-gītā 2.17 -- February 17, 1975, Mexico City	Bhagavad-gītā 2.17
+1081	1029	Bhagavad-gītā 2.18 -- November 23, 1972, Hyderabad	Bhagavad-gītā 2.18
+1082	1029	Bhagavad-gītā 2.18 -- August 24, 1973, London	Bhagavad-gītā 2.18
+1083	1029	Bhagavad-gītā 2.19 -- August 25, 1973, London	Bhagavad-gītā 2.19
+1084	1029	Bhagavad-gītā 2.20 -- November 25, 1972, Hyderabad	Bhagavad-gītā 2.20
+1085	1029	Bhagavad-gītā 2.20-25 -- October 14, 1968, Seattle	Bhagavad-gītā 2.20-25
+1086	1029	Bhagavad-gītā 2.21-22 -- August 26, 1973, London	Bhagavad-gītā 2.21-22
+1087	1029	Bhagavad-gītā 2.22 -- November 26, 1972, Hyderabad	Bhagavad-gītā 2.22
+1088	1029	Bhagavad-gītā 2.23 -- November 27, 1972, Hyderabad	Bhagavad-gītā 2.23
+1089	1029	Bhagavad-gītā 2.23-24 -- August 27, 1973, London	Bhagavad-gītā 2.23-24
+1090	1029	Bhagavad-gītā 2.24 -- November 28, 1972, Hyderabad	Bhagavad-gītā 2.24
+1091	1029	Bhagavad-gītā 2.25 -- November 29, 1972, Hyderabad	Bhagavad-gītā 2.25
+1092	1029	Bhagavad-gītā 2.25 -- August 28, 1973, London	Bhagavad-gītā 2.25
+1093	1029	Bhagavad-gītā 2.26 -- December 6, 1968, Los Angeles	Bhagavad-gītā 2.26
+1094	1029	Bhagavad-gītā 2.26 -- November 30, 1972, Hyderabad	Bhagavad-gītā 2.26
+1095	1029	Bhagavad-gītā 2.26-27 -- August 29, 1973, London	Bhagavad-gītā 2.26-27
+1096	1029	Bhagavad-gītā 2.27-38 -- December 11, 1968, Los Angeles	Bhagavad-gītā 2.27-38
+1097	1029	Bhagavad-gītā 2.28 -- August 30, 1973, London	Bhagavad-gītā 2.28
+1098	1029	Bhagavad-gītā 2.30 -- August 31, 1973, London	Bhagavad-gītā 2.30
+1099	1029	Bhagavad-gītā 2.31 -- September 1, 1973, London	Bhagavad-gītā 2.31
+1100	1029	Bhagavad-gītā 2.32 -- September 2, 1973, London	Bhagavad-gītā 2.32
+1101	1029	Bhagavad-gītā 2.33-35 -- September 3, 1973, London	Bhagavad-gītā 2.33-35
+1102	1029	Bhagavad-gītā 2.36-37 -- September 4, 1973, London	Bhagavad-gītā 2.36-37
+1103	1029	Bhagavad-gītā 2.39 -- September 12, 1973, London	Bhagavad-gītā 2.39
+1104	1029	Bhagavad-gītā 2.40 - September 13, 1973, London	Bhagavad-gītā 2.40
+1105	1029	Bhagavad-gītā 2.40-45 -- December 13, 1968, Los Angeles	Bhagavad-gītā 2.40-45
+1106	1029	Bhagavad-gītā Excerpts: 2.44-45, 2.58 -- March 25, 1966, New York	Bhagavad-gītā Excerpts: 2.44-45, 2.58
+1107	1029	Bhagavad-gītā 2.46-47 -- March 28, 1966, New York	Bhagavad-gītā 2.46-47
+1108	1029	Bhagavad-gītā 2.46-62 -- December 16, 1968, Los Angeles	Bhagavad-gītā 2.46-62
+1109	1029	Bhagavad-gītā 2.48-49 -- April 1, 1966, New York	Bhagavad-gītā 2.48-49
+1110	1029	Bhagavad-gītā 2.49-51 -- April 5, 1966, New York	Bhagavad-gītā 2.49-51
+1111	1029	Bhagavad-gītā 2.51-55 -- April 12, 1966, New York	Bhagavad-gītā 2.51-55
+1112	1029	Bhagavad-gītā 2.55-56 -- April 19, 1966, New York	Bhagavad-gītā 2.55-56
+1113	1029	Bhagavad-gītā 2.55-58 -- April 15, 1966, New York	Bhagavad-gītā 2.55-58
+1114	1029	Bhagavad-gītā 2.58-59 -- April 27, 1966, New York	Bhagavad-gītā 2.58-59
+1115	1029	Bhagavad-gītā 2.59-69 -- April 29, 1966, New York	Bhagavad-gītā 2.59-69
+1116	1029	Bhagavad-gītā 2.62-72 -- December 19, 1968, Los Angeles	Bhagavad-gītā 2.62-72
+1118	1117	Bhagavad-gītā 3.1-5 -- December 20, 1968, Los Angeles	Bhagavad-gītā 3.1-5
+1119	1117	Bhagavad-gītā 3.6-10 -- December 23, 1968, Los Angeles	Bhagavad-gītā 3.6-10
+1120	1117	Bhagavad-gītā 3.8-11 -- October 22, 1968, Seattle	Bhagavad-gītā 3.8-11
+1121	1117	Bhagavad-gītā 3.8-13 -- May 20, 1966, New York	Bhagavad-gītā 3.8-13
+1122	1117	Bhagavad-gītā 3.9–14 -- February 6, 1974, Vṛndāvana	Bhagavad-gītā 3.9–14 
+1123	1117	Bhagavad-gītā 3.11-19 -- December 27, 1968, Los Angeles	Bhagavad-gītā 3.11-19
+1124	1117	Bhagavad-gītā 3.13-16 -- May 23, 1966, New York	Bhagavad-gītā 3.13-16
+1125	1117	Bhagavad-gītā 3.14 [with translator] -- December 27, 1975, Sanand	Bhagavad-gītā 3.14
+1126	1117	Bhagavad-gītā 3.16-17 -- May 25, 1966, New York	Bhagavad-gītā 3.16-17
+1127	1117	Bhagavad-gītā 3.17-20 -- May 27, 1966, New York	Bhagavad-gītā 3.17-20
+1128	1117	Bhagavad-gītā 3.18-30 -- December 30, 1968, Los Angeles	Bhagavad-gītā 3.18-30
+1129	1117	Bhagavad-gītā 3.21-25 -- May 30, 1966, New York	Bhagavad-gītā 3.21-25
+1130	1117	Bhagavad-gītā 3.25 -- December 17, 1976, Hyderabad	Bhagavad-gītā 3.25
+1131	1117	Bhagavad-gītā 3.27 at Town Hall -- June 27, 1974, Melbourne	Bhagavad-gītā 3.27
+1132	1117	Bhagavad-gītā 3.27 -- January 1, 1976, Madras	Bhagavad-gītā 3.27
+1133	1117	Bhagavad-gītā 3.31-43 -- January 1, 1969, Los Angeles	Bhagavad-gītā 3.31-43
+1135	1134	Bhagavad-gītā 4.1 -- August 24, 1968, Montreal	Bhagavad-gītā 4.1
+1136	1134	Bhagavad-gītā 4.1 -- November 10, 1971, Delhi	Bhagavad-gītā 4.1
+1137	1134	Bhagavad-gītā 4.1 -- February 7, 1974, Vṛndāvana	Bhagavad-gītā 4.1
+1138	1134	Bhagavad-gītā 4.1 -- March 21, 1974, Bombay	Bhagavad-gītā 4.1
+1139	1134	Bhagavad-gītā 4.1 and Review -- July 13, 1966, New York	Bhagavad-gītā 4.1 
+1140	1134	Bhagavad-gītā 4.1-2 -- May 9, 1969, Columbus	Bhagavad-gītā 4.1-2 
+1141	1134	Bhagavad-gītā 4.1-6 -- January 3, 1969, Los Angeles	Bhagavad-gītā 4.1-6
+1142	1134	Bhagavad-gītā 4.2 -- February 8, 1974, Vṛndāvana	Bhagavad-gītā 4.2
+1143	1134	Bhagavad-gītā 4.2 -- March 22, 1974, Bombay	Bhagavad-gītā 4.2 
+1144	1134	Bhagavad-gītā 4.3 -- February 10, 1974, Vṛndāvana	Bhagavad-gītā 4.3
+1145	1134	Bhagavad-gītā 4.3 -- March 23, 1974, Bombay	Bhagavad-gītā 4.3 
+1146	1134	Bhagavad-gītā 4.3-6 -- July 18, 1966, New York	Bhagavad-gītā 4.3-6
+1147	1134	Bhagavad-gītā 4.4 -- February 12, 1974, Vṛndāvana	Bhagavad-gītā 4.4 
+1148	1134	Bhagavad-gītā 4.4 -- March 24, 1974, Bombay	Bhagavad-gītā 4.4 
+1149	1134	Bhagavad-gītā 4.5 -- June 10, 1968, Montreal	Bhagavad-gītā 4.5
+1150	1134	Bhagavad-gītā 4.5 -- February 13, 1974, Vṛndāvana	Bhagavad-gītā 4.5 
+1151	1134	Bhagavad-gītā 4.5 -- March 25, 1974, Bombay	Bhagavad-gītā 4.5 
+1152	1134	Bhagavad-gītā 4.6 -- March 26, 1974, Bombay	Bhagavad-gītā 4.6
+1153	1134	Bhagavad-gītā 4.6-8 -- July 20, 1966, New York	Bhagavad-gītā 4.6-8
+1154	1134	Bhagavad-gītā 4.7 -- June 13, 1968, Montreal	Bhagavad-gītā 4.7
+1155	1134	Bhagavad-gītā 4.7 -- March 27, 1974, Bombay	Bhagavad-gītā 4.7 
+1156	1134	Bhagavad-gītā 4.7-10 -- January 6, 1969, Los Angeles	Bhagavad-gītā 4.7-10
+1157	1134	Bhagavad-gītā 4.7-9 -- July 22, 1966, New York	Bhagavad-gītā 4.7-9
+1158	1134	Bhagavad-gītā 4.8 -- June 14, 1968, Montreal	Bhagavad-gītā 4.8
+1159	1134	Bhagavad-gītā 4.8 -- March 28, 1974, Bombay	Bhagavad-gītā 4.8 
+1160	1134	Bhagavad-gītā 4.9 -- June 19, 1968, Montreal	Bhagavad-gītā 4.9
+1161	1134	Bhagavad-gītā 4.9 -- March 29, 1974, Bombay	Bhagavad-gītā 4.9
+1162	1134	Bhagavad-gītā 4.9-11 -- July 25, 1966, New York	Bhagavad-gītā 4.9-11
+1163	1134	Bhagavad-gītā 4.10 -- August 2, 1974, Vṛndāvana	Bhagavad-gītā 4.10
+1164	1134	Bhagavad-gītā 4.10 -- March 30, 1974, Bombay	Bhagavad-gītā 4.10 
+1165	1134	Bhagavad-gītā 4.10, Festival at Maison de Faubourg -- May 31, 1974, Geneva	Bhagavad-gītā 4.10,
+1166	1134	Bhagavad-gītā 4.10, Public Lecture -- May 25, 1974, Rome	Bhagavad-gītā 4.10, Public Lecture
+1167	1134	Bhagavad-gītā 4.11 -- July 27, 1966, New York	Bhagavad-gītā 4.11
+1168	1134	Bhagavad-gītā 4.11 -- August 3, 1974, Vṛndāvana	Bhagavad-gītā 4.11
+1169	1134	Bhagavad-gītā 4.11 -- March 31, 1974, Bombay	Bhagavad-gītā 4.11 
+1170	1134	Bhagavad-gītā 4.11 -- June 1, 1974, Geneva	Bhagavad-gītā 4.11 
+1171	1134	Bhagavad-gītā 4.11-12 -- July 28, 1966, New York	Bhagavad-gītā 4.11-12
+1172	1134	Bhagavad-gītā 4.11-18 -- January 8, 1969, Los Angeles	Bhagavad-gītā 4.11-18
+1173	1134	Bhagavad-gītā 4.12 -- August 4, 1974, Vṛndāvana	Bhagavad-gītā 4.12 
+1174	1134	Bhagavad-gītā 4.12-13 -- July 29, 1966, New York	Bhagavad-gītā 4.12-13
+1175	1134	Bhagavad-gītā 4.12, Appearance Day of Lord Rāmacandra -- April 1, 1974, Bombay	Bhagavad-gītā 4.12,
+1176	1134	Bhagavad-gītā 4.13 -- April 8, 1973, New York	Bhagavad-gītā 4.13
+1177	1134	Bhagavad-gītā 4.13 -- April 2, 1974, Bombay	Bhagavad-gītā 4.13
+1178	1134	Bhagavad-gītā 4.13 -- August 5, 1974, Vṛndāvana	Bhagavad-gītā 4.13
+1179	1134	Bhagavad-gītā 4.13 -- October 19, 1975, Johannesburg	Bhagavad-gītā 4.13
+1180	1134	Bhagavad-gītā 4.13-14 -- August 1, 1966, New York	Bhagavad-gītā 4.13-14
+1181	1134	Bhagavad-gītā 4.14 -- April 3, 1974, Bombay	Bhagavad-gītā 4.14
+1182	1134	Bhagavad-gītā 4.14 -- August 6, 1974, Vṛndāvana	Bhagavad-gītā 4.14 
+1183	1134	Bhagavad-gītā 4.14-19 -- August 3, 1966, New York	Bhagavad-gītā 4.14-19
+1184	1134	Bhagavad-gītā 4.15 -- April 4, 1974, Bombay	Bhagavad-gītā 4.15
+1185	1134	Bhagavad-gītā 4.16 -- April 5, 1974, Bombay	Bhagavad-gītā 4.16
+1186	1134	Bhagavad-gītā 4.17 -- April 6, 1974, Bombay	Bhagavad-gītā 4.17
+1187	1134	Bhagavad-gītā 4.18 -- November 3, 1973, Delhi	Bhagavad-gītā 4.18
+1188	1134	Bhagavad-gītā 4.18 -- April 7, 1974, Bombay	Bhagavad-gītā 4.18
+1189	1134	Bhagavad-gītā 4.19 -- August 5, 1966, New York	Bhagavad-gītā 4.19
+1190	1134	Bhagavad-gītā 4.19 -- April 8, 1974, Bombay	Bhagavad-gītā 4.19
+1191	1134	Bhagavad-gītā 4.19-22 -- August 8, 1966, New York	Bhagavad-gītā 4.19-22
+1192	1134	Bhagavad-gītā 4.19-25 -- January 9, 1969, Los Angeles	Bhagavad-gītā 4.19-25
+1193	1134	Bhagavad-gītā 4.20 -- April 9, 1974, Bombay	Bhagavad-gītā 4.20
+1194	1134	Bhagavad-gītā 4.20-24 -- August 9, 1966, New York	Bhagavad-gītā 4.20-24
+1195	1134	Bhagavad-gītā 4.21 -- April 10, 1974, Bombay	Bhagavad-gītā 4.21
+1196	1134	Bhagavad-gītā 4.22 -- April 11, 1974, Bombay	Bhagavad-gītā 4.22
+1197	1134	Bhagavad-gītā 4.23 -- April 12, 1974, Bombay	Bhagavad-gītā 4.23
+1198	1134	Bhagavad-gītā 4.24 -- April 13, 1974, Bombay	Bhagavad-gītā 4.24
+1199	1134	Bhagavad-gītā 4.24 -- August 4, 1976, New Māyāpur	Bhagavad-gītā 4.24
+1200	1134	Bhagavad-gītā 4.24-34 -- August 12, 1966, New York	Bhagavad-gītā 4.24-34
+1201	1134	Bhagavad-gītā 4.25 -- April 14, 1974, Bombay	Bhagavad-gītā 4.25
+1202	1134	Bhagavad-gītā 4.26 -- April 15, 1974, Bombay	Bhagavad-gītā 4.26
+1203	1134	Bhagavad-gītā 4.27 -- April 16, 1974, Bombay	Bhagavad-gītā 4.27
+1204	1134	Bhagavad-gītā 4.28 -- April 17, 1974, Bombay	Bhagavad-gītā 4.28
+1205	1134	Bhagavad-gītā 4.34 -- August 14, 1966, New York	Bhagavad-gītā 4.34
+1206	1134	Bhagavad-gītā 4.34 -- Q & A -- August 14, 1968, New York	Bhagavad-gītā 4.34
+1207	1134	Bhagavad-gītā 4.34-38 -- August 17, 1966, New York	Bhagavad-gītā 4.34-38
+1208	1134	Bhagavad-gītā 4.34-39 -- January 12, 1969, Los Angeles	Bhagavad-gītā 4.34-39
+1209	1134	Bhagavad-gītā 4.37-40 -- August 21, 1966, New York	Bhagavad-gītā 4.37-40
+1210	1134	Bhagavad-gītā 4.39-42 -- January 14, 1969, Los Angeles	Bhagavad-gītā 4.39-42
+1211	1134	Bhagavad-gītā 4.39-5.3 -- August 24, 1966, New York	Bhagavad-gītā 4.39-5.3 
+1213	1212	Bhagavad-gītā 5.3-7 -- August 26, 1966, New York	Bhagavad-gītā 5.3-7
+1214	1212	Bhagavad-gītā 5.7-13 -- August 27, 1966, New York	Bhagavad-gītā 5.7-13
+1215	1212	Bhagavad-gītā 5.14-22 -- August 28, 1966, New York	Bhagavad-gītā 5.14-22
+1216	1212	Bhagavad-gītā 5.17-24 -- February 8, 1969, Los Angeles	Bhagavad-gītā 5.17-24
+1217	1212	Bhagavad-gītā 5.22-29 -- August 31, 1966, New York	Bhagavad-gītā 5.22-29 
+1218	1212	Bhagavad-gītā 5.26-29 -- February 12, 1969, Los Angeles	Bhagavad-gītā 5.26-29
+1220	1219	Bhagavad-gītā 6.1 -- February 13, 1969, Los Angeles	Bhagavad-gītā 6.1 
+1221	1219	Bhagavad-gītā 6.1-4 -- September 2, 1966, New York	Bhagavad-gītā 6.1-4
+1222	1219	Bhagavad-gītā 6.2-5 -- February 14, 1969, Los Angeles	Bhagavad-gītā 6.2-5
+1223	1219	Bhagavad-gītā 6.4-12 -- September 4, 1966, New York	Bhagavad-gītā 6.4-12
+1224	1219	Bhagavad-gītā 6.6-12 -- February 15, 1969, Los Angeles	Bhagavad-gītā 6.6-12
+1225	1219	Bhagavad-gītā 6.11-21 -- September 7, 1966, New York	Bhagavad-gītā 6.11-21 
+1226	1219	Bhagavad-gītā 6.13-15 -- February 16, 1969, Los Angeles	Bhagavad-gītā 6.13-15
+1227	1219	Bhagavad-gītā 6.16-24 -- February 17, 1969, Los Angeles	Bhagavad-gītā 6.16-24
+1228	1219	Bhagavad-gītā 6.21-27 -- September 9, 1966, New York	Bhagavad-gītā 6.21-27
+1229	1219	Bhagavad-gītā 6.25-29 -- February 18, 1969, Los Angeles	Bhagavad-gītā 6.25-29
+1230	1219	Bhagavad-gītā 6.30-34 -- February 19, 1969, Los Angeles	Bhagavad-gītā 6.30-34
+1231	1219	Bhagavad-gītā 6.32-40 -- September 14, 1966, New York	Bhagavad-gītā 6.32-40
+1232	1219	Bhagavad-gītā 6.35-45 -- February 20, 1969, Los Angeles	Bhagavad-gītā 6.35-45 
+1233	1219	Bhagavad-gītā 6.40-42 -- September 16, 1966, New York	Bhagavad-gītā 6.40-42
+1234	1219	Bhagavad-gītā 6.40-43 -- September 18, 1966, New York	Bhagavad-gītā 6.40-43
+1235	1219	Bhagavad-gītā 6.41 -- July 17, 1971, Detroit	Bhagavad-gītā 6.41
+1236	1219	Bhagavad-gītā 6.46-47 -- February 21, 1969, Los Angeles	Bhagavad-gītā 6.46-47
+1237	1219	Bhagavad-gītā 6.47 -- December 12, 1972, Ahmedabad	Bhagavad-gītā 6.47
+1239	1238	Bhagavad-gītā 7.1 -- March 17, 1968, San Francisco	Bhagavad-gītā 7.1
+1240	1238	Bhagavad-gītā 7.1 -- March 26, 1968, San Francisco	Bhagavad-gītā 7.1
+1241	1238	Bhagavad-gītā 7.1 -- September 10, 1968, San Francisco	Bhagavad-gītā 7.1
+1242	1238	Bhagavad-gītā 7.1 -- December 2, 1968, Los Angeles	Bhagavad-gītā 7.1
+1243	1238	Bhagavad-gītā 7.1 -- March 12, 1970, Los Angeles	Bhagavad-gītā 7.1
+1244	1238	Bhagavad-gītā 7.1 -- July 29, 1971, Gainesville	Bhagavad-gītā 7.1
+1245	1238	Bhagavad-gītā 7.1 -- February 14, 1972, Madras	Bhagavad-gītā 7.1
+1246	1238	Bhagavad-gītā 7.1 -- July 1, 1972, San Diego	Bhagavad-gītā 7.1
+1247	1238	Bhagavad-gītā 7.1 -- December 13, 1972, Ahmedabad	Bhagavad-gītā 7.1
+1248	1238	Bhagavad-gītā 7.1 -- January 13, 1973, Bombay	Bhagavad-gītā 7.1
+1249	1238	Bhagavad-gītā 7.1 -- January 27, 1973, Calcutta	Bhagavad-gītā 7.1
+1250	1238	Bhagavad-gītā 7.1 -- February 16, 1973, Sydney	Bhagavad-gītā 7.1
+1251	1238	Bhagavad-gītā 7.1 -- Uppsala University September 8, 1973, Stockholm	Bhagavad-gītā 7.1
+1252	1238	Bhagavad-gītā 7.1 -- April 27, 1974, Hyderabad	Bhagavad-gītā 7.1
+1253	1238	Bhagavad-gītā 7.1 -- June 29, 1974, Melbourne	Bhagavad-gītā 7.1
+1254	1238	Bhagavad-gītā 7.1 -- March 9, 1975, London	Bhagavad-gītā 7.1
+1255	1238	Bhagavad-gītā 7.1 in [Hindi- final proofreading pending] -- August 26, 1975, Vṛndāvana	Bhagavad-gītā 7.1
+1256	1238	Bhagavad-gītā 7.1 in [Hindi- final proofreading pending] -- September 25, 1975, Ahmedabad	Bhagavad-gītā 7.1
+1257	1238	Bhagavad-gītā 7.1 -- October 9, 1975, Durban	Bhagavad-gītā 7.1
+1258	1238	Bhagavad-gītā 7.1 -- October 27, 1975, Nairobi	Bhagavad-gītā 7.1
+1259	1238	Bhagavad-gītā 7.1 -- December 20, 1975, Bombay	Bhagavad-gītā 7.1
+1260	1238	Bhagavad-gītā 7.1 [with Translator] -- December 25, 1975, Sanand	Bhagavad-gītā 7.1
+1261	1238	Bhagavad-gītā 7.1 -- August 22, 1976, Hyderabad	Bhagavad-gītā 7.1
+1262	1238	Bhagavad-gītā 7.1 in Hindi -- October 15, 1976, Chandigarh	Bhagavad-gītā 7.1
+1263	1238	Bhagavad-gītā 7.1 -- January 22, 1977, Bhubaneswar	Bhagavad-gītā 7.1
+1264	1238	Bhagavad-gītā 7.1 -- April 15, 1972, Auckland	Bhagavad-gītā 7.1 
+1265	1238	Bhagavad-gītā 7.1 -- January 25, 1975, Hong Kong	Bhagavad-gītā 7.1 
+1266	1238	Bhagavad-gītā 7.1 -- May 24, 1975, Fiji	Bhagavad-gītā 7.1 
+1267	1238	Bhagavad-gītā 7.1-2 -- March 28, 1971, Bombay	Bhagavad-gītā 7.1-2 
+1268	1238	Bhagavad-gītā 7.1-3 -- Ahmedabad, December 14, 1972, Ahmedabad	Bhagavad-gītā 7.1-3
+1269	1238	Bhagavad-gītā 7.1-3 -- September 10, 1973, Stockholm	Bhagavad-gītā 7.1-3
+1270	1238	Bhagavad-gītā 7.1-3 -- August 4, 1971, London	Bhagavad-gītā 7.1-3 
+1271	1238	Bhagavad-gītā 7.1–3 -- June 13, 1974, Paris	Bhagavad-gītā 7.1–3 
+1272	1238	Bhagavad-gītā 7.1–5 -- January 31, 1974, Hong Kong	Bhagavad-gītā 7.1–5
+1273	1238	Bhagavad-gita 7.1 -- January 29, 1977, Bhubaneswar	Bhagavad-gītā 7.1
+1274	1238	Bhagvad-gītā 7.2 in [Hindi- final proofreading pending] -- December 28, 1975, Sanand	Bhagavad-gītā 7.2
+1275	1238	Bhagavad-gītā 7.2 -- September 11, 1968, San Francisco	Bhagavad-gītā 7.2
+1276	1238	Bhagavad-gītā 7.2 -- April 28, 1974, Hyderabad	Bhagavad-gītā 7.2
+1277	1238	Bhagavad-gītā 7.2 -- March 10, 1975, London	Bhagavad-gītā 7.2 
+1278	1238	Bhagavad-gītā 7.2 -- October 28, 1975, Nairobi	Bhagavad-gītā 7.2 
+1279	1238	Bhagavad-gītā 7.3 -- March 29, 1971, Bombay	Bhagavad-gītā 7.3
+1280	1238	Bhagavad-gītā 7.3 -- October 31, 1973, Vṛndāvana	Bhagavad-gītā 7.3
+1281	1238	Bhagavad-gītā 7.3 – March 11, 1975, London	Bhagavad-gītā 7.3
+1282	1238	Bhagavad-gītā 7.3 -- [Hindi- final proofreading pending] -- August 30, 1975, Vṛndāvana	Bhagavad-gītā 7.3
+1283	1238	Bhagavad-gītā 7.3 -- June 3, 1968, Montreal	Bhagavad-gītā 7.3 
+1284	1238	Bhagavad-gītā 7.3 -- February 18, 1974, Bombay	Bhagavad-gītā 7.3 
+1285	1238	Bhagavad-gītā 7.3 -- August 9, 1974, Vṛndāvana	Bhagavad-gītā 7.3 
+1286	1238	Bhagavad-gītā 7.3 -- October 29, 1975, Nairobi	Bhagavad-gītā 7.3 
+1287	1238	Bhagavad-gītā 7.4 -- February 19, 1974, Bombay	Bhagavad-gītā 7.4
+1288	1238	Bhagavad-gītā 7.4 -- October 31, 1975, Nairobi	Bhagavad-gītā 7.4
+1289	1238	Bhagavad-gītā 7.4 -- August 10, 1974, Vṛndāvana	Bhagavad-gītā 7.4 
+1290	1238	Bhagavad-gītā 7.4-5 -- March 30, 1971, Bombay	Bhagavad-gītā 7.4-5
+1291	1238	Bhagavad-gītā 7.5 -- February 20, 1974, Bombay	Bhagavad-gītā 7.5
+1292	1238	Bhagavad-gītā 7.5 -- November 1, 1975, Nairobi	Bhagavad-gītā 7.5
+1293	1238	Bhagavad-gītā 7.6 -- August 12, 1974, Vṛndāvana	Bhagavad-gītā 7.6
+1294	1238	Bhagavad-gītā 7.6 -- December 11, 1976, Hyderabad	Bhagavad-gītā 7.6
+1295	1238	Bhagavad-gītā 7.7 -- February 22, 1974, Bombay	Bhagavad-gītā 7.7
+1296	1238	Bhagavad-gītā 7.7 -- August 13, 1974, Vṛndāvana	Bhagavad-gītā 7.7
+1297	1238	Bhagavad-gītā 7.7 [with Translator] -- December 27, 1975, Sanand	Bhagavad-gītā 7.7
+1298	1238	Bhagavad-gītā 7.7 -- April 1, 1971, Bombay	Bhagavad-gītā 7.7 
+1299	1238	Bhagavad-gītā 7.8 -- February 23, 1974, Bombay	Bhagavad-gītā 7.8
+1300	1238	Bhagavad-gītā 7.8-14 -- October 2, 1966, New York	Bhagavad-gītā 7.8-14
+1301	1238	Bhagavad-gītā 7.9 -- August 15, 1974, Vṛndāvana	Bhagavad-gītā 7.9
+1302	1238	Bhagavad-gītā 7.9–10 -- February 24, 1974, Bombay	Bhagavad-gītā 7.9–10 
+1303	1238	Bhagavad-gītā 7.10  -  August 16, 1974, Vṛndāvana	Bhagavad-gītā 7.10
+1304	1238	Bhagavad-gītā 7.11-13 -- April 5, 1971, Bombay	Bhagavad-gītā 7.11-13
+1305	1238	Bhagavad-gītā 7.11-16 -- October 7, 1966, New York	Bhagavad-gītā 7.11-16
+1306	1238	Bhagavad-gītā 7.11–12 -- February 25, 1974, Bombay	Bhagavad-gītā 7.11–12
+1307	1238	Bhagavad-gītā 7.14 -- September 8, 1969, Hamburg	Bhagavad-gītā 7.14
+1308	1238	Bhagavad-gītā 7.15-18 -- October 9, 1966, New York	Bhagavad-gītā 7.15-18
+1309	1238	Bhagavad-gītā 7.15, Arrival Address -- September 3, 1976, Vṛndāvana	Bhagavad-gītā 7.15, Arrival Address
+1310	1238	Bhagavad-gītā 7.16 -- April 7, 1971, Bombay	Bhagavad-gītā 7.16 
+1311	1238	Bhagavad-gītā 7.18 -- October 12, 1966, New York	Bhagavad-gītā 7.18
+1312	1238	Bhagavad-gītā 7.28-8.6 -- October 23, 1966, New York	Bhagavad-gītā 7.28-8.6
+1314	1313	Bhagavad-gītā 8.1 -- June 7, 1974, Geneva	Bhagavad-gītā 8.1
+1315	1313	Bhagavad-gītā 8.5 -- October 26, 1966, New York	Bhagavad-gītā 8.5
+1316	1313	Bhagavad-gītā 8.12-13 -- November 15, 1966, New York	Bhagavad-gītā 8.12-13
+1317	1313	Bhagavad-gītā 8.14-15 -- November 16, 1966, New York	Bhagavad-gītā 8.14-15
+1318	1313	Bhagavad-gītā 8.15-20 -- November 17, 1966, New York	Bhagavad-gītā 8.15-20
+1319	1313	Bhagavad-gītā 8.20-22 -- November 18, 1966, New York	Bhagavad-gītā 8.20-22
+1320	1313	Bhagavad-gītā 8.21-22 -- November 19, 1966, New York	Bhagavad-gītā 8.21-22
+1321	1313	Bhagavad-gītā 8.22-27 -- November 20, 1966, New York	Bhagavad-gītā 8.22-27
+1322	1313	Bhagavad-gītā 8.28-9.2 -- November 21, 1966, New York	Bhagavad-gītā 8.28-9.2
+1324	1323	Bhagavad-gītā 9.1 -- Vṛndāvana, April 17, 1975	Bhagavad-gītā 9.1
+1325	1323	Bhagavad-gītā 9.1–2 -- June 30, 1974, Melbourne	Bhagavad-gītā 9.1–2
+1326	1323	Bhagavad-gītā 9.1 -- April 19, 1976, Melbourne	Bhagavad-gītā 9.1
+1327	1323	Bhagavad-gītā 9.2 -- November 22, 1966, New York	Bhagavad-gītā 9.2
+1328	1323	Bhagavad-gītā 9.2 -- March 7, 1972, Calcutta	Bhagavad-gītā 9.2
+1329	1323	Bhagavad-gītā 9.2 -- March 8, 1972, Calcutta	Bhagavad-gītā 9.2
+1330	1323	Bhagavad-gītā 9.2 -- April 20, 1976, Melbourne	Bhagavad-gītā 9.2 
+1331	1323	Bhagavad-gītā 9.2-5 -- November 23, 1966, New York	Bhagavad-gītā 9.2-5
+1332	1323	Bhagavad-gītā 9.3 -- April 21, 1976, Melbourne	Bhagavad-gītā 9.3
+1333	1323	Bhagavad-gītā 9.3 in Hindi -- October 6, 1976, Chandigarh	Bhagavad-gītā 9.3
+1334	1323	Bhagavad-gītā 9.34 -- December 26, 1966, New York	Bhagavad-gītā 9.34
+1335	1323	Bhagavad-gītā 9.34 -- August 3, 1976, New Māyāpur	Bhagavad-gītā 9.34
+1336	1323	Bhagavad-gītā 9.3 -- June 20, 1976, Toronto	Bhagavad-gītā 9.3
+1337	1323	Bhagavad-gītā 9.4 -- March 9, 1972, Calcutta	Bhagavad-gītā 9.4
+1338	1323	Bhagavad-gītā 9.4 -- April 22, 1976, Melbourne	Bhagavad-gītā 9.4
+1339	1323	Bhagavad-gītā 9.4 -- April 23, 1976, Melbourne	Bhagavad-gītā 9.4
+1340	1323	Bhagavad-gītā 9.4-7 -- November 24, 1966, New York	Bhagavad-gītā 9.4-7
+1341	1323	Bhagavad-gītā 9.5 -- April 24, 1976, Melbourne	Bhagavad-gītā 9.5
+1342	1323	Bhagavad-gītā 9.7-10 -- November 25, 1966, New York	Bhagavad-gītā 9.7-10
+1343	1323	Bhagavad-gītā 9.10 -- June 29, 1973, Calcutta	Bhagavad-gītā 9.10
+1344	1323	Bhagavad-gītā 9.10 -- April 26, 1976, Melbourne	Bhagavad-gītā 9.10
+1345	1323	Bhagavad-gītā 9.11 -- June 30, 1973, Calcutta	Bhagavad-gītā 9.11
+1346	1323	Bhagavad-gītā 9.11-14 -- November 27, 1966, New York	Bhagavad-gītā 9.11-14
+1347	1323	Bhagavad-gītā 9.13 -- November 28, 1966, New York	Bhagavad-gītā 9.13
+1348	1323	Bhagavad-gītā 9.15 -- December 1, 1966, New York	Bhagavad-gītā 9.15
+1349	1323	Bhagavad-gītā 9.15-18 -- December 2, 1966, New York	Bhagavad-gītā 9.15-18
+1350	1323	Bhagavad-gītā 9.18-19 -- December 4, 1966, New York	Bhagavad-gītā 9.18-19
+1351	1323	Bhagavad-gītā 9.20-22 -- December 6, 1966, New York	Bhagavad-gītā 9.20-22
+1352	1323	Bhagavad-gītā 9.22-23 -- December 8, 1966, New York	Bhagavad-gītā 9.22-23
+1353	1323	Bhagavad-gītā 9.23-24 -- December 10, 1966, New York	Bhagavad-gītā 9.23-24
+1354	1323	Bhagavad-gītā 9.24-26 -- December 12, 1966, New York	Bhagavad-gītā 9.24-26
+1355	1323	Bhagavad-gītā 9.26-27 -- December 16, 1966, New York	Bhagavad-gītā 9.26-27
+1356	1323	Bhagavad-gītā 9.27-29 -- December 19, 1966, New York	Bhagavad-gītā 9.27-29
+1357	1323	Bhagavad-gītā 9.29-32 -- December 20, 1966, New York	Bhagavad-gītā 9.29-32
+1359	1358	Bhagavad-gītā 10.1 -- December 27, 1966, New York	Bhagavad-gītā 10.1 
+1360	1358	Bhagavad-gītā 10.1 -- December 30, 1966, New York	Bhagavad-gītā 10.1 
+1361	1358	Bhagavad-gītā 10.2-3 -- January 1, 1967, New York	Bhagavad-gītā 10.2-3
+1362	1358	Bhagavad-gītā 10.3 -- January 2, 1967, New York	Bhagavad-gītā 10.3
+1363	1358	Bhagavad-gītā 10.4 -- January 3, 1967, New York	Bhagavad-gītā 10.4
+1364	1358	Bhagavad-gītā 10.4-5 -- January 4, 1967, New York	Bhagavad-gītā 10.4-5
+1365	1358	Bhagavad-gītā 10.8 -- January 6, 1967, New York	Bhagavad-gītā 10.8
+1366	1358	Bhagavad-gītā 10.8 -- January 7, 1967, New York	Bhagavad-gītā 10.8
+1367	1358	Bhagavad-gītā 10.8 -- July 31, 1976, New Māyāpur	Bhagavad-gītā 10.8
+1369	1368	Bhagavad-gītā 12.13–14 -- May 12, 1974, Bombay	Bhagavad-gītā 12.13–14
+1371	1370	Bhagavad-gītā 13.1-2 -- December 29, 1972, Bombay	Bhagavad-gītā 13.1-2
+1372	1370	Bhagavad-gītā 13.1-2 -- August 10, 1973, Paris	Bhagavad-gītā 13.1-2
+1373	1370	Bhagavad-gītā 13.1-2 -- September 24, 1973, Bombay	Bhagavad-gītā 13.1-2
+1374	1370	Bhagavad-gītā 13.1-2 -- September 25, 1973, Bombay	Bhagavad-gītā 13.1-2
+1375	1370	Bhagavad-gītā 13.1-3 -- October 13, 1975, Durban	Bhagavad-gītā 13.1-3
+1376	1370	Bhagavad-gītā 13.1–2 – February 25, 1975, Miami	Bhagavad-gītā 13.1–2 
+1377	1370	Bhagavad-gītā 13.2 -- April 4, 1972, Melbourne	Bhagavad-gītā 13.2
+1378	1370	Bhagavad-gītā 13.3 -- December 30, 1972, Bombay	Bhagavad-gītā 13.3
+1379	1370	Bhagavad-gītā 13.3 -- August 11, 1973, Paris	Bhagavad-gītā 13.3
+1380	1370	Bhagavad-gītā 13.3 -- September 26, 1973, Bombay	Bhagavad-gītā 13.3
+1381	1370	Bhagavad-gītā 13.3 -- April 19, 1974, Hyderabad	Bhagavad-gītā 13.3
+1382	1370	Bhagavad-gītā 13.3 – February 26, 1975, Miami	Bhagavad-gītā 13.3
+1383	1370	Bhagavad-gītā 13.4 -- August 12, 1973, Paris	Bhagavad-gītā 13.4
+1384	1370	Bhagavad-gītā 13.4 -- September 27, 1973, Bombay	Bhagavad-gītā 13.4
+1385	1370	Bhagavad-gītā 13.4 -- April 20, 1974, Hyderabad	Bhagavad-gītā 13.4
+1386	1370	Bhagavad-gītā 13.4 -- February 27, 1975, Miami	Bhagavad-gītā 13.4
+1387	1370	Bhagavad-gītā 13.5 -- August 13, 1973, Paris	Bhagavad-gītā 13.5
+1388	1370	Bhagavad-gītā 13.5 -- September 28, 1973, Bombay	Bhagavad-gītā 13.5
+1389	1370	Bhagavad-gītā 13.6-7 -- October 25, 1968, Montreal	Bhagavad-gītā 13.6-7
+1390	1370	Bhagavad-gītā 13.6-7 -- September 29, 1973, Bombay	Bhagavad-gītā 13.6-7
+1391	1370	Bhagavad-gītā 13.8-12 -- September 30, 1973, Bombay	Bhagavad-gītā 13.8-12
+1392	1370	Bhagavad-gītā 13.8-12 -- October 2, 1973, Bombay	Bhagavad-gītā 13.8-12
+1393	1370	Bhagavad-gītā 13.8-12 -- October 3, 1973, Bombay	Bhagavad-gītā 13.8-12
+1394	1370	Bhagavad-gītā 13.8-12 -- October 5, 1973, Bombay	Bhagavad-gītā 13.8-12
+1395	1370	Bhagavad-gītā 13.8-12 in Hindi -- October 7, 1976, Chandigarh	Bhagavad-gītā 13.8-12
+1396	1370	Bhagavad-gītā 13.13 -- October 6, 1973, Bombay	Bhagavad-gītā 13.13
+1397	1370	Bhagavad-gītā 13.14 -- October 7, 1973, Bombay	Bhagavad-gītā 13.14
+1398	1370	Bhagavad-gītā 13.15 -- October 9, 1973, Bombay	Bhagavad-gītā 13.15 
+1399	1370	Bhagavad-gītā 13.16 -- October 10, 1973, Bombay	Bhagavad-gītā 13.16
+1400	1370	Bhagavad-gītā 13.17 -- October 11, 1973, Bombay	Bhagavad-gītā 13.17
+1401	1370	Bhagavad-gītā 13.18 -- October 12, 1973, Bombay	Bhagavad-gītā 13.18
+1402	1370	Bhagavad-gītā 13.19 -- October 13, 1973, Bombay	Bhagavad-gītā 13.19
+1403	1370	Bhagavad-gītā 13.20 -- October 14, 1973, Bombay	Bhagavad-gītā 13.20
+1404	1370	Bhagavad-gītā 13.21 -- October 15, 1973, Bombay	Bhagavad-gītā 13.21
+1405	1370	Bhagavad-gītā 13.22 -- October 20, 1973, Bombay	Bhagavad-gītā 13.22
+1406	1370	Bhagavad-gītā 13.22 -- August 17, 1976, Hyderabad	Bhagavad-gītā 13.22 
+1407	1370	Bhagavad-gītā 13.22–24 -- June 25, 1974, Melbourne	Bhagavad-gītā 13.22–24
+1408	1370	Bhagavad-gītā 13.23 -- October 22, 1973, Bombay	Bhagavad-gītā 13.23
+1409	1370	Bhagavad-gītā 13.24 -- October 23, 1973, Bombay	Bhagavad-gītā 13.24
+1410	1370	Bhagavad-gītā 13.26 -- October 25, 1973, Bombay	Bhagavad-gītā 13.26
+1411	1370	Bhagavad-gītā 13.26 -- September 22, 1974, Delhi	Bhagavad-gītā 13.26
+1412	1370	Bhagavad-gītā 13.35 -- June 6, 1974, Geneva	Bhagavad-gītā 13.35
+1414	1413	Bhagavad-gītā 15.1 -- October 28, 1973, Bombay	Bhagavad-gītā 15.1
+1415	1413	Bhagavad-gītā 15.1 -- February 26, 1974, Calcutta	Bhagavad-gītā 15.1 
+1416	1413	Bhagavad-gītā 15.15 -- August 5, 1976, New Māyāpur	Bhagavad-gītā 15.15
+1418	1417	Bhagavad-gītā 16.1-16 Garden Discussion -- June 26, 1976, New Vrindavan	Bhagavad-gītā 16.1-16
+1419	1417	Bhagavad-gītā 16.1-3 -- January 29, 1975, Honolulu	Bhagavad-gītā 16.1-3 
+1420	1417	Bhagavad-gītā 16.2-7 -- April 8, 1971, Bombay	Bhagavad-gītā 16.2-7
+1421	1417	Bhagavad-gītā 16.4 -- January 30, 1975, Honolulu	Bhagavad-gītā 16.4 
+1422	1417	Bhagavad-gītā 16.5 -- February 23, 1972, Calcutta	Bhagavad-gītā 16.5
+1423	1417	Bhagavad-gītā 16.5 -- January 31, 1975, Honolulu	Bhagavad-gītā 16.5
+1424	1417	Bhagavad-gītā 16.6 -- February 2, 1975, Honolulu	Bhagavad-gītā 16.6
+1425	1417	Bhagavad-gītā 16.6 -- October 18, 1975, Johannesburg	Bhagavad-gītā 16.6
+1426	1417	Bhagavad-gītā 16.6 -- December 13, 1976, Hyderabad	Bhagavad-gītā 16.6
+1427	1417	Bhagavad-gītā 16.7 -- January 27, 1975, Tokyo	Bhagavad-gītā 16.7
+1428	1417	Bhagavad-gītā 16.7 -- February 3, 1975, Honolulu	Bhagavad-gītā 16.7
+1429	1417	Bhagavad-gītā 16.7 [with translator] -- December 26, 1975, Sanand	Bhagavad-gītā 16.7
+1430	1417	Bhagavad-gītā 16.7 -- December 14, 1976, Hyderabad	Bhagavad-gītā 16.7
+1431	1417	Bhagavad-gītā 16.7 -- December 15, 1976, Hyderabad	Bhagavad-gītā 16.7
+1432	1417	Bhagavad-gītā 16.8 -- December 16, 1976, Hyderabad	Bhagavad-gītā 16.8
+1433	1417	Bhagavad-gītā 16.8 -- January 28, 1975, Tokyo	Bhagavad-gītā 16.8 
+1434	1417	Bhagavad-gītā 16.8 -- February 4, 1975, Honolulu	Bhagavad-gītā 16.8 
+1435	1417	Bhagavad-gītā 16.9 -- February 5, 1975, Honolulu	Bhagavad-gītā 16.9 
+1436	1417	Bhagavad-gītā 16.10 -- February 6, 1975, Honolulu	Bhagavad-gītā 16.10 
+1437	1417	Bhagavad-gītā 16.11–12 -- February 7, 1975, Honolulu	Bhagavad-gītā 16.11–12 
+1438	1417	Bhagavad-gītā 16.13–15 – February 8, 1975, Honolulu	Bhagavad-gītā 16.13–15 
+1439	1417	Bhagavad-gītā 16.17-19, Garden Conversation -- June 28, 1976, New Vrindavan	Bhagavad-gītā 16.17-19
+1441	1440	Bhagavad-gītā 18.41 -- September 7, 1973, Stockholm	Bhagavad-gītā 18.41 
+1442	1440	Bhagavad-gītā 18.45 -- October 11, 1975, Durban	Bhagavad-gītā 18.45
+1443	1440	Bhagavad-gītā 18.67 -- December 10, 1972, Ahmedabad	Bhagavad-gītā 18.67
+1444	1440	Bhagavad-gītā 18.67-69 -- December 9, 1972, Ahmedabad	Bhagavad-gītā 18.67-69
+1447	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.1 -- March 25, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.1
+1448	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.2 -- March 26, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.2
+1449	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.3 -- March 27, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.3
+1450	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.4 -- March 28, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.4
+1451	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.5 -- March 29, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.5
+1452	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.6 -- March 30, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.6
+1453	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.7 -- March 31, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.7
+1454	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.8 -- April 1, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.8
+1455	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.9 -- April 2, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.9
+1456	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.10 -- April 3, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.10
+1457	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.11 -- April 4, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.11
+1458	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.12 -- April 5, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.12
+1459	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.13 -- April 6, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.13
+1460	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.14 -- April 7, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.14
+1461	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.15 -- March 4, 1975, Dallas	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.15
+1462	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.15 -- April 8, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.15
+1463	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.16 -- April 9, 1975, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 1.16
+1464	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 3.87-88 -- December 27, 1966, New York	Śrī Caitanya-caritāmṛta, Ādi-līlā 3.87-88
+1465	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.1 -- March 1, 1974, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.1
+1466	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.1 -- March 1, 1975, Atlanta	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.1
+1467	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.2 -- March 2, 1974, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.2
+1468	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.3 -- March 3, 1974, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.3
+1469	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.4 -- March 4, 1974, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.4
+1470	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.5 -- March 7, 1974, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.5
+1471	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.7 -- March 9, 1974, Māyāpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.7
+1472	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.8 -- March 15, 1974, Vṛndāvana	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.8
+1473	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.39-47 -- February 1, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.39-47
+1474	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.49-65 -- February 3, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.49-65
+1475	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.66-76 -- February 6, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.66-76
+1476	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.76-81 -- February 8, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.76-81
+1477	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.80-95 -- February 10, 1966, San Francisco	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.80-95
+1478	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.91–2 -- March 13, 1974, Vṛndāvana	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.91–2
+1479	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.106-107 -- February 13, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.106-107
+1480	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.107-109 -- February 15, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.107-109
+1481	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.108 -- February 18, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.108
+1482	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.109-114 -- February 20, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.109-114
+1483	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.113-17 -- February 22, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.113-17
+1484	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.118-121 [Partial Recording] -- February 24, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.118-121
+1485	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.119 -- February 17, 1971, Gorakhpur	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.119
+1486	1446	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.149-171 -- March 18, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Ādi-līlā 7.149-171
+1564	1563	Śrī Caitanya-caritāmṛta, Madhya-līlā 6.149-50 -- February 13, 1971, Gorakhpur	Śrī Caitanya-caritāmṛta, Madhya-līlā 6.149-50
+1565	1563	Śrī Caitanya-caritāmṛta, Madhya-līlā 6.151-154 -- February 14, 1971, Gorakhpur	Śrī Caitanya-caritāmṛta, Madhya-līlā 6.151-154
+1566	1563	Śrī Caitanya-caritāmṛta, Madhya-līlā 6.154 -- February 16, 1971, Gorakhpur	Śrī Caitanya-caritāmṛta, Madhya-līlā 6.154
+1567	1563	Śrī Caitanya-caritāmṛta, Madhya-līlā 6.154 -- November 24, 1975, Bombay	Śrī Caitanya-caritāmṛta, Madhya-līlā 6.154
+1568	1563	Śrī Caitanya-caritāmṛta, Madhya-līlā 6.154-155 -- February 19, 1971, Gorakhpur	Śrī Caitanya-caritāmṛta, Madhya-līlā 6.154-155
+1569	1563	Śrī Caitanya-caritāmṛta, Madhya-līlā 6.254 -- January 8, 1968, Los Angeles	Śrī Caitanya-caritāmṛta, Madhya-līlā 6.254
+1571	1563	Śrī Caitanya-caritāmṛta, Madhya-līlā 8.128 -- January 24, 1977, Bhubaneswar	Śrī Caitanya-caritāmṛta, Madhya-līlā 8.128
+1488	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.66-96 -- November 21, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.66-96
+1489	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.97-99 -- November 22, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.97-99
+1490	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.98-102 -- April 27, 1976, Auckland, New Zealand	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.98-102
+1491	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.98-99 -- July 4, 1976, Washington, D.C.	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.98-99
+1492	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.100 -- July 5, 1976, Washington, D.C.	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.100
+1493	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.100-108 -- November 22, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.100-108
+1494	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.100-108 -- November 9, 1975, Bombay	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.100-108
+1495	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.101 -- July 6, 1976, Washington, D.C.	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.101
+1496	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.101-104 -- November 3, 1975, Bombay	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.101-104
+1497	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.102 -- July 7, 1976, Baltimore	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.102
+1498	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.103 -- July 8, 1976, Washington, D.C.	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.103
+1499	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.104 -- July 10, 1976, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.104
+1500	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.105 -- July 11, 1976, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.105
+1501	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.106 -- July 12, 1976, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.106
+1502	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.107 -- July 13, 1976, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.107
+1503	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.108 -- November 16, 1975, Bombay	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.108
+1504	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.108-109 -- July 15, 1976, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.108-109
+1505	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.110 -- July 17, 1976, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.110
+1506	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.110-111 -- November 17, 1975, Bombay	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.110-111
+1507	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.111 -- July 19, 1976, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.111
+1508	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.112 -- July 20, 1976, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.112
+1509	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.113 -- July 23, 1976, London	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.113
+1510	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.118-119 -- November 23, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.118-119
+1511	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.119-121 -- November 24, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.119-121
+1512	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.120 -- November 12, 1975, Bombay	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.120
+1513	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.121-124 -- November 25, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.121-124
+1514	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.124-125 -- November 26, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.124-125
+1515	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.125 -- November 27, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.125
+1516	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.137 -- November 28, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.137
+1517	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.137-142 -- November 29, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.137-142
+1518	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.137-146 -- February 24, 1971, Bombay	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.137-146
+1519	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.142 -- November 30, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.142
+1520	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.144-146 -- December 1, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.144-146
+1521	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.146-151 -- December 3, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.146-151
+1522	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.152-154 -- December 5, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.152-154
+1523	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.154-157 -- December 7, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.154-157
+1524	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.156-163 [Partial Recording] -- December 11, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.156-163
+1525	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.164-173 -- December 13, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.164-173
+1526	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.172 -- December 14, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.172
+1527	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.245-255 -- December 16, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.245-255
+1528	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.255-281 -- December 17, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.255-281
+1529	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.281-293 -- December 18, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.281-293
+1530	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.294-298 -- December 19, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.294-298
+1531	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.298 -- December 20, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.298
+1532	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.313-317 -- December 21, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.313-317
+1533	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.318-329 -- December 22, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.318-329
+1534	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.330-335 -- December 23, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.330-335
+1535	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.334-341 -- December 24, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.334-341
+1536	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.337-353 -- December 25, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.337-353
+1537	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.353-354 -- December 26, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.353-354
+1538	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.354-358 -- December 28, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.354-358
+1539	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.358-359 -- December 29, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.358-359
+1540	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.367-84 -- December 31, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.367-84
+1541	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.385-394 -- January 1, 1967, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.385-394
+1542	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.391-405 -- January 2, 1967, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.391-405
+1543	1487	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.395 -- August 17, 1976, Hyderabad	Śrī Caitanya-caritāmṛta, Madhya-līlā 20.395
+1545	1544	Śrī Caitanya-caritāmṛta, Madhya-līlā 21.1-10 -- January 3, 1967, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 21.1-10
+1546	1544	Śrī Caitanya-caritāmṛta, Madhya-līlā 21.13-49 -- January 4, 1967, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 21.13-49
+1547	1544	Śrī Caitanya-caritāmṛta, Madhya-līlā 21.49-61 -- January 5, 1967, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 21.49-61
+1548	1544	Śrī Caitanya-caritāmṛta, Madhya-līlā 21.62-67 -- January 6, 1966, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 21.62-67
+1550	1549	Śrī Caitanya-caritāmṛta, Madhya-līlā 22.5 -- January 7, 1967, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 22.5
+1551	1549	Śrī Caitanya-caritāmṛta, Madhya-līlā 22.6 -- January 8, 1967, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 22.6
+1552	1549	Śrī Caitanya-caritāmṛta, Madhya-līlā 22.11-15 -- January 9, 1967, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 22.11-15
+1553	1549	Śrī Caitanya-caritāmṛta, Madhya-līlā 22.14-20 -- January 10, 1967, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 22.14-20
+1554	1549	Śrī Caitanya-caritāmṛta, Madhya-līlā 22.21-28 -- January 11, 1967, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 22.21-28
+1555	1549	Śrī Caitanya-caritāmṛta, Madhya-līlā 22.27-31 -- January 15, 1967, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 22.27-31
+1556	1549	Śrī Caitanya-caritāmṛta, Madhya-līlā 22.31-33 -- January 16, 1967, New York	Śrī Caitanya-caritāmṛta, Madhya-līlā 22.31-33
+1558	1557	Śrī Caitanya-caritāmṛta, Madhya-līlā 25.19-31 -- January 20, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Madhya-līlā 25.19-31
+1559	1557	Śrī Caitanya-caritāmṛta, Madhya-līlā 25.29 -- January 21, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Madhya-līlā 25.29
+1560	1557	Śrī Caitanya-caritāmṛta, Madhya-līlā 25.31-38 -- January 22, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Madhya-līlā 25.31-38
+1561	1557	Śrī Caitanya-caritāmṛta, Madhya-līlā 25.36-40 -- January 23, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Madhya-līlā 25.36-40
+1562	1557	Śrī Caitanya-caritāmṛta, Madhya-līlā 25.40-50 -- January 24, 1967, San Francisco	Śrī Caitanya-caritāmṛta, Madhya-līlā 25.40-50
+1573	1572	Purport & Explanation to Hari Hari Biphale -- Los Angeles, December 26, 1968	Purport & Explanation to Hari Hari Biphale
+1574	1572	Purport & Explanation to Hari Hari Biphale -- December 26, 1968, Los Angeles	Purport & Explanation to Hari Hari Biphale
+1575	1572	Purport to Bhajahu Re Mana -- March 16, 1967, San Francisco	Purport to Bhajahu Re Mana
+1576	1572	Purport to Bhajahu Re Mana -- May 27, 1972, Los Angeles	Purport to Bhajahu Re Mana
+1577	1572	Purport to Bhajahu Re Mana -- San Francisco, March 16, 1967	Purport to Bhajahu Re Mana
+1578	1572	Purport to Bhajahu Re Mana -- Los Angeles, May 27, 1972	Purport to Bhajahu Re Mana
+1579	1572	Purport to Bhajahū Re Mana -- March 30, 1966, New York	Purport to Bhajahū Re Mana
+1580	1572	Purport to Bhajahū Re Mana -- January 7, 1969, Los Angeles	Purport to Bhajahū Re Mana
+1581	1572	Purport to Bhajahū Re Mana -- New York, March 30, 1966	Purport to Bhajahū Re Mana
+1582	1572	Purport to Bhajahū Re Mana -- Los Angeles, January 7, 1969	Purport to Bhajahū Re Mana
+1583	1572	Purport to Brahma-saṁhitā Verses 32 and 38 -- New York, November 5, 1966	Purport to Brahma-saṁhitā
+1584	1572	Purport to Gaura Pahū -- January 10, 1969, Los Angeles	Purport to Gaura Pahū
+1585	1572	Purport to Gaura Pahū -- Los Angeles, January 10, 1969	Purport to Gaura Pahū
+1586	1572	Purport to Gaurāṅga Bolite Habe -- January 5, 1968, Los Angeles	Purport to Gaurāṅga Bolite Habe
+1587	1572	Purport to Gaurāṅga Bolite Habe -- December 29, 1968, Los Angeles	Purport to Gaurāṅga Bolite Habe
+1588	1572	Purport to Gaurāṅga Bolite Habe -- January 9, 1969, Los Angeles	Purport to Gaurāṅga Bolite Habe
+1589	1572	Purport to Gaurāṅga Bolite Habe -- Los Angeles, January 5, 1969	Purport to Gaurāṅga Bolite Habe
+1590	1572	Purport to Gaurāṅga Bolite Habe -- Los Angeles, December 29, 1968	Purport to Gaurāṅga Bolite Habe
+1591	1572	Purport to Gaurāṅga Bolite Habe -- Los Angeles, January 9, 1969	Purport to Gaurāṅga Bolite Habe
+1592	1572	Purport to Gaurāṇgera Duṭi Pada -- January 6, 1969, Los Angeles	Purport to Gaurāṇgera Duṭi Pada
+1593	1572	Purport to Gaurāṇgera Duṭi Pada -- Los Angeles, January 6, 1969	Purport to Gaurāṇgera Duṭi Pada
+1594	1572	Purport to Hare Krishna Maha Mantra -- July 10, 1971, Los Angeles	Purport to Hare Krishna Maha Mantra
+1595	1572	Purport to Hare Krishna Maha Mantra -- Los Angeles, July 10, 1971	Purport to Hare Krishna Maha Mantra
+1596	1572	Purport to Hari Hari Biphale -- September 10, 1969, Hamburg	Purport to Hari Hari Biphale
+1597	1572	Purport to Hari Hari Biphale -- Hamburg, September 10, 1969	Purport to Hari Hari Biphale
+1598	1572	Purport to Jaya Rādhā-Mādhava -- February 14, 1971, Gorakhpur	Purport to Jaya Rādhā-Mādhava
+1599	1572	Purport to Jaya Rādhā-Mādhava -- July 20, 1971, New York	Purport to Jaya Rādhā-Mādhava
+1600	1572	Purport to Jaya Rādhā-Mādhava -- Gorakhpur, February 14, 1971	Purport to Jaya Rādhā-Mādhava
+1601	1572	Purport to Jaya Rādhā-Mādhava -- New York, July 20, 1971	Purport to Jaya Rādhā-Mādhava
+1602	1572	Purport to Jīv Jāgo -- May 20, 1969, Columbus	Purport to Jīv Jāgo
+1603	1572	Purport to Jīv Jāgo -- Columbus, May 20, 1969	Purport to Jīv Jāgo
+1604	1572	Purport to Nitāi-Pada-Kamala -- December 21, 1968, Los Angeles	Purport to Nitāi-Pada-Kamala
+1605	1572	Purport to Nitāi-Pada-Kamala -- Los Angeles, December 21, 1968	Purport to Nitāi-Pada-Kamala
+1606	1572	Purport to Nṛsiṁha Prayers -- August 2, 1970, Los Angeles	Purport to Nṛsiṁha Prayers
+1607	1572	Purport to Nṛsiṁha Prayers -- Los Angeles, August 2, 1970	Purport to Nṛsiṁha Prayers
+1608	1572	Purport to Parama Koruṇa -- January 4, 1969, Los Angeles	Purport to Parama Koruṇa
+1609	1572	Purport to Parama Koruṇa -- January 16, 1969, Los Angeles	Purport to Parama Koruṇa
+1610	1572	Purport to Parama Koruṇa -- Los Angeles, January 4, 1969	Purport to Parama Koruṇa
+1611	1572	Purport to Parama Koruṇa -- Los Angeles, January 16, 1969	Purport to Parama Koruṇa
+1612	1572	Purport to Parama Koruṇa -- February 28, 1975, Atlanta	Purport to Parama Koruṇa 
+1613	1572	Purport to Prayers by King Kulaśekhara -- December 25, 1968, Los Angeles	Purport to Prayers by King Kulaśekhara
+1614	1572	Purport to Prayers by King Kulaśekhara -- Los Angeles, December 25, 1968	Purport to Prayers by King Kulaśekhara
+1615	1572	Purport to Śrī Kṛṣṇa Caitanya Prabhu -- January 11, 1969, Los Angeles	Purport to Śrī Kṛṣṇa Caitanya Prabhu
+1616	1572	Purport to Śrī Kṛṣṇa Caitanya Prabhu -- Los Angeles, January 11, 1969	Purport to Śrī Kṛṣṇa Caitanya Prabhu
+1617	1572	Purport to Śrī Śrī Śikṣāṣṭakam [partially recorded] -- December 28, 1968, Los Angeles	Purport to Śrī Śrī Śikṣāṣṭakam
+1618	1572	Purport to Śrī Śrī Śikṣāṣṭakam [partially recorded] -- Los Angeles, December 28, 1968	Purport to Śrī Śrī Śikṣāṣṭakam
+1619	1572	Purport to Śrī-Śrī-Gurv-aṣṭakam -- January 2, 1969, Los Angeles	Purport to Śrī-Śrī-Gurv-aṣṭakam
+1620	1572	Purport to Śrī-Śrī-Gurv-aṣṭakam -- Los Angeles, January 2, 1969	Purport to Śrī-Śrī-Gurv-aṣṭakam
+1621	1572	Purport to the Maṅgalācaraṇa Prayers -- January 8, 1969, Los Angeles	Purport to the Maṅgalācaraṇa Prayers
+1622	1572	Purport to the Maṅgalācaraṇa Prayers -- Los Angeles, January 8, 1969	Purport to the Maṅgalācaraṇa Prayers
+1626	1625	Śrīmad-Bhāgavatam 1.1.1 -- August 6, 1971, London	Śrīmad-Bhāgavatam 1.1.1
+1627	1625	Śrīmad-Bhāgavatam 1.1.1 -- August 7, 1971, London	Śrīmad-Bhāgavatam 1.1.1
+1628	1625	Śrīmad-Bhāgavatam 1.1.1 -- July 6, 1972, New York	Śrīmad-Bhāgavatam 1.1.1
+1629	1625	Śrīmad-Bhāgavatam 1.1.1 -- February 20, 1975, Caracas	Śrīmad-Bhāgavatam 1.1.1
+1630	1625	Śrīmad-Bhāgavatam 1.1.1 -- February 21, 1975, Caracas	Śrīmad-Bhāgavatam 1.1.1
+1631	1625	Śrīmad-Bhāgavatam 1.1.2 -- August 15, 1971, London	Śrīmad-Bhāgavatam 1.1.2
+1632	1625	Śrīmad-Bhāgavatam 1.1.2 -- August 16, 1971, London	Śrīmad-Bhāgavatam 1.1.2
+1633	1625	Śrīmad-Bhāgavatam 1.1.2 -- August 17, 1971, London	Śrīmad-Bhāgavatam 1.1.2
+1634	1625	Śrīmad-Bhāgavatam 1.1.2 -- August 18, 1971, London	Śrīmad-Bhāgavatam 1.1.2
+1635	1625	Śrīmad-Bhāgavatam 1.1.2 -- February 23, 1975, Caracas	Śrīmad-Bhāgavatam 1.1.2
+1636	1625	Śrīmad-Bhāgavatam 1.1.3 -- August 19, 1971, London	Śrīmad-Bhāgavatam 1.1.3
+1637	1625	Śrīmad-Bhāgavatam 1.1.3 -- August 20, 1971, London	Śrīmad-Bhāgavatam 1.1.3
+1638	1625	Śrīmad-Bhāgavatam 1.1.3 -- February 24, 1975, Caracas	Śrīmad-Bhāgavatam 1.1.3
+1639	1625	Śrīmad-Bhāgavatam 1.1.4 -- August 22, 1971, London	Śrīmad-Bhāgavatam 1.1.4
+1640	1625	Śrīmad-Bhāgavatam 1.1.4 -- August 27, 1973, London	Śrīmad-Bhāgavatam 1.1.4
+1641	1625	Śrīmad-Bhāgavatam 1.1.5-6 -- August 23, 1971, London	Śrīmad-Bhāgavatam 1.1.5-6
+1642	1625	Śrīmad-Bhāgavatam 1.1.9 -- Auckland, February 20, 1973	Śrīmad-Bhāgavatam 1.1.9
+1644	1643	Śrīmad-Bhāgavatam 1.2.1 -- September 1, 1972, New Vrindaban	Śrīmad-Bhāgavatam 1.2.1
+1645	1643	Śrīmad-Bhāgavatam 1.2.2 -- August 10, 1971, London	Śrīmad-Bhāgavatam 1.2.2
+1646	1643	Śrīmad-Bhāgavatam 1.2.2 -- May 26, 1974, Rome	Śrīmad-Bhāgavatam 1.2.2
+1647	1643	Śrīmad-Bhāgavatam 1.2.3 -- August 24, 1971, London	Śrīmad-Bhāgavatam 1.2.3
+1648	1643	Śrīmad-Bhāgavatam 1.2.3 -- May 27, 1974, Rome	Śrīmad-Bhāgavatam 1.2.3
+1649	1643	Śrīmad-Bhāgavatam 1.2.4 -- May 28, 1974, Rome	Śrīmad-Bhāgavatam 1.2.4
+1650	1643	Śrīmad-Bhāgavatam 1.2.5 -- August 2, 1968, Montreal	Śrīmad-Bhāgavatam 1.2.5
+1651	1643	Śrīmad-Bhāgavatam 1.2.5 -- February 20, 1972, Visakhapatnam	Śrīmad-Bhāgavatam 1.2.5
+1652	1643	Śrīmad-Bhāgavatam 1.2.5 -- April 3, 1972, Melbourne At Christian Monastery	Śrīmad-Bhāgavatam 1.2.5
+1653	1643	Śrīmad-Bhāgavatam 1.2.5 -- July 17, 1972, Glasgow	Śrīmad-Bhāgavatam 1.2.5
+1654	1643	Śrīmad-Bhāgavatam 1.2.5 -- September 4, 1972, New Vrindaban	Śrīmad-Bhāgavatam 1.2.5
+1655	1643	Śrīmad-Bhāgavatam 1.2.5 -- October 16, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.5
+1656	1643	Śrīmad-Bhāgavatam 1.2.5 -- October 9, 1976, Aligarh	Śrīmad-Bhāgavatam 1.2.5
+1657	1643	Śrīmad-Bhāgavatam 1.2.6 -- August 3, 1968, Montreal	Śrīmad-Bhāgavatam 1.2.6
+1658	1643	Śrīmad-Bhāgavatam 1.2.6 -- August 26, 1971, London	Śrīmad-Bhāgavatam 1.2.6
+1659	1643	Śrīmad-Bhāgavatam 1.2.6 -- August 27, 1971, London	Śrīmad-Bhāgavatam 1.2.6
+1660	1643	Śrīmad-Bhāgavatam 1.2.6 -- February 23, 1972, Calcutta	Śrīmad-Bhāgavatam 1.2.6
+1661	1643	Śrīmad-Bhāgavatam 1.2.6 -- September 5, 1972, New Vrindaban	Śrīmad-Bhāgavatam 1.2.6
+1662	1643	Śrīmad-Bhāgavatam 1.2.6 -- October 17, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.6
+1663	1643	Śrīmad-Bhāgavatam 1.2.6 -- November 26, 1972, Hyderabad	Śrīmad-Bhāgavatam 1.2.6
+1664	1643	Śrīmad-Bhāgavatam 1.2.6 -- July 23, 1973, London	Śrīmad-Bhāgavatam 1.2.6
+1665	1643	Śrīmad-Bhāgavatam 1.2.6 -- November 11, 1973, Delhi	Śrīmad-Bhāgavatam 1.2.6
+1666	1643	Śrīmad-Bhāgavatam 1.2.6 -- November 12, 1973, Delhi	Śrīmad-Bhāgavatam 1.2.6
+1667	1643	Śrīmad-Bhāgavatam 1.2.6 -- February 27, 1974, Calcutta	Śrīmad-Bhāgavatam 1.2.6
+1668	1643	Śrīmad-Bhāgavatam 1.2.6 -- April 18, 1974, Hyderabad	Śrīmad-Bhāgavatam 1.2.6
+1669	1643	Śrīmad-Bhāgavatam 1.2.6 -- May 24, 1974, Rome	Śrīmad-Bhāgavatam 1.2.6
+1670	1643	Śrīmad-Bhāgavatam 1.2.6 -- [Hindi-Translated into English ] -- March 21, 1975, Calcutta	Śrīmad-Bhāgavatam 1.2.6
+1671	1643	Śrīmad-Bhāgavatam 1.2.6 in [Hindi- final proofreading pending] -- September 27, 1975, Ahmedabad	Śrīmad-Bhāgavatam 1.2.6
+1672	1643	Śrīmad-Bhāgavatam 1.2.6 -- October 5, 1975, Mauritius	Śrīmad-Bhāgavatam 1.2.6
+1673	1643	Śrīmad-Bhāgavatam 1.2.6 in Hindi -- October 10, 1976, Aligarh	Śrīmad-Bhāgavatam 1.2.6
+1674	1643	Śrīmad-Bhāgavatam 1.2.6 -- Sunday Feast -- June 29, 1975, Denver	Śrīmad-Bhāgavatam 1.2.6 and Sunday Feast
+1675	1643	Śrīmad-Bhāgavatam 1.2.7 -- September 5, 1972, New Vrindaban	Śrīmad-Bhāgavatam 1.2.7
+1676	1643	Śrīmad-Bhāgavatam 1.2.7 -- October 18, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.7
+1677	1643	Śrīmad-Bhāgavatam 1.2.7 -- November 13, 1973, Delhi	Śrīmad-Bhāgavatam 1.2.7
+1678	1643	Śrīmad-Bhāgavatam 1.2.7 -- April 21, 1974, Hyderabad	Śrīmad-Bhāgavatam 1.2.7
+1679	1643	Śrīmad-Bhāgavatam 1.2.7 -- [Hindi Translated into English ] -- March 22, 1975, Calcutta	Śrīmad-Bhāgavatam 1.2.7
+1680	1643	Śrīmad-Bhāgavatam 1.2.8 -- September 6, 1972, New Vrindaban	Śrīmad-Bhāgavatam 1.2.8
+1681	1643	Śrīmad-Bhāgavatam 1.2.8 -- October 19, 1972, Vṛndāvana,	Śrīmad-Bhāgavatam 1.2.8
+1682	1643	Śrīmad-Bhāgavatam 1.2.8 -- December 26, 1972, Bombay	Śrīmad-Bhāgavatam 1.2.8
+1683	1643	Śrīmad-Bhāgavatam 1.2.8 -- April 22, 1974, Hyderabad	Śrīmad-Bhāgavatam 1.2.8
+1684	1643	Śrīmad-Bhāgavatam 1.2.8 -- [Hindi- final proofreading pending] -- March 23, 1975, Calcutta	Śrīmad-Bhāgavatam 1.2.8
+1685	1643	Śrīmad-Bhāgavatam 1.2.9 -- September 7, 1972, New Vrindaban	Śrīmad-Bhāgavatam 1.2.9
+1686	1643	Śrīmad-Bhāgavatam 1.2.9 -- October 20, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.9
+1687	1643	Śrīmad-Bhāgavatam 1.2.9 -- April 23, 1974, Hyderabad	Śrīmad-Bhāgavatam 1.2.9
+1688	1643	Śrīmad-Bhāgavatam 1.2.9 University Lecture -- August 3, 1975, Detroit	Śrīmad-Bhāgavatam 1.2.9
+1689	1643	Śrīmad-Bhāgavatam 1.2.9-10 -- November 14, 1973, Delhi	Śrīmad-Bhāgavatam 1.2.9-10
+1690	1643	Śrīmad-Bhāgavatam 1.2.10 -- October 21, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.10
+1691	1643	Śrīmad-Bhāgavatam 1.2.10 -- December 28, 1972, Bombay	Śrīmad-Bhāgavatam 1.2.10
+1692	1643	Śrīmad-Bhāgavatam 1.2.10 -- November 16, 1973, Delhi	Śrīmad-Bhāgavatam 1.2.10
+1693	1643	Śrīmad-Bhāgavatam 1.2.10 -- April 24, 1974, Hyderabad	Śrīmad-Bhāgavatam 1.2.10
+1694	1643	Śrīmad-Bhāgavatam 1.2.11 -- October 22, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.11
+1695	1643	Śrīmad-Bhāgavatam 1.2.11 -- April 26, 1974, Tirupati	Śrīmad-Bhāgavatam 1.2.11
+1696	1643	Śrīmad-Bhāgavatam 1.2.12 -- August 15, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.2.12
+1697	1643	Śrīmad-Bhāgavatam 1.2.12 -- October 23, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.12
+1698	1643	Śrīmad-Bhāgavatam 1.2.12 -- November 18, 1973, Delhi	Śrīmad-Bhāgavatam 1.2.12
+1699	1643	Śrīmad-Bhāgavatam 1.2.13 -- August 16, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.2.13
+1700	1643	Śrīmad-Bhāgavatam 1.2.13 -- October 24, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.13
+1701	1643	Śrīmad-Bhāgavatam 1.2.14 -- August 17, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.2.14
+1702	1643	Śrīmad-Bhāgavatam 1.2.14-16 -- March 24, 1967, San Francisco	Śrīmad-Bhāgavatam 1.2.14-16
+1703	1643	Śrīmad-Bhāgavatam 1.2.15 -- August 18, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.2.15
+1704	1643	Śrīmad-Bhāgavatam 1.2.15 -- October 26, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.15
+1705	1643	Śrīmad-Bhāgavatam 1.2.16 -- August 19, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.2.16
+1706	1643	Śrīmad-Bhāgavatam 1.2.16 -- October 27, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.16
+1707	1643	Śrīmad-Bhāgavatam 1.2.17 -- March 25, 1967, San Francisco	Śrīmad-Bhāgavatam 1.2.17
+1708	1643	Śrīmad-Bhāgavatam 1.2.17 -- August 20, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.2.17
+1709	1643	Śrīmad-Bhāgavatam 1.2.17 -- October 28, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.17
+1710	1643	Śrīmad-Bhāgavatam 1.2.18 -- August 21, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.2.18
+1711	1643	Śrīmad-Bhāgavatam 1.2.18 -- October 29, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.18
+1712	1643	Śrīmad-Bhāgavatam 1.2.18 -- July 19, 1974, New Vrindaban	Śrīmad-Bhāgavatam 1.2.18
+1713	1643	Śrīmad-Bhāgavatam 1.2.18 -- September 26, 1974, Calcutta	Śrīmad-Bhāgavatam 1.2.18
+1714	1643	Śrīmad-Bhāgavatam 1.2.19 -- August 22, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.2.19
+1715	1643	Śrīmad-Bhāgavatam 1.2.19 -- October 30, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.19
+1716	1643	Śrīmad-Bhāgavatam 1.2.19 -- September 27, 1974, Calcutta	Śrīmad-Bhāgavatam 1.2.19
+1717	1643	Śrīmad-Bhāgavatam 1.2.19, and Initiation Lecture -- July 21, 1974, New Vrindaban	Śrīmad-Bhāgavatam 1.2.19, and Initiation Lecture
+1718	1643	Śrīmad-Bhāgavatam 1.2.20 -- August 23, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.2.20
+1719	1643	Śrīmad-Bhāgavatam 1.2.20 -- October 31, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.20
+1720	1643	Śrīmad-Bhāgavatam 1.2.20 -- July 24, 1974, New York	Śrīmad-Bhāgavatam 1.2.20
+1721	1643	Śrīmad-Bhāgavatam 1.2.21 -- August 24, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.2.21
+1722	1643	Śrīmad-Bhāgavatam 1.2.21 -- November 1, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.21
+1723	1643	Śrīmad-Bhāgavatam 1.2.22 -- August 25, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.2.22
+1724	1643	Śrīmad-Bhāgavatam 1.2.22 -- November 2, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.22
+1725	1643	Śrīmad-Bhāgavatam 1.2.23 -- August 26, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.2.23
+1726	1643	Śrīmad-Bhāgavatam 1.2.23 -- November 3, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.23
+1727	1643	Śrīmad-Bhāgavatam 1.2.24 -- August 27, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.2.24
+1728	1643	Śrīmad-Bhāgavatam 1.2.24 -- November 4, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.24
+1729	1643	Śrīmad-Bhāgavatam 1.2.25 -- August 28, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.2.25
+1730	1643	Śrīmad-Bhāgavatam 1.2.25 -- November 5, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.25
+1731	1643	Śrīmad-Bhāgavatam 1.2.26 -- November 6, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.26
+1732	1643	Śrīmad-Bhāgavatam 1.2.27 -- November 7, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.27
+1733	1643	Śrīmad-Bhāgavatam 1.2.28-29 -- November 8, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.28-29
+1734	1643	Śrīmad-Bhāgavatam 1.2.30 -- November 9, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.30
+1735	1643	Śrīmad-Bhāgavatam 1.2.31 -- November 10, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.31
+1736	1643	Śrīmad-Bhāgavatam 1.2.32 -- November 11, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.32
+1737	1643	Śrīmad-Bhāgavatam 1.2.33 -- November 12, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.33
+1738	1643	Śrīmad-Bhāgavatam 1.2.34 -- November 13, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.2.34
+1740	1739	Śrīmad-Bhāgavatam 1.3.1 -- November 14, 1972, Vṛndāvana	Śrīmad-Bhāgavatam 1.3.1
+1741	1739	Śrīmad-Bhāgavatam 1.3.1-3 -- March 28, 1968, San Francisco	Śrīmad-Bhāgavatam 1.3.1-3
+1742	1739	Śrīmad-Bhāgavatam 1.3.7 -- September 13, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.7
+1743	1739	Śrīmad-Bhāgavatam 1.3.8 -- September 14, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.8
+1744	1739	Śrīmad-Bhāgavatam 1.3.9 -- September 15, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.9
+1745	1739	Śrīmad-Bhāgavatam 1.3.10 -- September 16, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.10
+1746	1739	Śrīmad-Bhāgavatam 1.3.11-12 -- September 17, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.11-12
+1747	1739	Śrīmad-Bhāgavatam 1.3.13 -- September 18, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.13
+1748	1739	Śrīmad-Bhāgavatam 1.3.14 -- September 19, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.14
+1749	1739	Śrīmad-Bhāgavatam 1.3.15 -- September 20, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.15
+1750	1739	Śrīmad-Bhāgavatam 1.3.16 and Initiation -- September 21, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.16 and Initiation
+1751	1739	Śrīmad-Bhāgavatam 1.3.17 -- September 22, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.17
+1752	1739	Śrīmad-Bhāgavatam 1.3.18 -- September 23, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.18
+1753	1739	Śrīmad-Bhāgavatam 1.3.19 -- September 24, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.19
+1754	1739	Śrīmad-Bhāgavatam 1.3.20 -- September 25, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.20
+1755	1739	Śrīmad-Bhāgavatam 1.3.21 -- September 26, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.21
+1756	1739	Śrīmad-Bhāgavatam 1.3.22 -- September 27, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.22
+1757	1739	Śrīmad-Bhāgavatam 1.3.23 -- September 28, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.23
+1758	1739	Śrīmad-Bhāgavatam 1.3.24 -- September 29, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.24
+1759	1739	Śrīmad-Bhāgavatam 1.3.25 -- September 30, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.25
+1760	1739	Śrīmad-Bhāgavatam 1.3.26 -- October 1, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.26
+1761	1739	Śrīmad-Bhāgavatam 1.3.27 -- October 2, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.27
+1762	1739	Śrīmad-Bhāgavatam 1.3.28 -- October 3, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.28
+1763	1739	Śrīmad-Bhāgavatam 1.3.29 -- October 4, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.29
+1764	1739	Śrīmad-Bhāgavatam 1.3.30 -- October 5, 1972, Los Angeles	Śrīmad-Bhāgavatam 1.3.30
+1765	1739	Śrīmad-Bhāgavatam 1.4.25 -- June 20, 1968, Montreal	Śrīmad-Bhāgavatam 1.4.25
+1767	1766	Śrīmad-Bhāgavatam 1.5.1-4 -- May 22, 1969, New Vrindaban	Śrīmad-Bhāgavatam 1.5.1-4
+1768	1766	Śrīmad-Bhāgavatam 1.5.1-8 -- May 23, 1969, New Vrindaban	Śrīmad-Bhāgavatam 1.5.1-8
+1769	1766	Śrīmad-Bhāgavatam 1.5.2 -- January 10, 1968, Los Angeles	Śrīmad-Bhāgavatam 1.5.2
+1770	1766	Śrīmad-Bhāgavatam 1.5.4 -- January 12, 1968, Los Angeles	Śrīmad-Bhāgavatam 1.5.4
+1771	1766	Śrīmad-Bhāgavatam 1.5.11 -- June 10, 1969, New Vrindaban	Śrīmad-Bhāgavatam 1.5.11
+1772	1766	Śrīmad-Bhāgavatam 1.5.11 -- September 12, 1973, London	Śrīmad-Bhāgavatam 1.5.11
+1773	1766	Śrīmad-Bhāgavatam 1.5.12-13 -- June 11, 1969, New Vrindaban	Śrīmad-Bhāgavatam 1.5.12-13
+1774	1766	Śrīmad-Bhāgavatam 1.5.13 -- June 13, 1969, New Vrindaban	Śrīmad-Bhāgavatam 1.5.13
+1775	1766	Śrīmad-Bhāgavatam 1.5.13 -- June 16, 1969, New Vrindaban	Śrīmad-Bhāgavatam 1.5.13
+1776	1766	Śrīmad-Bhāgavatam 1.5.14 -- June 18, 1969, New Vrindaban	Śrīmad-Bhāgavatam 1.5.14
+1777	1766	Śrīmad-Bhāgavatam 1.5.15 -- June 19, 1969, New Vrindaban	Śrīmad-Bhāgavatam 1.5.15
+1778	1766	Śrīmad-Bhāgavatam 1.5.17-18 -- June 21, 1969, New Vrindaban	Śrīmad-Bhāgavatam 1.5.17-18
+1779	1766	Śrīmad-Bhāgavatam 1.5.18 -- June 22, 1969, New Vrindaban	Śrīmad-Bhāgavatam 1.5.18
+1780	1766	Śrīmad-Bhāgavatam 1.5.22 -- August 3, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 1.5.22
+1781	1766	Śrīmad-Bhāgavatam 1.5.23 -- August 4, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 1.5.23
+1782	1766	Śrīmad-Bhāgavatam 1.5.24 -- August 5, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 1.5.24
+1783	1766	Śrīmad-Bhāgavatam 1.5.25 -- August 6, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 1.5.25
+1784	1766	Śrīmad-Bhāgavatam 1.5.28 -- August 9, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 1.5.28
+1785	1766	Śrīmad-Bhāgavatam 1.5.29 -- August 10, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 1.5.29
+1786	1766	Śrīmad-Bhāgavatam 1.5.30 -- August 11, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 1.5.30
+1787	1766	Śrīmad-Bhāgavatam 1.5.31, partially recorded -- August 12, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 1.5.31, partially recorded
+1788	1766	Śrīmad-Bhāgavatam 1.5.32 -- August 13, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 1.5.32
+1789	1766	Śrīmad-Bhāgavatam 1.5.33 -- August 14, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 1.5.33
+1790	1766	Śrīmad-Bhāgavatam 1.5.35 -- August 16, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 1.5.35
+1791	1766	Śrīmad-Bhāgavatam 1.5.36 -- August 17, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 1.5.36
+1792	1766	Śrīmad-Bhāgavatam 1.5.8-9 -- May 24, 1969, New Vrindaban	Śrīmad-Bhāgavatam 1.5.8-9
+1793	1766	Śrīmad-Bhāgavatam 1.5.9-11 -- June 6, 1969, New Vrindaban	Śrīmad-Bhāgavatam 1.5.9-11
+1795	1794	Śrīmad-Bhāgavatam 1.7.5 -- September 4, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.5
+1796	1794	Śrīmad-Bhāgavatam 1.7.5-6 -- October 15, 1975, Johannesburg	Śrīmad-Bhāgavatam 1.7.5-6
+1797	1794	Śrīmad-Bhāgavatam 1.7.6 -- May 31, 1974, Geneva	Śrīmad-Bhāgavatam 1.7.6
+1798	1794	Śrīmad-Bhāgavatam 1.7.6 -- Vṛndāvana, April 18, 1975	Śrīmad-Bhāgavatam 1.7.6
+1799	1794	Śrīmad-Bhāgavatam 1.7.6 -- Vṛndāvana, April 23, 1975	Śrīmad-Bhāgavatam 1.7.6
+1800	1794	Śrīmad-Bhāgavatam 1.7.6 -- September 5, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.6
+1801	1794	Śrīmad-Bhāgavatam 1.7.6, Temple Opening -- August 18, 1976, Hyderabad	Śrīmad-Bhāgavatam 1.7.6, Temple Opening
+1802	1794	Śrīmad-Bhāgavatam 1.7.7 -- Vṛndāvana, April 24, 1975	Śrīmad-Bhāgavatam 1.7.7
+1803	1794	Śrīmad-Bhāgavatam 1.7.7 -- September 6, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.7
+1804	1794	Śrīmad-Bhāgavatam 1.7.8 -- September 7, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.8
+1805	1794	Śrīmad-Bhāgavatam 1.7.9 [partially recorded] -- September 8, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.9
+1806	1794	Śrīmad-Bhāgavatam 1.7.10 -- September 9, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.10
+1807	1794	Śrīmad-Bhāgavatam 1.7.11 -- September 10, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.11
+1808	1794	Śrīmad-Bhāgavatam 1.7.12 -- September 11, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.12
+1809	1794	Śrīmad-Bhāgavatam 1.7.13-14 -- September 12, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.13-14
+1810	1794	Śrīmad-Bhāgavatam 1.7.15 -- September 13, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.15
+1811	1794	Śrīmad-Bhāgavatam 1.7.16 -- September 14, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.16
+1812	1794	Śrīmad-Bhāgavatam 1.7.18 -- September 15, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.18
+1813	1794	Śrīmad-Bhāgavatam 1.7.19 -- September 16, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.19
+1814	1794	Śrīmad-Bhāgavatam 1.7.2-4 -- October 14, 1975, Johannesburg	Śrīmad-Bhāgavatam 1.7.2-4
+1815	1794	Śrīmad-Bhāgavatam 1.7.20-21 -- September 17, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.20-21
+1816	1794	Śrīmad-Bhāgavatam 1.7.22 -- September 18, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.22
+1817	1794	Śrīmad-Bhāgavatam 1.7.23 -- September 20, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.23
+1818	1794	Śrīmad-Bhāgavatam 1.7.24 -- September 21, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.24
+1819	1794	Śrīmad-Bhāgavatam 1.7.25 -- September 22, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.25
+1820	1794	Śrīmad-Bhāgavatam 1.7.26 -- September 23, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.26
+1821	1794	Śrīmad-Bhāgavatam 1.7.27 -- September 24, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.27
+1822	1794	Śrīmad-Bhāgavatam 1.7.28-29 -- September 25, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.28-29
+1823	1794	Śrīmad-Bhāgavatam 1.7.30-31 -- September 26, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.30-31
+1824	1794	Śrīmad-Bhāgavatam 1.7.32-33 -- September 27, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.32-33
+1825	1794	Śrīmad-Bhāgavatam 1.7.34-35 -- September 28, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.34-35
+1826	1794	Śrīmad-Bhāgavatam 1.7.36-37 -- September 29, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.36-37
+1827	1794	Śrīmad-Bhāgavatam 1.7.38-39 -- September 30, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.38-39
+1828	1794	Śrīmad-Bhāgavatam 1.7.40 -- October 1, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.40
+1829	1794	Śrīmad-Bhāgavatam 1.7.41-42 -- October 2, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.41-42
+1830	1794	Śrīmad-Bhāgavatam 1.7.43 -- October 3, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.43
+1831	1794	Śrīmad-Bhāgavatam 1.7.44 -- October 4, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.44
+1832	1794	Śrīmad-Bhāgavatam 1.7.45-46 -- October 5, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.45-46
+1833	1794	Śrīmad-Bhāgavatam 1.7.47-48 -- October 6, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.47-48
+1834	1794	Śrīmad-Bhāgavatam 1.7.49-50 -- October 7, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.49-50
+1835	1794	Śrīmad-Bhāgavatam 1.7.51-52 -- October 8, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 1.7.51-52
+1837	1836	Śrīmad-Bhāgavatam 1.8.18 -- April 10, 1973, New York	Śrīmad-Bhāgavatam 1.8.18
+1838	1836	Śrīmad-Bhāgavatam 1.8.18 -- July 4, 1974, Chicago	Śrīmad-Bhāgavatam 1.8.18
+1839	1836	Śrīmad-Bhāgavatam 1.8.18 -- September 28, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.18
+1840	1836	Śrīmad-Bhāgavatam 1.8.18-19 -- April 9, 1971, Bombay	Śrīmad-Bhāgavatam 1.8.18-19
+1841	1836	Śrīmad-Bhāgavatam 1.8.18-Hindi -- February 6, 1977, Calcutta	Śrīmad-Bhāgavatam 1.8.18-Hindi
+1842	1836	Śrīmad-Bhāgavatam 1.8.19 -- July 5, 1974, Chicago	Śrīmad-Bhāgavatam 1.8.19
+1843	1836	Śrīmad-Bhāgavatam 1.8.19 -- September 29, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.19
+1844	1836	Śrīmad-Bhāgavatam 1.8.20 -- April 12, 1973, New York	Śrīmad-Bhāgavatam 1.8.20
+1845	1836	Śrīmad-Bhāgavatam 1.8.20 -- September 30, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.20
+1846	1836	Śrīmad-Bhāgavatam 1.8.21 -- April 13, 1973, New York	Śrīmad-Bhāgavatam 1.8.21
+1847	1836	Śrīmad-Bhāgavatam 1.8.21 -- October 1, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.21
+1848	1836	Śrīmad-Bhāgavatam 1.8.22 -- April 14, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.22
+1849	1836	Śrīmad-Bhāgavatam 1.8.23 -- April 15, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.23
+1850	1836	Śrīmad-Bhāgavatam 1.8.23 -- October 3, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.23
+1851	1836	Śrīmad-Bhāgavatam 1.8.24 -- April 16, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.24
+1852	1836	Śrīmad-Bhāgavatam 1.8.24 -- October 4, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.24
+1853	1836	Śrīmad-Bhāgavatam 1.8.25 -- April 17, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.25
+1854	1836	Śrīmad-Bhāgavatam 1.8.25 -- October 5, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.25
+1855	1836	Śrīmad-Bhāgavatam 1.8.26 -- April 18, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.26
+1856	1836	Śrīmad-Bhāgavatam 1.8.26 -- October 6, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.26
+1857	1836	Śrīmad-Bhāgavatam 1.8.27 -- April 19, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.27
+1858	1836	Śrīmad-Bhāgavatam 1.8.28 -- Los Angeles, April 20, 1973	Śrīmad-Bhāgavatam 1.8.28
+1859	1836	Śrīmad-Bhāgavatam 1.8.28 -- October 8, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.28
+1860	1836	Śrīmad-Bhāgavatam 1.8.29 -- April 21, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.29
+1861	1836	Śrīmad-Bhāgavatam 1.8.29 -- October 9, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.29
+1862	1836	Śrīmad-Bhāgavatam 1.8.30 -- April 22, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.30
+1863	1836	Śrīmad-Bhāgavatam 1.8.30 -- October 10, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.30
+1864	1836	Śrīmad-Bhāgavatam 1.8.31 -- April 23, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.31
+1865	1836	Śrīmad-Bhāgavatam 1.8.31 -- October 11, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.31
+1866	1836	Śrīmad-Bhāgavatam 1.8.32 -- April 24, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.32
+1867	1836	Śrīmad-Bhāgavatam 1.8.32 -- October 12, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.32
+1868	1836	Śrīmad-Bhāgavatam 1.8.33 -- April 25, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.33
+1869	1836	Śrīmad-Bhāgavatam 1.8.33 -- October 13, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.33
+1870	1836	Śrīmad-Bhāgavatam 1.8.34 -- April 26, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.34
+1871	1836	Śrīmad-Bhāgavatam 1.8.34 -- October 14, 1974, Mayapur	Śrīmad-Bhāgavatam 1.8.34
+1872	1836	Śrīmad-Bhāgavatam 1.8.35 — April 27, 1973	Śrīmad-Bhāgavatam 1.8.35
+1873	1836	Śrīmad-Bhāgavatam 1.8.35 -- October 15, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.35
+1874	1836	Śrīmad-Bhāgavatam 1.8.36 -- Los Angeles, April 28, 1973	Śrīmad-Bhāgavatam 1.8.36
+1875	1836	Śrīmad-Bhāgavatam 1.8.36 -- October 16, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.36
+1876	1836	Śrīmad-Bhāgavatam 1.8.37 -- April 29, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.37
+1877	1836	Śrīmad-Bhāgavatam 1.8.38 -- April 30, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.38
+1878	1836	Śrīmad-Bhāgavatam 1.8.39 -- May 1, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.39
+1879	1836	Śrīmad-Bhāgavatam 1.8.39 -- October 19, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.39
+1880	1836	Śrīmad-Bhāgavatam 1.8.40 -- May 2, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.40
+1881	1836	Śrīmad-Bhāgavatam 1.8.40 -- October 20, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.40
+1882	1836	Śrīmad-Bhāgavatam 1.8.41 -- May 3, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.41
+1883	1836	Śrīmad-Bhāgavatam 1.8.41 -- October 21, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.41
+1884	1836	Śrīmad-Bhāgavatam 1.8.42 -- May 4, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.42
+1885	1836	Śrīmad-Bhāgavatam 1.8.42 -- October 22, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.42
+1886	1836	Śrīmad-Bhāgavatam 1.8.43 -- May 5, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.43
+1887	1836	Śrīmad-Bhāgavatam 1.8.43 -- October 23, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.43
+1888	1836	Śrīmad-Bhāgavatam 1.8.44 -- May 6, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.44
+1889	1836	Śrīmad-Bhāgavatam 1.8.44 -- October 24, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.44
+1890	1836	Śrīmad-Bhāgavatam 1.8.45 -- May 7, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.45
+1891	1836	Śrīmad-Bhāgavatam 1.8.45 -- October 25, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.45
+1892	1836	Śrīmad-Bhāgavatam 1.8.46 -- May 8, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.46
+1893	1836	Śrīmad-Bhāgavatam 1.8.46 -- October 26, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.46
+1894	1836	Śrīmad-Bhāgavatam 1.8.47 -- May 9, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.47
+1895	1836	Śrīmad-Bhāgavatam 1.8.47 -- October 27, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.47
+1896	1836	Śrīmad-Bhāgavatam 1.8.48 -- May 10, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.48
+1897	1836	Śrīmad-Bhāgavatam 1.8.48 -- October 28, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.48
+1898	1836	Śrīmad-Bhāgavatam 1.8.49 -- October 29, 1974, Māyāpur	Śrīmad-Bhāgavatam 1.8.49
+1899	1836	Śrīmad-Bhāgavatam 1.8.50 -- May 12, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.50
+1900	1836	Śrīmad-Bhāgavatam 1.8.51 -- May 13, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.51
+1901	1836	Śrīmad-Bhāgavatam 1.8.52 -- May 14, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.8.52
+1903	1902	Śrīmad-Bhāgavatam 1.9.1 -- May 15, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.9.1
+1904	1902	Śrīmad-Bhāgavatam 1.9.2 -- May 16, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.9.2
+1905	1902	Śrīmad-Bhāgavatam 1.9.3 -- May 17, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.9.3
+1906	1902	Śrīmad-Bhāgavatam 1.9.40 -- May 22, 1973, New York	Śrīmad-Bhāgavatam 1.9.40
+1907	1902	Śrīmad-Bhāgavatam 1.9.48 -- June 14, 1973, Māyāpur	Śrīmad-Bhāgavatam 1.9.48
+1908	1902	Śrīmad-Bhāgavatam 1.9.49 -- June 15, 1973, Māyāpur	Śrīmad-Bhāgavatam 1.9.49
+1910	1909	Śrīmad-Bhāgavatam 1.10.1 -- June 16, 1973, Māyāpur	Śrīmad-Bhāgavatam 1.10.1
+1911	1909	Śrīmad-Bhāgavatam 1.10.2 -- June 17, 1973, Māyāpur	Śrīmad-Bhāgavatam 1.10.2
+1912	1909	Śrīmad-Bhāgavatam 1.10.20 -- May 24, 1973, London	Śrīmad-Bhāgavatam 1.10.20
+1913	1909	Śrīmad-Bhāgavatam 1.10.3 -- June 18, 1973, Māyāpur	Śrīmad-Bhāgavatam 1.10.3
+1914	1909	Śrīmad-Bhāgavatam 1.10.3-4 -- March 13, 1975, Tehran	Śrīmad-Bhāgavatam 1.10.3-4
+1915	1909	Śrīmad-Bhāgavatam 1.10.4 -- June 19, 1973, Māyāpur	Śrīmad-Bhāgavatam 1.10.4
+1916	1909	Śrīmad-Bhāgavatam 1.10.4 -- November 25, 1973, London	Śrīmad-Bhāgavatam 1.10.4
+1917	1909	Śrīmad-Bhāgavatam 1.10.5 -- June 20, 1973, Māyāpur	Śrīmad-Bhāgavatam 1.10.5
+1918	1909	Śrīmad-Bhāgavatam 1.10.5 -- August 28, 1973, London	Śrīmad-Bhāgavatam 1.10.5
+1919	1909	Śrīmad-Bhāgavatam 1.10.6 -- June 21, 1973, Māyāpur	Śrīmad-Bhāgavatam 1.10.6
+1920	1909	Śrīmad-Bhāgavatam 1.10.7 -- June 22, 1973, Māyāpur	Śrīmad-Bhāgavatam 1.10.7
+1921	1909	Śrīmad-Bhāgavatam 1.10.11-12 -- June 25, 1973, Māyāpur	Śrīmad-Bhāgavatam 1.10.11-12
+1922	1909	Śrīmad-Bhāgavatam 1.10.13 -- June 26, 1973, Māyāpur	Śrīmad-Bhāgavatam 1.10.13
+1923	1909	Śrīmad-Bhāgavatam 1.10.14 -- June 27, 1973, Māyāpur	Śrīmad-Bhāgavatam 1.10.14
+1925	1924	Śrīmad-Bhāgavatam 1.13.10 -- June 1, 1974, Geneva	Śrīmad-Bhāgavatam 1.13.10
+1926	1924	Śrīmad-Bhāgavatam 1.13.11 -- June 2, 1974, Geneva	Śrīmad-Bhāgavatam 1.13.11
+1927	1924	Śrīmad-Bhāgavatam 1.13.12–14 -- June 3, 1974, Geneva	Śrīmad-Bhāgavatam 1.13.12–14
+1928	1924	Śrīmad-Bhāgavatam 1.13.15 -- June 4, 1974, Geneva	Śrīmad-Bhāgavatam 1.13.15
+1929	1924	Śrīmad-Bhāgavatam 1.14.43 — April 7, 1973 , New York	Śrīmad-Bhāgavatam 1.14.43
+1930	1924	Śrīmad-Bhāgavatam 1.15.1 -- November 29, 1973, New York	Śrīmad-Bhāgavatam 1.15.1
+1931	1924	Śrīmad-Bhāgavatam 1.15.20 -- November 30, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.20
+1932	1924	Śrīmad-Bhāgavatam 1.15.21 -- December 1, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.21
+1933	1924	Śrīmad-Bhāgavatam 1.15.22-23 -- December 2, 1973, Los Angeles,	Śrīmad-Bhāgavatam 1.15.22-23
+1934	1924	Śrīmad-Bhāgavatam 1.15.24 -- December 3, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.24
+1935	1924	Śrīmad-Bhāgavatam 1.15.25-26 -- December 4, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.25-26
+1936	1924	Śrīmad-Bhāgavatam 1.15.27 -- December 5, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.27
+1937	1924	Śrīmad-Bhāgavatam 1.15.27 -- March 6, 1975, New York	Śrīmad-Bhāgavatam 1.15.27
+1938	1924	Śrīmad-Bhāgavatam 1.15.28 -- December 6, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.28
+1939	1924	Śrīmad-Bhāgavatam 1.15.29 -- December 7, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.29
+1940	1924	Śrīmad-Bhāgavatam 1.15.30 -- December 8, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.30
+1941	1924	Śrīmad-Bhāgavatam 1.15.31 -- December 9, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.31
+1942	1924	Śrīmad-Bhāgavatam 1.15.32 -- December 10, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.32
+1943	1924	Śrīmad-Bhāgavatam 1.15.33 -- December 11, 1973, Los Angeles,	Śrīmad-Bhāgavatam 1.15.33
+1944	1924	Śrīmad-Bhāgavatam 1.15.34 -- December 12, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.34
+1945	1924	Śrīmad-Bhāgavatam 1.15.35 -- December 13, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.35
+1946	1924	Śrīmad-Bhāgavatam 1.15.36 -- December 14, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.36
+1947	1924	Śrīmad-Bhāgavatam 1.15.37 -- December 15, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.37
+1948	1924	Śrīmad-Bhāgavatam 1.15.38 -- December 16, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.38
+1949	1924	Śrīmad-Bhāgavatam 1.15.39 -- December 17, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.39
+1950	1924	Śrīmad-Bhāgavatam 1.15.40 -- December 18, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.40
+1951	1924	Śrīmad-Bhāgavatam 1.15.41 -- December 19, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.41
+1952	1924	Śrīmad-Bhāgavatam 1.15.42 -- December 20, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.42
+1953	1924	Śrīmad-Bhāgavatam 1.15.44 -- December 22, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.44
+1954	1924	Śrīmad-Bhāgavatam 1.15.45 -- December 23, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.45
+1955	1924	Śrīmad-Bhāgavatam 1.15.46 -- December 24, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.46
+1956	1924	Śrīmad-Bhāgavatam 1.15.47-48 -- December 25, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.47-48
+1957	1924	Śrīmad-Bhāgavatam 1.15.49 -- December 26, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.49
+1958	1924	Śrīmad-Bhāgavatam 1.15.50 -- December 27, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.50
+1959	1924	Śrīmad-Bhāgavatam 1.15.51 -- December 28, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.15.51
+1961	1960	Śrīmad-Bhāgavatam 1.16.1 -- December 29, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.16.1
+1962	1960	Śrīmad-Bhāgavatam 1.16.2 -- December 30, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.16.2
+1963	1960	Śrīmad-Bhāgavatam 1.16.3 -- December 31, 1973, Los Angeles	Śrīmad-Bhāgavatam 1.16.3
+1964	1960	Śrīmad-Bhāgavatam 1.16.4 -- January 1, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.4
+1965	1960	Śrīmad-Bhāgavatam 1.16.5 -- January 2, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.5
+1966	1960	Śrīmad-Bhāgavatam 1.16.6 -- January 3, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.6
+1967	1960	Śrīmad-Bhāgavatam 1.16.7 -- January 4, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.7
+1968	1960	Śrīmad-Bhāgavatam 1.16.8 -- January 5, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.8
+1969	1960	Śrīmad-Bhāgavatam 1.16.10 -- January 7, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.10
+1970	1960	Śrīmad-Bhāgavatam 1.16.11 -- January 8, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.11
+1971	1960	Śrīmad-Bhāgavatam 1.16.12 -- January 9, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.12
+1972	1960	Śrīmad-Bhāgavatam 1.16.13–15 -- January 10, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.13–15
+1973	1960	Śrīmad-Bhāgavatam 1.16.16 -- January 11, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.16
+1974	1960	Śrīmad-Bhāgavatam 1.16.17 -- January 12, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.17
+1975	1960	Śrīmad-Bhāgavatam 1.16.18 -- January 13, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.18
+1976	1960	Śrīmad-Bhāgavatam 1.16.19 -- January 15, 1974, Honolulu	Śrīmad-Bhāgavatam 1.16.19
+1977	1960	Śrīmad-Bhāgavatam 1.16.19 -- July 9, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.19
+1978	1960	Śrīmad-Bhāgavatam 1.16.20 -- January 16, 1974, Honolulu	Śrīmad-Bhāgavatam 1.16.20
+1979	1960	Śrīmad-Bhāgavatam 1.16.20 -- July 10, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.20
+1980	1960	Śrīmad-Bhāgavatam 1.16.21 -- January 17, 1974, Honolulu	Śrīmad-Bhāgavatam 1.16.21
+1981	1960	Śrīmad-Bhāgavatam 1.16.21 -- July 11, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.21
+1982	1960	Śrīmad-Bhāgavatam 1.16.22 -- January 18, 1974, Honolulu	Śrīmad-Bhāgavatam 1.16.22
+1983	1960	Śrīmad-Bhāgavatam 1.16.22 -- July 12, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.22
+1984	1960	Śrīmad-Bhāgavatam 1.16.23 -- January 19, 1974, Honolulu	Śrīmad-Bhāgavatam 1.16.23
+1985	1960	Śrīmad-Bhāgavatam 1.16.23 -- July 13, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.23
+1986	1960	Śrīmad-Bhāgavatam 1.16.24 -- January 20, 1974, Honolulu	Śrīmad-Bhāgavatam 1.16.24
+1987	1960	Śrīmad-Bhāgavatam 1.16.24 -- July 14, 1974, Los Angeles	Śrīmad-Bhāgavatam 1.16.24
+1988	1960	Śrīmad-Bhāgavatam 1.16.25–30 -- January 21, 1974, Honolulu	Śrīmad-Bhāgavatam 1.16.25–30
+1989	1960	Śrīmad-Bhāgavatam 1.16.26–30 -- January 23, 1974, Honolulu	Śrīmad-Bhāgavatam 1.16.26–30
+1990	1960	Śrīmad-Bhāgavatam 1.16.35 -- January 28, 1974, Honolulu	Śrīmad-Bhāgavatam 1.16.35
+1991	1960	Śrīmad-Bhāgavatam 1.16.36 -- January 30, 1974, Tokyo	Śrīmad-Bhāgavatam 1.16.36
+1994	1993	Śrīmad-Bhāgavatam 2.1.1 -- April 10, 1969, New York	Śrīmad-Bhāgavatam 2.1.1
+1995	1993	Śrīmad-Bhāgavatam 2.1.1 -- July 1, 1970, Los Angeles	Śrīmad-Bhāgavatam 2.1.1
+1996	1993	Śrīmad-Bhāgavatam 2.1.1 -- November 4, 1973, Delhi	Śrīmad-Bhāgavatam 2.1.1
+1997	1993	Śrīmad-Bhāgavatam 2.1.1 -- March 16, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 2.1.1
+1998	1993	Śrīmad-Bhāgavatam 2.1.1 -- June 9, 1974, Paris	Śrīmad-Bhāgavatam 2.1.1
+1999	1993	Śrīmad-Bhāgavatam 2.1.1-2 -- April 19, 1973, New York	Śrīmad-Bhāgavatam 2.1.1-2
+2000	1993	Śrīmad-Bhāgavatam 2.1.1-5 -- December 22, 1969, Boston	Śrīmad-Bhāgavatam 2.1.1-5
+2001	1993	Śrīmad-Bhāgavatam 2.1.1-6 Excerpts -- July 2, 1970, Los Angeles	Śrīmad-Bhāgavatam 2.1.1-6 Excerpts
+2002	1993	Śrīmad-Bhāgavatam 2.1.1–5 -- June 26, 1974, Melbourne	Śrīmad-Bhāgavatam 2.1.1–5
+2003	1993	Śrīmad-Bhāgavatam 2.1.11 -- August 1, 1970, Los Angeles	Śrīmad-Bhāgavatam 2.1.11
+2004	1993	Śrīmad-Bhāgavatam 2.1.2 -- September 13, 1971, Mombassa	Śrīmad-Bhāgavatam 2.1.2
+2005	1993	Śrīmad-Bhāgavatam 2.1.2 [Significance of Ṣaḍ-gosvāmy-aṣṭaka] -- March 17, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 2.1.2
+2006	1993	Śrīmad-Bhāgavatam 2.1.2 -- June 11, 1974, Paris	Śrīmad-Bhāgavatam 2.1.2
+2007	1993	Śrīmad-Bhāgavatam 2.1.2-5 -- October 23, 1968, Montreal	Śrīmad-Bhāgavatam 2.1.2-5
+2008	1993	Śrīmad-Bhāgavatam 2.1.3 -- November 6, 1973, Delhi	Śrīmad-Bhāgavatam 2.1.3
+2009	1993	Śrīmad-Bhāgavatam 2.1.3 -- March 18, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 2.1.3
+2010	1993	Śrīmad-Bhāgavatam 2.1.3 -- June 12, 1974, Paris	Śrīmad-Bhāgavatam 2.1.3
+2011	1993	Śrīmad-Bhāgavatam 2.1.4 -- November 7, 1973, Delhi	Śrīmad-Bhāgavatam 2.1.4
+2012	1993	Śrīmad-Bhāgavatam 2.1.4 -- March 19, 1974, Vṛndāvana	Śrīmad-Bhāgavatam 2.1.4
+2013	1993	Śrīmad-Bhāgavatam 2.1.5 -- August 13, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.1.5
+2014	1993	Śrīmad-Bhāgavatam 2.1.5 -- November 8, 1973, Delhi	Śrīmad-Bhāgavatam 2.1.5
+2015	1993	Śrīmad-Bhāgavatam 2.1.5 -- June 13, 1974, Paris	Śrīmad-Bhāgavatam 2.1.5
+2016	1993	Śrīmad-Bhāgavatam 2.1.6 -- June 14, 1974, Paris	Śrīmad-Bhāgavatam 2.1.6
+2017	1993	Śrīmad-Bhāgavatam 2.1.7 -- June 15, 1974, Paris	Śrīmad-Bhāgavatam 2.1.7
+2019	2018	Śrīmad-Bhāgavatam 2.2.5 -- December 2, 1968, Los Angeles	Śrīmad-Bhāgavatam 2.2.5
+2020	2018	Śrīmad-Bhāgavatam 2.2.5 -- March 5, 1975, New York	Śrīmad-Bhāgavatam 2.2.5
+2021	2018	Śrīmad-Bhāgavatam 2.2.6 -- March 6, 1975, New York	Śrīmad-Bhāgavatam 2.2.6
+2022	2018	Śrīmad-Bhāgavatam 2.3.1 -- May 19, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.1
+2023	2018	Śrīmad-Bhāgavatam 2.3.1-3 -- May 22, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.1-3
+2024	2018	Śrīmad-Bhāgavatam 2.3.1-4 -- May 24, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.1-4
+2025	2018	Śrīmad-Bhāgavatam 2.3.10 -- May 28, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.10
+2026	2018	Śrīmad-Bhāgavatam 2.3.11-12 -- May 29, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.11-12
+2027	2018	Śrīmad-Bhāgavatam 2.3.13-14 -- May 30, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.13-14
+2028	2018	Śrīmad-Bhāgavatam 2.3.14-15 -- May 31, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.14-15
+2029	2018	Śrīmad-Bhāgavatam 2.3.15 -- June 1, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.15
+2030	2018	Śrīmad-Bhāgavatam 2.3.17 -- July 12, 1969, Los Angeles	Śrīmad-Bhāgavatam 2.3.17
+2031	2018	Śrīmad-Bhāgavatam 2.3.17 -- June 12, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.17
+2032	2018	Śrīmad-Bhāgavatam 2.3.18-19 -- June 13, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.18-19
+2033	2018	Śrīmad-Bhāgavatam 2.3.18-19 -- March 23, 1977, Bombay, At Cross Maidan Pandal	Śrīmad-Bhāgavatam 2.3.18-19
+2034	2018	Śrīmad-Bhāgavatam 2.3.19 -- June 14, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.19
+2035	2018	Śrīmad-Bhāgavatam 2.3.19 -- June 15, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.19
+2036	2018	Śrīmad-Bhāgavatam 2.3.2-3 -- May 20, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.2-3
+2037	2018	Śrīmad-Bhāgavatam 2.3.20 -- June 16, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.20
+2038	2018	Śrīmad-Bhāgavatam 2.3.20 -- March 24, 1977, Bombay At Cross Maidan Pandal	Śrīmad-Bhāgavatam 2.3.20
+2039	2018	Śrīmad-Bhāgavatam 2.3.20-21 -- June 17, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.20-21
+2040	2018	Śrīmad-Bhāgavatam 2.3.21 -- June 18, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.21
+2041	2018	Śrīmad-Bhāgavatam 2.3.22 -- June 19, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.22
+2042	2018	Śrīmad-Bhāgavatam 2.3.23 -- June 20, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.23
+2043	2018	Śrīmad-Bhāgavatam 2.3.24 -- June 22, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.24
+2044	2018	Śrīmad-Bhāgavatam 2.3.25 -- June 23, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.25
+2045	2018	Śrīmad-Bhāgavatam 2.3.8, and Initiations -- May 25, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.8, and Initiations
+2046	2018	Śrīmad-Bhāgavatam 2.3.9 -- May 26, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.3.9
+2047	2018	Śrīmad-Bhāgavatam 2.4.1 -- June 24, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.4.1
+2048	2018	Śrīmad-Bhāgavatam 2.4.2 -- June 25, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.4.2
+2049	2018	Śrīmad-Bhāgavatam 2.4.2 -- June 26, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.4.2
+2050	2018	Śrīmad-Bhāgavatam 2.4.3-4 -- June 27, 1972, Los Angeles	Śrīmad-Bhāgavatam 2.4.3-4
+2052	2051	Śrīmad-Bhāgavatam 2.8.7 -- February 10, 1975, Los Angeles	Śrīmad-Bhāgavatam 2.8.7
+2053	2051	Śrīmad-Bhāgavatam 2.9.1 -- April 20, 1972, Tokyo	Śrīmad-Bhāgavatam 2.9.1
+2054	2051	Śrīmad-Bhāgavatam 2.9.10 -- April 26, 1972, Tokyo	Śrīmad-Bhāgavatam 2.9.10
+2055	2051	Śrīmad-Bhāgavatam 2.9.11 -- April 27, 1972, Tokyo	Śrīmad-Bhāgavatam 2.9.11
+2056	2051	Śrīmad-Bhāgavatam 2.9.11-15 -- April 28, 1972, Tokyo	Śrīmad-Bhāgavatam 2.9.11-15
+2057	2051	Śrīmad-Bhāgavatam 2.9.13 -- April 12, 1972, Melbourne	Śrīmad-Bhāgavatam 2.9.13
+2058	2051	Śrīmad-Bhāgavatam 2.9.14 -- April 13, 1972, Melbourne	Śrīmad-Bhāgavatam 2.9.14
+2059	2051	Śrīmad-Bhāgavatam 2.9.16 -- April 30, 1972, Tokyo	Śrīmad-Bhāgavatam 2.9.16
+2060	2051	Śrīmad-Bhāgavatam 2.9.2 -- April 4, 1972, Melbourne	Śrīmad-Bhāgavatam 2.9.2
+2061	2051	Śrīmad-Bhāgavatam 2.9.3 -- April 5, 1972, Melbourne	Śrīmad-Bhāgavatam 2.9.3
+2062	2051	Śrīmad-Bhāgavatam 2.9.4 -- April 22, 1972, Japan	Śrīmad-Bhāgavatam 2.9.4
+2063	2051	Śrīmad-Bhāgavatam 2.9.4-8 -- April 23, 1972, Tokyo	Śrīmad-Bhāgavatam 2.9.4-8
+2064	2051	Śrīmad-Bhāgavatam 2.9.7 -- April 24, 1972, Tokyo	Śrīmad-Bhāgavatam 2.9.7
+2065	2051	Śrīmad-Bhāgavatam 2.9.9 -- April 25, 1972, Tokyo	Śrīmad-Bhāgavatam 2.9.9
+2068	2067	Śrīmad-Bhāgavatam 3.1.10 -- May 21, 1973, Dallas	Śrīmad-Bhāgavatam 3.1.10
+2069	2067	Śrīmad-Bhāgavatam 3.12.19 -- March 3, 1975, Dallas	Śrīmad-Bhāgavatam 3.12.19
+2070	2067	Śrīmad-Bhāgavatam 3.22.19 -- August 8, 1976, Tehran	Śrīmad-Bhāgavatam 3.22.19
+2071	2067	Śrīmad-Bhāgavatam 3.22.20 -- August 9, 1976, Tehran	Śrīmad-Bhāgavatam 3.22.20
+2072	2067	Śrīmad-Bhāgavatam 3.22.21 -- August 10, 1976, Tehran	Śrīmad-Bhāgavatam 3.22.21
+2073	2067	Śrīmad-Bhāgavatam 3.22.22 and Initiations -- August 12, 1976, Tehran	Śrīmad-Bhāgavatam 3.22.22
+2075	2074	Śrīmad-Bhāgavatam 3.25.1 -- November 1, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.1
+2076	2074	Śrīmad-Bhāgavatam 3.25.10 -- November 10, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.10
+2077	2074	Śrīmad-Bhāgavatam 3.25.11 -- November 11, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.11
+2078	2074	Śrīmad-Bhāgavatam 3.25.12 -- November 12, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.12
+2079	2074	Śrīmad-Bhāgavatam 3.25.13 -- November 10, 1968, Los Angeles	Śrīmad-Bhāgavatam 3.25.13
+2080	2074	Śrīmad-Bhāgavatam 3.25.13 -- November 13, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.13
+2081	2074	Śrīmad-Bhāgavatam 3.25.14 -- November 14, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.14
+2082	2074	Śrīmad-Bhāgavatam 3.25.15 -- November 15, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.15
+2083	2074	Śrīmad-Bhāgavatam 3.25.16 -- November 16, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.16
+2084	2074	Śrīmad-Bhāgavatam 3.25.17 -- November 17, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.17
+2085	2074	Śrīmad-Bhāgavatam 3.25.18 -- November 18, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.18
+2086	2074	Śrīmad-Bhāgavatam 3.25.19 -- November 19, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.19
+2087	2074	Śrīmad-Bhāgavatam 3.25.2 -- November 2, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.2
+2088	2074	Śrīmad-Bhāgavatam 3.25.20 -- November 20, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.20
+2089	2074	Śrīmad-Bhāgavatam 3.25.21 -- November 21, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.21
+2090	2074	Śrīmad-Bhāgavatam 3.25.22 -- November 22, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.22
+2091	2074	Śrīmad-Bhāgavatam 3.25.23 -- November 23, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.23
+2092	2074	Śrīmad-Bhāgavatam 3.25.24 -- November 24, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.24
+2093	2074	Śrīmad-Bhāgavatam 3.25.25 -- November 25, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.25
+2094	2074	Śrīmad-Bhāgavatam 3.25.26 -- November 26, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.26
+2095	2074	Śrīmad-Bhāgavatam 3.25.27 -- November 27, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.27
+2096	2074	Śrīmad-Bhāgavatam 3.25.28 -- November 28, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.28
+2097	2074	Śrīmad-Bhāgavatam 3.25.29 -- November 29, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.29
+2098	2074	Śrīmad-Bhāgavatam 3.25.3 -- November 3, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.3
+2099	2074	Śrīmad-Bhāgavatam 3.25.30 -- November 30, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.30
+2100	2074	Śrīmad-Bhāgavatam 3.25.31 -- December 1, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.31
+2101	2074	Śrīmad-Bhāgavatam 3.25.32 -- December 2, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.32
+2102	2074	Śrīmad-Bhāgavatam 3.25.33–34 -- December 3, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.33–34
+2103	2074	Śrīmad-Bhāgavatam 3.25.35 -- December 4, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.35
+2104	2074	Śrīmad-Bhāgavatam 3.25.36 -- December 5, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.36
+2105	2074	Śrīmad-Bhāgavatam 3.25.37 -- December 6, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.37
+2106	2074	Śrīmad-Bhāgavatam 3.25.38 -- December 7, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.38
+2107	2074	Śrīmad-Bhāgavatam 3.25.39–40 -- December 8, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.39–40
+2108	2074	Śrīmad-Bhāgavatam 3.25.4 -- November 4, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.4
+2109	2074	Śrīmad-Bhāgavatam 3.25.41 -- December 9, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.41
+2110	2074	Śrīmad-Bhāgavatam 3.25.42 -- December 10, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.42
+2111	2074	Śrīmad-Bhāgavatam 3.25.43 -- December 11, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.43
+2112	2074	Śrīmad-Bhāgavatam 3.25.44 -- December 12, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.44
+2113	2074	Śrīmad-Bhāgavatam 3.25.5–6 -- November 5, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.5–6
+2114	2074	Śrīmad-Bhāgavatam 3.25.7 -- November 7, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.7
+2115	2074	Śrīmad-Bhāgavatam 3.25.8 -- November 8, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.8
+2116	2074	Śrīmad-Bhāgavatam 3.25.9 -- November 9, 1974, Bombay	Śrīmad-Bhāgavatam 3.25.9
+2118	2117	Śrīmad-Bhāgavatam 3.26.1 -- December 13, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.1
+2119	2117	Śrīmad-Bhāgavatam 3.26.10 -- December 22, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.10
+2120	2117	Śrīmad-Bhāgavatam 3.26.11–14 -- December 23, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.11–14
+2121	2117	Śrīmad-Bhāgavatam 3.26.15 -- December 24, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.15
+2122	2117	Śrīmad-Bhāgavatam 3.26.16 -- December 25, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.16
+2123	2117	Śrīmad-Bhāgavatam 3.26.17 -- December 26, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.17
+2124	2117	Śrīmad-Bhāgavatam 3.26.18 -- December 27, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.18
+2125	2117	Śrīmad-Bhāgavatam 3.26.19 -- December 28, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.19
+2126	2117	Śrīmad-Bhāgavatam 3.26.2 -- December 14, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.2
+2127	2117	Śrīmad-Bhāgavatam 3.26.20 -- December 29, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.20
+2128	2117	Śrīmad-Bhāgavatam 3.26.21 -- December 30, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.21
+2129	2117	Śrīmad-Bhāgavatam 3.26.22 -- December 31, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.22
+2130	2117	Śrīmad-Bhāgavatam 3.26.23-4 -- January 1, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.23-4
+2131	2117	Śrīmad-Bhāgavatam 3.26.25 -- January 2, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.25
+2132	2117	Śrīmad-Bhāgavatam 3.26.26 -- January 3, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.26
+2133	2117	Śrīmad-Bhāgavatam 3.26.27 -- January 4, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.27
+2134	2117	Śrīmad-Bhāgavatam 3.26.28 -- January 5, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.28
+2135	2117	Śrīmad-Bhāgavatam 3.26.29 -- January 6, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.29
+2136	2117	Śrīmad-Bhāgavatam 3.26.3 -- December 15, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.3
+2137	2117	Śrīmad-Bhāgavatam 3.26.30 -- January 7, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.30
+2138	2117	Śrīmad-Bhāgavatam 3.26.31 -- January 8, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.31
+2139	2117	Śrīmad-Bhāgavatam 3.26.32 -- January 9, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.32
+2140	2117	Śrīmad-Bhāgavatam 3.26.34 -- January 11, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.34
+2141	2117	Śrīmad-Bhāgavatam 3.26.35-36 -- January 12, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.35-36
+2142	2117	Śrīmad-Bhāgavatam 3.26.39 -- January 14, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.39
+2143	2117	Śrīmad-Bhāgavatam 3.26.4 -- December 16, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.4
+2144	2117	Śrīmad-Bhāgavatam 3.26.40 -- January 15, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.40
+2145	2117	Śrīmad-Bhāgavatam 3.26.41 -- January 16, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.41
+2146	2117	Śrīmad-Bhāgavatam 3.26.42 -- January 17, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.42
+2147	2117	Śrīmad-Bhāgavatam 3.26.43 -- January 18, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.43
+2148	2117	Śrīmad-Bhāgavatam 3.26.44 -- January 19, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.44
+2149	2117	Śrīmad-Bhāgavatam 3.26.45 -- January 20, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.45
+2150	2117	Śrīmad-Bhāgavatam 3.26.46 -- January 21, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.46
+2151	2117	Śrīmad-Bhāgavatam 3.26.47 -- January 22, 1975, Bombay	Śrīmad-Bhāgavatam 3.26.47
+2152	2117	Śrīmad-Bhāgavatam 3.26.5 -- December 17, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.5
+2153	2117	Śrīmad-Bhāgavatam 3.26.6 -- December 18, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.6
+2154	2117	Śrīmad-Bhāgavatam 3.26.7 -- December 19, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.7
+2155	2117	Śrīmad-Bhāgavatam 3.26.8 -- December 20, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.8
+2156	2117	Śrīmad-Bhāgavatam 3.26.9 -- December 21, 1974, Bombay	Śrīmad-Bhāgavatam 3.26.9
+2158	2157	Śrīmad-Bhāgavatam 3.28.1--Sunday Feast -- June 1, 1975, Honolulu	Śrīmad-Bhāgavatam 3.28.1--Sunday Feast
+2159	2157	Śrīmad-Bhāgavatam 3.28.17 -- October 26, 1975, Nairobi	Śrīmad-Bhāgavatam 3.28.17
+2160	2157	Śrīmad-Bhāgavatam 3.28.18 -- October 27, 1975, Nairobi	Śrīmad-Bhāgavatam 3.28.18
+2161	2157	Śrīmad-Bhāgavatam 3.28.19 -- October 29, 1975, Nairobi	Śrīmad-Bhāgavatam 3.28.19
+2162	2157	Śrīmad-Bhāgavatam 3.28.20 -- October 30, 1975, Nairobi	Śrīmad-Bhāgavatam 3.28.20
+2163	2157	Śrīmad-Bhāgavatam 3.28.21 -- November 1, 1975, Nairobi	Śrīmad-Bhāgavatam 3.28.21
+2165	2164	Śrīmad-Bhāgavatam 4.14.14 -- November 16, 1971, New Delhi	 Śrīmad-Bhāgavatam 4.14.14
+2168	2167	Śrīmad-Bhāgavatam 5.5.1 -- January 20, 1969, Los Angeles	 Śrīmad-Bhāgavatam 5.5.1
+2169	2167	Śrīmad-Bhāgavatam 5.5.1 -- September 12, 1969, Tittenhurst, London	Śrīmad-Bhāgavatam 5.5.1
+2170	2167	Śrīmad-Bhāgavatam 5.5.1 -- August 30, 1971, London	Śrīmad-Bhāgavatam 5.5.1
+2171	2167	Śrīmad-Bhāgavatam 5.5.1 -- April 10, 1975, Hyderabad	Śrīmad-Bhāgavatam 5.5.1
+2172	2167	Śrīmad-Bhāgavatam 5.5.1 -- October 20, 1975, Johannesburg	Śrīmad-Bhāgavatam 5.5.1
+2173	2167	Śrīmad-Bhāgavatam  5.5.1  in Hindi -- November 14, 1975, Bombay	Śrīmad-Bhāgavatam 5.5.1
+2174	2167	Śrīmad-Bhāgavatam 5.5.1 -- November 28, 1975, Delhi	Śrīmad-Bhāgavatam 5.5.1
+2175	2167	Śrīmad-Bhāgavatam 5.5.1 in Hindi -- January 12, 1976, Bombay	Śrīmad-Bhāgavatam 5.5.1
+2176	2167	Śrīmad-Bhāgavatam 5.5.1 in Hindi -- August 29, 1976, Delhi	Śrīmad-Bhāgavatam 5.5.1
+2177	2167	Śrīmad-Bhāgavatam 5.5.1 -- October 22, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.1
+2178	2167	Śrīmad-Bhāgavatam 5.5.1 -- October 23, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.1
+2179	2167	Śrīmad-Bhāgavatam 5.5.1 in Hindi -- December 24, 1976, Bombay	Śrīmad-Bhāgavatam 5.5.1
+2180	2167	Śrīmad-Bhāgavatam 5.5.1 -- December 25, 1976, Bombay	Śrīmad-Bhāgavatam 5.5.1
+2181	2167	Śrīmad-Bhāgavatam 5.5.1-2 -- September 13, 1969, Tittenhurst, London	Śrīmad-Bhāgavatam 5.5.1-2
+2182	2167	Śrīmad-Bhāgavatam 5.5.1-2 -- August 12, 1973, Paris	Śrīmad-Bhāgavatam 5.5.1-2
+2183	2167	Śrīmad-Bhāgavatam 5.5.1-2 -- September 7, 1973, Stockholm	Śrīmad-Bhāgavatam 5.5.1-2
+2184	2167	Śrīmad-Bhāgavatam 5.5.1-2 -- March 25, 1977, Bombay	Śrīmad-Bhāgavatam 5.5.1-2
+2185	2167	Śrīmad-Bhāgavatam 5.5.1-8 -- September 6, 1973, Stockholm	Śrīmad-Bhāgavatam 5.5.1-8
+2186	2167	Śrīmad-Bhāgavatam 5.5.1-8 -- September 8, 1973, Stockholm	Śrīmad-Bhāgavatam 5.5.1-8
+2187	2167	Śrīmad-Bhāgavatam 5.5.10-13 -- November 1, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.10-13
+2188	2167	Śrīmad-Bhāgavatam 5.5.14 -- November 2, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.14
+2189	2167	Śrīmad-Bhāgavatam 5.5.15 -- November 3, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.15
+2190	2167	Śrīmad-Bhāgavatam 5.5.16 -- November 4, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.16
+2191	2167	Śrīmad-Bhāgavatam 5.5.17 -- November 5, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.17
+2192	2167	Śrīmad-Bhāgavatam 5.5.18 -- November 6, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.18
+2193	2167	Śrīmad-Bhāgavatam 5.5.19 -- November 7, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.19
+2194	2167	Śrīmad-Bhāgavatam 5.5.2 -- April 28, 1969, Boston	Śrīmad-Bhāgavatam 5.5.2
+2195	2167	Śrīmad-Bhāgavatam 5.5.2 -- September 17, 1969, London	Śrīmad-Bhāgavatam 5.5.2
+2196	2167	Śrīmad-Bhāgavatam 5.5.2 -- April 11, 1975, Hyderabad	Śrīmad-Bhāgavatam 5.5.2
+2197	2167	Śrīmad-Bhāgavatam 5.5.2 -- April 12, 1975, Hyderabad	Śrīmad-Bhāgavatam 5.5.2
+2198	2167	Śrīmad-Bhāgavatam 5.5.2 -- April 13, 1975, Hyderabad	Śrīmad-Bhāgavatam 5.5.2
+2199	2167	Śrīmad-Bhāgavatam 5.5.2 -- October 22, 1975, Johannesburg	Śrīmad-Bhāgavatam 5.5.2
+2200	2167	Śrīmad-Bhāgavatam 5.5.2 -- October 24, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.2
+2201	2167	Śrīmad-Bhāgavatam 5.5.2 in Hindi -- December 25, 1976, Bombay	Śrīmad-Bhāgavatam 5.5.2
+2202	2167	Śrīmad-Bhāgavatam 5.5.2 in Bengali -- January 13, 1976, Calcutta	Śrīmad-Bhāgavatam 5.5.2 in Bengali
+2203	2167	Śrīmad-Bhāgavatam 5.5.2 in Bengali -- January 14, 1976, Calcutta	Śrīmad-Bhāgavatam 5.5.2 in Bengali
+2204	2167	Śrīmad-Bhāgavatam 5.5.20 -- November 8, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.20
+2205	2167	Śrīmad-Bhāgavatam 5.5.21-22 -- November 9, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.21-22
+2206	2167	Śrīmad-Bhāgavatam 5.5.23 -- November 10, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.23
+2207	2167	Śrīmad-Bhāgavatam 5.5.24 -- November 11, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.24
+2208	2167	Śrīmad-Bhāgavatam 5.5.25 -- November 12, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.25
+2209	2167	Śrīmad-Bhāgavatam 5.5.26 -- November 13, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.26
+2210	2167	Śrīmad-Bhāgavatam 5.5.27 -- November 14, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.27
+2211	2167	Śrīmad-Bhāgavatam 5.5.28 -- November 15, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.28
+2212	2167	Śrīmad-Bhāgavatam 5.5.29 -- November 16, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.29
+2213	2167	Śrīmad-Bhāgavatam 5.5.3 -- May 4, 1968, Boston	Śrīmad-Bhāgavatam 5.5.3
+2214	2167	Śrīmad-Bhāgavatam 5.5.3 -- September 9, 1973, Stockholm	Śrīmad-Bhāgavatam 5.5.3
+2215	2167	Śrīmad-Bhāgavatam 5.5.3 -- April 15, 1975, Hyderabad	Śrīmad-Bhāgavatam 5.5.3
+2216	2167	Śrīmad-Bhāgavatam 5.5.3 -- October 25, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.3
+2217	2167	Śrīmad-Bhāgavatam 5.5.3-4 -- March 29, 1977, Bombay	Śrīmad-Bhāgavatam 5.5.3-4
+2218	2167	Śrīmad-Bhāgavatam 5.5.30 -- November 17, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.30
+2219	2167	Śrīmad-Bhāgavatam 5.5.31 -- November 18, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.31
+2220	2167	Śrīmad-Bhāgavatam 5.5.32 -- November 19, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.32
+2221	2167	Śrīmad-Bhāgavatam 5.5.33 -- November 20, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.33
+2222	2167	Śrīmad-Bhāgavatam 5.5.34 -- November 21, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.34
+2223	2167	Śrīmad-Bhāgavatam 5.5.35 -- November 22, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.35
+2224	2167	Śrīmad-Bhāgavatam 5.5.4 -- October 26, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.4
+2225	2167	Śrīmad-Bhāgavatam 5.5.5 -- September 3, 1971, London	Śrīmad-Bhāgavatam 5.5.5
+2226	2167	Śrīmad-Bhāgavatam 5.5.5 -- September 10, 1973, Stockholm	Śrīmad-Bhāgavatam 5.5.5
+2227	2167	Śrīmad-Bhāgavatam 5.5.5 -- October 27, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.5
+2228	2167	Śrīmad-Bhāgavatam 5.5.6 -- October 28, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.6
+2229	2167	Śrīmad-Bhāgavatam 5.5.7 -- October 29, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.7
+2230	2167	Śrīmad-Bhāgavatam 5.5.8 -- October 30, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.8
+2231	2167	Śrīmad-Bhāgavatam 5.5.9 -- October 31, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.5.9
+2233	2232	Śrīmad-Bhāgavatam 5.6.1 -- November 23, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.6.1
+2234	2232	Śrīmad-Bhāgavatam 5.6.10 -- December 28, 1976, Bombay	Śrīmad-Bhāgavatam 5.6.10
+2235	2232	Śrīmad-Bhāgavatam 5.6.11 -- December 29, 1976, Bombay	Śrīmad-Bhāgavatam 5.6.11
+2236	2232	Śrīmad-Bhāgavatam 5.6.2 -- November 24, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.6.2
+2237	2232	Śrīmad-Bhāgavatam 5.6.3 -- November 25, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.6.3
+2238	2232	Śrīmad-Bhāgavatam 5.6.4 -- November 26, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.6.4
+2239	2232	Śrīmad-Bhāgavatam 5.6.5 -- November 27, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.6.5
+2240	2232	Śrīmad-Bhāgavatam 5.6.6 -- November 28, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.6.6
+2241	2232	Śrīmad-Bhāgavatam 5.6.7 -- November 29, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.6.7
+2242	2232	Śrīmad-Bhāgavatam 5.6.8 -- November 30, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 5.6.8
+2245	2244	Śrīmad-Bhāgavatam 6.1.1 -- May 21, 1975, Melbourne	Śrīmad-Bhāgavatam 6.1.1
+2246	2244	Śrīmad-Bhāgavatam 6.1.1 -- May 5, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.1
+2247	2244	Śrīmad-Bhāgavatam 6.1.1-2 -- May 22, 1975, Melbourne	Śrīmad-Bhāgavatam 6.1.1-2
+2248	2244	Śrīmad-Bhāgavatam 6.1.1-4 -- May 20, 1975, Melbourne	Śrīmad-Bhāgavatam 6.1.1-4
+2249	2244	Śrīmad-Bhāgavatam 6.1.10 -- June 23, 1975, Los Angeles	Śrīmad-Bhāgavatam 6.1.10
+2250	2244	Śrīmad-Bhāgavatam 6.1.10 -- May 11, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.10
+2251	2244	Śrīmad-Bhāgavatam 6.1.11 -- July 25, 1971, New York	Śrīmad-Bhāgavatam 6.1.11
+2252	2244	Śrīmad-Bhāgavatam 6.1.11 -- May 12, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.11
+2253	2244	Śrīmad-Bhāgavatam 6.1.12 -- June 25, 1975, Los Angeles	Śrīmad-Bhāgavatam 6.1.12
+2254	2244	Śrīmad-Bhāgavatam 6.1.12 -- May 13, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.12
+2255	2244	Śrīmad-Bhāgavatam 6.1.13-14 -- July 27, 1971, New York	Śrīmad-Bhāgavatam 6.1.13-14
+2256	2244	Śrīmad-Bhāgavatam 6.1.13-14 -- June 26, 1975, Los Angeles	Śrīmad-Bhāgavatam 6.1.13-14
+2257	2244	Śrīmad-Bhāgavatam 6.1.13-14 -- May 14, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.13-14
+2258	2244	Śrīmad-Bhāgavatam 6.1.14 -- November 10, 1970, Bombay	Śrīmad-Bhāgavatam 6.1.14
+2259	2244	Śrīmad-Bhāgavatam 6.1.15 -- August 1, 1971, New York	Śrīmad-Bhāgavatam 6.1.15
+2260	2244	Śrīmad-Bhāgavatam 6.1.15 -- August 3, 1971, London	Śrīmad-Bhāgavatam 6.1.15
+2261	2244	Śrīmad-Bhāgavatam 6.1.15 -- February 22, 1973, Auckland	Śrīmad-Bhāgavatam 6.1.15
+2262	2244	Śrīmad-Bhāgavatam 6.1.15 -- June 27, 1975, Los Angeles	Śrīmad-Bhāgavatam 6.1.15
+2263	2244	Śrīmad-Bhāgavatam 6.1.15 -- June 28, 1975, Denver	Śrīmad-Bhāgavatam 6.1.15
+2264	2244	Śrīmad-Bhāgavatam 6.1.15 -- January 8, 1976, Nellore	Śrīmad-Bhāgavatam 6.1.15
+2265	2244	Śrīmad-Bhāgavatam 6.1.15 -- May 15, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.15
+2266	2244	Śrīmad-Bhāgavatam 6.1.16 -- June 29, 1975, Denver	Śrīmad-Bhāgavatam 6.1.16
+2267	2244	Śrīmad-Bhāgavatam 6.1.16 -- May 16, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.16
+2268	2244	Śrīmad-Bhāgavatam 6.1.17 -- June 30, 1975, Denver	Śrīmad-Bhāgavatam 6.1.17
+2269	2244	Śrīmad-Bhāgavatam 6.1.17 -- May 17, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.17
+2270	2244	Śrīmad-Bhāgavatam 6.1.18 -- July 1, 1975, Denver	Śrīmad-Bhāgavatam 6.1.18
+2271	2244	Śrīmad-Bhāgavatam 6.1.18 -- May 18, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.18
+2272	2244	Śrīmad-Bhāgavatam 6.1.19 -- January 15, 1970, Los Angeles	Śrīmad-Bhāgavatam 6.1.19
+2273	2244	Śrīmad-Bhāgavatam 6.1.19 and Conversation -- November 15, 1970, Bombay	Śrīmad-Bhāgavatam 6.1.19
+2274	2244	Śrīmad-Bhāgavatam 6.1.19 -- July 2, 1975, Denver	Śrīmad-Bhāgavatam 6.1.19
+2275	2244	Śrīmad-Bhāgavatam 6.1.19 -- May 19, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.19
+2276	2244	Śrīmad-Bhāgavatam 6.1.2 -- May 6, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.2
+2277	2244	Śrīmad-Bhāgavatam 6.1.20 -- July 4, 1975, Chicago	Śrīmad-Bhāgavatam 6.1.20
+2278	2244	Śrīmad-Bhāgavatam 6.1.20 -- May 20, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.20
+2279	2244	Śrīmad-Bhāgavatam 6.1.21 -- July 5, 1975, Chicago	Śrīmad-Bhāgavatam 6.1.21
+2280	2244	Śrīmad-Bhāgavatam 6.1.21 -- May 21, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.21
+2281	2244	Śrīmad-Bhāgavatam 6.1.22 -- December 13, 1970, Indore	Śrīmad-Bhāgavatam 6.1.22
+2282	2244	Śrīmad-Bhāgavatam 6.1.22 -- July 6, 1975, Chicago	Śrīmad-Bhāgavatam 6.1.22
+2283	2244	Śrīmad-Bhāgavatam 6.1.22 -- May 22, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.22
+2284	2244	Śrīmad-Bhāgavatam 6.1.23 -- July 7, 1975, Chicago	Śrīmad-Bhāgavatam 6.1.23
+2285	2244	Śrīmad-Bhāgavatam 6.1.23 -- May 23, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.23
+2286	2244	Śrīmad-Bhāgavatam 6.1.24 -- July 8, 1975, Chicago	Śrīmad-Bhāgavatam 6.1.24
+2287	2244	Śrīmad-Bhāgavatam 6.1.24 -- May 24, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.24
+2288	2244	Śrīmad-Bhāgavatam 6.1.25 -- July 9, 1975, Chicago	Śrīmad-Bhāgavatam 6.1.25
+2289	2244	Śrīmad-Bhāgavatam 6.1.25 -- May 25, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.25
+2290	2244	Śrīmad-Bhāgavatam 6.1.26 -- July 11, 1975, Chicago	Śrīmad-Bhāgavatam 6.1.26
+2291	2244	Śrīmad-Bhāgavatam 6.1.26 -- May 26, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.26
+2292	2244	Śrīmad-Bhāgavatam 6.1.26-27 -- Philadelphia, July 12, 1975	Śrīmad-Bhāgavatam 6.1.26-27
+2293	2244	Śrīmad-Bhāgavatam 6.1.27 -- December 15, 1970, Indore	Śrīmad-Bhāgavatam 6.1.27
+2294	2244	Śrīmad-Bhāgavatam 6.1.27 -- May 27, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.27
+2295	2244	Śrīmad-Bhāgavatam 6.1.27-34 -- December 17, 1970, Surat	Śrīmad-Bhāgavatam 6.1.27-34
+2296	2244	Śrīmad-Bhāgavatam 6.1.28-29 -- July 13, 1975, Philadelphia	Śrīmad-Bhāgavatam 6.1.28-29
+2297	2244	Śrīmad-Bhāgavatam 6.1.28-29 -- May 28, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.28-29
+2298	2244	Śrīmad-Bhāgavatam 6.1.30 -- July 14, 1975, Philadelphia	Śrīmad-Bhāgavatam 6.1.30
+2299	2244	Śrīmad-Bhāgavatam 6.1.30 -- May 29, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.30
+2300	2244	Śrīmad-Bhāgavatam 6.1.31 -- July 16, 1975, San Francisco	Śrīmad-Bhāgavatam 6.1.31
+2301	2244	Śrīmad-Bhāgavatam 6.1.31 -- May 30, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.31
+2302	2244	Śrīmad-Bhāgavatam 6.1.32 -- December 16, 1970, Surat	Śrīmad-Bhāgavatam 6.1.32
+2303	2244	Śrīmad-Bhāgavatam 6.1.32 -- July 17, 1975, San Francisco	Śrīmad-Bhāgavatam 6.1.32
+2304	2244	Śrīmad-Bhāgavatam 6.1.32 -- May 31, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.32
+2305	2244	Śrīmad-Bhāgavatam 6.1.33 -- July 18, 1975, San Francisco	Śrīmad-Bhāgavatam 6.1.33
+2306	2244	Śrīmad-Bhāgavatam 6.1.33 -- June 1, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.33
+2307	2244	Śrīmad-Bhāgavatam 6.1.34-36 -- June 2, 1976, Los Angeles	Śrīmad-Bhāgavatam 6.1.34-36
+2308	2244	Śrīmad-Bhāgavatam 6.1.34-39 -- December 19, 1970, Surat	Śrīmad-Bhāgavatam 6.1.34-39
+2309	2244	Śrīmad-Bhāgavatam 6.1.37 -- July 19, 1975, San Francisco	Śrīmad-Bhāgavatam 6.1.37
+2310	2244	Śrīmad-Bhāgavatam 6.1.37 -- June 3, 1976, Los Angeles	Śrīmad-Bhāgavatam 6.1.37
+2311	2244	Śrīmad-Bhāgavatam 6.1.38 -- June 4, 1976, Los Angeles	Śrīmad-Bhāgavatam 6.1.38
+2312	2244	Śrīmad-Bhāgavatam 6.1.39 -- July 20, 1975, San Francisco	Śrīmad-Bhāgavatam 6.1.39
+2313	2244	Śrīmad-Bhāgavatam 6.1.39 -- June 5, 1976, Los Angeles	Śrīmad-Bhāgavatam 6.1.39
+2314	2244	Śrīmad-Bhāgavatam 6.1.39-40 -- December 21, 1970, Surat	Śrīmad-Bhāgavatam 6.1.39-40
+2315	2244	Śrīmad-Bhāgavatam 6.1.40 -- December 22, 1970, Surat	Śrīmad-Bhāgavatam 6.1.40
+2316	2244	Śrīmad-Bhāgavatam 6.1.40 -- July 21, 1975, San Francisco	Śrīmad-Bhāgavatam 6.1.40
+2317	2244	Śrīmad-Bhāgavatam 6.1.40 -- June 6, 1976, Los Angeles	Śrīmad-Bhāgavatam 6.1.40
+2318	2244	Śrīmad-Bhāgavatam 6.1.41 – July 22, 1975 , Los Angeles	Śrīmad-Bhāgavatam 6.1.41
+2319	2244	Śrīmad-Bhāgavatam 6.1.41 -- June 7, 1976, Los Angeles	Śrīmad-Bhāgavatam 6.1.41
+2320	2244	Śrīmad-Bhāgavatam 6.1.41-42 -- December 23, 1970, Surat	Śrīmad-Bhāgavatam 6.1.41-42
+2321	2244	Śrīmad-Bhāgavatam 6.1.42 -- July 23, 1975, Los Angeles	Śrīmad-Bhāgavatam 6.1.42
+2322	2244	Śrīmad-Bhāgavatam 6.1.42 -- June 8, 1976, Los Angeles	Śrīmad-Bhāgavatam 6.1.42
+2323	2244	Śrīmad-Bhāgavatam 6.1.43 -- July 24, 1975, Los Angeles	Śrīmad-Bhāgavatam 6.1.43
+2324	2244	Śrīmad-Bhāgavatam 6.1.43 -- June 9, 1976, Los Angeles	Śrīmad-Bhāgavatam 6.1.43
+2325	2244	Śrīmad-Bhāgavatam 6.1.44 -- July 25, 1975, Los Angeles	Śrīmad-Bhāgavatam 6.1.44
+2326	2244	Śrīmad-Bhāgavatam 6.1.44 -- June 10, 1976, Los Angeles	Śrīmad-Bhāgavatam 6.1.44
+2327	2244	Śrīmad-Bhāgavatam 6.1.45 -- July 26, 1975, Laguna Beach	Śrīmad-Bhāgavatam 6.1.45
+2328	2244	Śrīmad-Bhāgavatam 6.1.45 -- June 11, 1976, Los Angeles	Śrīmad-Bhāgavatam 6.1.45
+2329	2244	Śrīmad-Bhāgavatam 6.1.46 -- July 27, 1975, San Diego	Śrīmad-Bhāgavatam 6.1.46
+2330	2244	Śrīmad-Bhāgavatam 6.1.46 -- June 12, 1976, Detroit	Śrīmad-Bhāgavatam 6.1.46
+2331	2244	Śrīmad-Bhāgavatam 6.1.47 -- July 29, 1975, Dallas	Śrīmad-Bhāgavatam 6.1.47
+2332	2244	Śrīmad-Bhāgavatam 6.1.47 -- June 13, 1976, Detroit	Śrīmad-Bhāgavatam 6.1.47
+2333	2244	Śrīmad-Bhāgavatam 6.1.48 -- July 30, 1975, Dallas	Śrīmad-Bhāgavatam 6.1.48
+2334	2244	Śrīmad-Bhāgavatam 6.1.48 -- June 14, 1976, Detroit	Śrīmad-Bhāgavatam 6.1.48
+2335	2244	Śrīmad-Bhāgavatam 6.1.49 -- August 1, 1975, New Orleans Farm	Śrīmad-Bhāgavatam 6.1.49
+2336	2244	Śrīmad-Bhāgavatam 6.1.49 -- June 15, 1976, Detroit	Śrīmad-Bhāgavatam 6.1.49
+2337	2244	Śrīmad-Bhāgavatam 6.1.50 -- August 3, 1975, Detroit	Śrīmad-Bhāgavatam 6.1.50
+2338	2244	Śrīmad-Bhāgavatam 6.1.50 -- June 16, 1976, Detroit	Śrīmad-Bhāgavatam 6.1.50
+2339	2244	Śrīmad-Bhāgavatam 6.1.51 -- August 4, 1975, Detroit	Śrīmad-Bhāgavatam 6.1.51
+2340	2244	Śrīmad-Bhāgavatam 6.1.52 -- August 5, 1975, Detroit	Śrīmad-Bhāgavatam 6.1.52
+2341	2244	Śrīmad-Bhāgavatam 6.1.55 -- August 11, 1975, Paris	Śrīmad-Bhāgavatam 6.1.55
+2342	2244	Śrīmad-Bhāgavatam 6.1.55 -- August 13, 1975, London	Śrīmad-Bhāgavatam 6.1.55
+2343	2244	Śrīmad-Bhāgavatam 6.1.56-57 -- August 14, 1975, Bombay	Śrīmad-Bhāgavatam 6.1.56-57
+2344	2244	Śrīmad-Bhāgavatam 6.1.56-62 -- January 3, 1971, Surat	Śrīmad-Bhāgavatam 6.1.56-62
+2345	2244	Śrīmad-Bhāgavatam 6.1.58 -- [Hindi- final proofreading pending] -- August 19, 1975, Bombay	Śrīmad-Bhāgavatam 6.1.58
+2346	2244	Śrīmad-Bhāgavatam 6.1.6 -- January 3, 1970, Los Angeles	Śrīmad-Bhāgavatam 6.1.6
+2347	2244	Śrīmad-Bhāgavatam 6.1.6 -- November 6, 1970, Bombay	Śrīmad-Bhāgavatam 6.1.6
+2348	2244	Śrīmad-Bhāgavatam 6.1.6 -- February 17, 1973, Sydney	Śrīmad-Bhāgavatam 6.1.6
+2349	2244	Śrīmad-Bhāgavatam 6.1.6 -- January 5, 1976, Nellore	Śrīmad-Bhāgavatam 6.1.6
+2350	2244	Śrīmad-Bhāgavatam 6.1.6 -- May 7, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.6
+2351	2244	Śrīmad-Bhāgavatam 6.1.6-15 -- September 12, 1968, San Francisco	Śrīmad-Bhāgavatam 6.1.6-15
+2352	2244	Śrīmad-Bhāgavatam 6.1.6-7 -- June 8, 1975, Honolulu	Śrīmad-Bhāgavatam 6.1.6-7
+2353	2244	Śrīmad-Bhāgavatam 6.1.6-8 -- July 21, 1971, New York	Śrīmad-Bhāgavatam 6.1.6-8
+2354	2244	Śrīmad-Bhāgavatam 6.1.61 -- August 28, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.1.61
+2355	2244	Śrīmad-Bhāgavatam 6.1.62 -- August 29, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.1.62
+2356	2244	Śrīmad-Bhāgavatam 6.1.63 -- August 30, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.1.63
+2357	2244	Śrīmad-Bhāgavatam 6.1.64-65 -- September 1, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.1.64-65
+2358	2244	Śrīmad-Bhāgavatam 6.1.66 -- September 2, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.1.66
+2359	2244	Śrīmad-Bhāgavatam 6.1.67 -- September 3, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.1.67
+2360	2244	Śrīmad-Bhāgavatam 6.1.68 -- September 4, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.1.68
+2361	2244	Śrīmad-Bhāgavatam 6.1.7 -- March 1, 1967, San Francisco	Śrīmad-Bhāgavatam 6.1.7
+2362	2244	Śrīmad-Bhāgavatam 6.1.7 -- June 15, 1975, Honolulu	Śrīmad-Bhāgavatam 6.1.7
+2363	2244	Śrīmad-Bhāgavatam 6.1.7 -- May 8, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.7
+2364	2244	Śrīmad-Bhāgavatam 6.1.8 -- July 22, 1971, New York	Śrīmad-Bhāgavatam 6.1.8
+2365	2244	Śrīmad-Bhāgavatam 6.1.8 -- June 21, 1975, Los Angeles	Śrīmad-Bhāgavatam 6.1.8
+2366	2244	Śrīmad-Bhāgavatam 6.1.8 -- May 9, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.8
+2367	2244	Śrīmad-Bhāgavatam 6.1.8-13 -- July 24, 1971, New York	Śrīmad-Bhāgavatam 6.1.8-13
+2368	2244	Śrīmad-Bhāgavatam 6.1.9 -- June 22, 1975, Los Angeles	Śrīmad-Bhāgavatam 6.1.9
+2369	2244	Śrīmad-Bhāgavatam 6.1.9 -- January 7, 1976, Nellore	Śrīmad-Bhāgavatam 6.1.9
+2370	2244	Śrīmad-Bhāgavatam 6.1.9 -- May 10, 1976, Honolulu	Śrīmad-Bhāgavatam 6.1.9
+2372	2371	Śrīmad-Bhāgavatam 6.2.1 -- September 5, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.2.1
+2373	2371	Śrīmad-Bhāgavatam 6.2.1-5 -- January 6, 1971, Calcutta	Śrīmad-Bhāgavatam 6.2.1-5
+2374	2371	Śrīmad-Bhāgavatam 6.2.11 -- January 16, 1971, Allahabad	Śrīmad-Bhāgavatam 6.2.11
+2375	2371	Śrīmad-Bhāgavatam 6.2.11 -- September 13, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.2.11
+2376	2371	Śrīmad-Bhāgavatam 6.2.12-14 -- January 17, 1971, Allahabad	Śrīmad-Bhāgavatam 6.2.12-14
+2377	2371	Śrīmad-Bhāgavatam 6.2.13 -- September 15, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.2.13
+2378	2371	Śrīmad-Bhāgavatam 6.2.14 -- September 17, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.2.14
+2379	2371	Śrīmad-Bhāgavatam 6.2.15 -- September 18, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.2.15
+2380	2371	Śrīmad-Bhāgavatam 6.2.16 -- September 19, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.2.16
+2381	2371	Śrīmad-Bhāgavatam 6.2.17 -- September 20, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.2.17
+2382	2371	Śrīmad-Bhāgavatam 6.2.2 -- September 6, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.2.2
+2383	2371	Śrīmad-Bhāgavatam 6.2.24-25 -- February 13, 1971, Gorakhpur	Śrīmad-Bhāgavatam 6.2.24-25
+2384	2371	Śrīmad-Bhāgavatam 6.2.3 -- September 7, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.2.3
+2385	2371	Śrīmad-Bhāgavatam 6.2.4 -- September 8, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.2.4
+2386	2371	Śrīmad-Bhāgavatam 6.2.5-6 -- September 9, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.2.5-6
+2387	2371	Śrīmad-Bhāgavatam 6.2.5-8 -- January 10, 1971, Calcutta	Śrīmad-Bhāgavatam 6.2.5-8
+2388	2371	Śrīmad-Bhāgavatam 6.2.7 -- September 10, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.2.7
+2389	2371	Śrīmad-Bhāgavatam 6.2.8 -- September 11, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 6.2.8
+2390	2371	Śrīmad-Bhāgavatam 6.3.12-15 -- February 9, 1971, Gorakhpur	Śrīmad-Bhāgavatam 6.3.12-15
+2391	2371	Śrīmad-Bhāgavatam 6.3.16-17 -- February 10, 1971, Gorakhpur	Śrīmad-Bhāgavatam 6.3.16-17
+2392	2371	Śrīmad-Bhāgavatam 6.3.18 -- February 11, 1971, Gorakhpur	Śrīmad-Bhāgavatam 6.3.18
+2393	2371	Śrīmad-Bhāgavatam 6.3.18-19 -- February 12, 1971, Gorakhpur	Śrīmad-Bhāgavatam 6.3.18-19
+2394	2371	Śrīmad-Bhāgavatam 6.3.20-23 -- February 14, 1971, Gorakhpur	Śrīmad-Bhāgavatam 6.3.20-23
+2395	2371	Śrīmad-Bhāgavatam 6.3.25-26 -- February 18, 1971, Gorakhpur	Śrīmad-Bhāgavatam 6.3.25-26
+2396	2371	Śrīmad-Bhāgavatam 6.3.27-28 -- February 20, 1971, Gorakhpur	Śrīmad-Bhāgavatam 6.3.27-28
+2399	2398	Śrīmad-Bhāgavatam 7.5.1, Pandal Lecture -- January 12, 1973, Bombay	 Śrīmad-Bhāgavatam 7.5.1, Pandal Lecture
+2400	2398	Śrīmad-Bhāgavatam 7.5.22-30 -- September 8, 1971, London	Śrīmad-Bhāgavatam 7.5.22-30
+2401	2398	Śrīmad-Bhāgavatam 7.5.23-24 -- March 31, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 7.5.23-24
+2402	2398	Śrīmad-Bhāgavatam 7.5.30 -- September 9, 1971, London	Śrīmad-Bhāgavatam 7.5.30
+2403	2398	Śrīmad-Bhāgavatam 7.5.30 -- October 2, 1975, Mauritius	Śrīmad-Bhāgavatam 7.5.30
+2404	2398	Śrīmad-Bhāgavatam 7.5.31 -- October 4, 1975, Mauritius	Śrīmad-Bhāgavatam 7.5.31
+2406	2405	Śrīmad-Bhāgavatam 7.6.1 -- March 3, 1967, San Francisco	Śrīmad-Bhāgavatam 7.6.1
+2407	2405	Śrīmad-Bhāgavatam 7.6.1 -- March 6, 1967, San Francisco	Śrīmad-Bhāgavatam 7.6.1
+2408	2405	Śrīmad-Bhāgavatam 7.6.1 -- March 15, 1968, San Francisco	Śrīmad-Bhāgavatam 7.6.1
+2409	2405	Śrīmad-Bhāgavatam 7.6.1 [Partially Recorded] -- March 16, 1968, San Francisco	Śrīmad-Bhāgavatam 7.6.1
+2410	2405	Śrīmad-Bhāgavatam 7.6.1 -- May 8, 1968, Boston	Śrīmad-Bhāgavatam 7.6.1
+2411	2405	Śrīmad-Bhāgavatam 7.6.1 -- June 10, 1968, Montreal	Śrīmad-Bhāgavatam 7.6.1
+2412	2405	Śrīmad-Bhāgavatam 7.6.1 -- June 12, 1968, Montreal	Śrīmad-Bhāgavatam 7.6.1
+2413	2405	Śrīmad-Bhāgavatam 7.6.1 -- April 9, 1969, New York	Śrīmad-Bhāgavatam 7.6.1
+2414	2405	Śrīmad-Bhāgavatam 7.6.1 -- April 18, 1972, Hong Kong	Śrīmad-Bhāgavatam 7.6.1
+2415	2405	Śrīmad-Bhāgavatam 7.6.1 -- December 2, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 7.6.1
+2416	2405	Śrīmad-Bhāgavatam 7.6.1 -- January 2, 1976, Madras	Śrīmad-Bhāgavatam 7.6.1
+2417	2405	Śrīmad-Bhāgavatam 7.6.1 -- June 17, 1976, Toronto	Śrīmad-Bhāgavatam 7.6.1 
+2418	2405	Śrīmad-Bhāgavatam 7.6.1-2 -- September 6, 1973, Stockholm	Śrīmad-Bhāgavatam 7.6.1-2
+2419	2405	Śrīmad-Bhāgavatam 7.6.10 -- December 12, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 7.6.10
+2420	2405	Śrīmad-Bhāgavatam 7.6.10 -- June 26, 1976, New Vrindavan	Śrīmad-Bhāgavatam 7.6.10
+2421	2405	Śrīmad-Bhāgavatam 7.6.11-13 -- June 27, 1976, New Vrindavan	Śrīmad-Bhāgavatam 7.6.11-13
+2422	2405	Śrīmad-Bhāgavatam 7.6.14 -- June 28, 1976, New Vrindavan	Śrīmad-Bhāgavatam 7.6.14
+2423	2405	Śrīmad-Bhāgavatam 7.6.15 -- June 29, 1976, New Vrindavan	Śrīmad-Bhāgavatam 7.6.15
+2424	2405	Śrīmad-Bhāgavatam 7.6.16 -- June 30, 1976, New Vrindavan	Śrīmad-Bhāgavatam 7.6.16
+2425	2405	Śrīmad-Bhāgavatam 7.6.17-18 -- July 1, 1976, New Vrindavan	Śrīmad-Bhāgavatam 7.6.17-18
+2426	2405	Śrīmad-Bhāgavatam 7.6.19 -- July 2, 1976, New Vrindavan	Śrīmad-Bhāgavatam 7.6.19
+2427	2405	Śrīmad-Bhāgavatam 7.6.2 -- December 3, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 7.6.2
+2428	2405	Śrīmad-Bhāgavatam 7.6.2 -- June 18, 1976, Toronto	Śrīmad-Bhāgavatam 7.6.2
+2429	2405	Śrīmad-Bhāgavatam 7.6.20-23 -- July 3, 1976, Washington D.C.	Śrīmad-Bhāgavatam 7.6.20-23
+2430	2405	Śrīmad-Bhāgavatam 7.6.3 -- June 16, 1968, Montreal	Śrīmad-Bhāgavatam 7.6.3
+2431	2405	Śrīmad-Bhāgavatam 7.6.3 -- December 4, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 7.6.3
+2432	2405	Śrīmad-Bhāgavatam 7.6.3 -- June 19, 1976, Toronto	Śrīmad-Bhāgavatam 7.6.3
+2433	2405	Śrīmad-Bhāgavatam 7.6.3-4 -- March 8, 1967, San Francisco	Śrīmad-Bhāgavatam 7.6.3-4
+2434	2405	Śrīmad-Bhāgavatam 7.6.4 -- December 5, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 7.6.4
+2435	2405	Śrīmad-Bhāgavatam 7.6.4 -- June 20, 1976, Toronto	Śrīmad-Bhāgavatam 7.6.4
+2436	2405	Śrīmad-Bhāgavatam 7.6.5 -- December 7, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 7.6.5
+2437	2405	Śrīmad-Bhāgavatam 7.6.5 -- June 21, 1976, Toronto	Śrīmad-Bhāgavatam 7.6.5
+2438	2405	Śrīmad-Bhāgavatam 7.6.6 -- December 8, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 7.6.6
+2439	2405	Śrīmad-Bhāgavatam 7.6.6 -- June 22, 1976, New Vrindavan	Śrīmad-Bhāgavatam 7.6.6
+2440	2405	Śrīmad-Bhāgavatam 7.6.6-9 -- June 23, 1968, Montreal	Śrīmad-Bhāgavatam 7.6.6-9
+2441	2405	Śrīmad-Bhāgavatam 7.6.7 -- December 9, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 7.6.7
+2442	2405	Śrīmad-Bhāgavatam 7.6.8 -- December 10, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 7.6.8
+2443	2405	Śrīmad-Bhāgavatam 7.6.8 -- June 24, 1976, New Vrindavan	Śrīmad-Bhāgavatam 7.6.8
+2444	2405	Śrīmad-Bhāgavatam 7.6.9 -- December 11, 1975, Vṛndāvana	Śrīmad-Bhāgavatam 7.6.9
+2445	2405	Śrīmad-Bhāgavatam 7.6.9 -- June 25, 1976, New Vrindavan	Śrīmad-Bhāgavatam 7.6.9
+2446	2405	Śrīmad-Bhāgavatam 7.6.9-17 -- March 31, 1969, San Francisco	Śrīmad-Bhāgavatam 7.6.9-17
+2448	2447	Śrīmad-Bhāgavatam 7.7.19-20 -- March 18, 1971, Bombay	Śrīmad-Bhāgavatam 7.7.19-20
+2449	2447	Śrīmad-Bhāgavatam 7.7.22-26 -- March 10, 1967, San Francisco	Śrīmad-Bhāgavatam 7.7.22-26
+2450	2447	Śrīmad-Bhāgavatam 7.7.25-28 -- March 13, 1967, San Francisco	Śrīmad-Bhāgavatam 7.7.25-28
+2451	2447	Śrīmad-Bhāgavatam 7.7.28, 32-35 -- September 11, 1971, Mombassa	Śrīmad-Bhāgavatam 7.7.28, 32-35
+2452	2447	Śrīmad-Bhāgavatam 7.7.29-31 -- March 15, 1967, San Francisco	Śrīmad-Bhāgavatam 7.7.29-31
+2453	2447	Śrīmad-Bhāgavatam 7.7.30-31 -- September 12, 1971, Mombassa	Śrīmad-Bhāgavatam 7.7.30-31
+2454	2447	Śrīmad-Bhāgavatam 7.7.32-35 -- March 17, 1967, San Francisco	Śrīmad-Bhāgavatam 7.7.32-35
+2455	2447	Śrīmad-Bhāgavatam 7.7.40-44 -- March 20, 1967, San Francisco	Śrīmad-Bhāgavatam 7.7.40-44
+2456	2447	Śrīmad-Bhāgavatam 7.7.46 -- March 22, 1967, San Francisco	Śrīmad-Bhāgavatam 7.7.46
+2458	2457	Śrīmad-Bhāgavatam 7.9.1 -- February 8, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.1
+2459	2457	Śrīmad-Bhāgavatam 7.9.1 -- February 10, 1977, Māyāpur	Śrīmad-Bhāgavatam 7.9.1
+2460	2457	Śrīmad-Bhāgavatam 7.9.10 -- July 9, 1968, Montreal	Śrīmad-Bhāgavatam 7.9.10
+2461	2457	Śrīmad-Bhāgavatam 7.9.10 -- July 10, 1968, Montreal	Śrīmad-Bhāgavatam 7.9.10
+2462	2457	Śrīmad-Bhāgavatam 7.9.10 -- July 12, 1968, Montreal	Śrīmad-Bhāgavatam 7.9.10
+2463	2457	Śrīmad-Bhāgavatam 7.9.10 -- February 17, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.10
+2464	2457	Śrīmad-Bhāgavatam 7.9.10-11 -- July 14, 1968, Montreal	Śrīmad-Bhāgavatam 7.9.10-11
+2465	2457	Śrīmad-Bhāgavatam 7.9.11 -- August 17, 1968, Montreal	Śrīmad-Bhāgavatam 7.9.11
+2466	2457	Śrīmad-Bhāgavatam 7.9.11 -- February 18, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.11
+2467	2457	Śrīmad-Bhāgavatam 7.9.11-13 -- March 24, 1969, Hawaii	Śrīmad-Bhāgavatam 7.9.11-13
+2468	2457	Śrīmad-Bhāgavatam 7.9.12 -- August 18, 1968, Montreal	Śrīmad-Bhāgavatam 7.9.12
+2469	2457	Śrīmad-Bhāgavatam 7.9.12 -- August 19, 1968, Montreal	Śrīmad-Bhāgavatam 7.9.12
+2470	2457	Śrīmad-Bhāgavatam 7.9.12 -- February 19, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.12
+2471	2457	Śrīmad-Bhāgavatam 7.9.12-13 -- August 20, 1968, Montreal	Śrīmad-Bhāgavatam 7.9.12-13
+2472	2457	Śrīmad-Bhāgavatam 7.9.13 -- August 21, 1968, Montreal	Śrīmad-Bhāgavatam 7.9.13
+2473	2457	Śrīmad-Bhāgavatam 7.9.13 -- February 20, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.13
+2474	2457	Śrīmad-Bhāgavatam 7.9.13-14 -- August 22, 1968, Montreal	Śrīmad-Bhāgavatam 7.9.13-14
+2475	2457	Śrīmad-Bhāgavatam 7.9.14 -- February 21, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.14
+2476	2457	Śrīmad-Bhāgavatam 7.9.15 -- February 22, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.15
+2477	2457	Śrīmad-Bhāgavatam 7.9.16 -- February 23, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.16
+2478	2457	Śrīmad-Bhāgavatam 7.9.17 -- February 24, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.17
+2479	2457	Śrīmad-Bhāgavatam 7.9.18 -- February 25, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.18
+2480	2457	Śrīmad-Bhāgavatam 7.9.19 -- September 7, 1969, Hamburg	Śrīmad-Bhāgavatam 7.9.19
+2481	2457	Śrīmad-Bhāgavatam 7.9.19 -- February 26, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.19
+2482	2457	Śrīmad-Bhāgavatam 7.9.2 -- February 12, 1977, Māyāpur	Śrīmad-Bhāgavatam 7.9.2
+2483	2457	Śrīmad-Bhāgavatam 7.9.20 -- February 27, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.20
+2484	2457	Śrīmad-Bhāgavatam 7.9.21 -- February 28, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.21
+2485	2457	Śrīmad-Bhāgavatam 7.9.22 -- February 29, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.22
+2486	2457	Śrīmad-Bhāgavatam 7.9.23 -- March 1, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.23
+2487	2457	Śrīmad-Bhāgavatam 7.9.24 -- March 2, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.24
+2488	2457	Śrīmad-Bhāgavatam 7.9.26 -- March 4, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.26
+2489	2457	Śrīmad-Bhāgavatam 7.9.27 -- March 5, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.27
+2490	2457	Śrīmad-Bhāgavatam 7.9.28 -- March 6, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.28
+2491	2457	Śrīmad-Bhāgavatam 7.9.29 -- March 7, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.29
+2492	2457	Śrīmad-Bhāgavatam 7.9.3 -- February 10, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.3
+2493	2457	Śrīmad-Bhāgavatam 7.9.3 -- February 17, 1977, Māyāpur	Śrīmad-Bhāgavatam 7.9.3
+2494	2457	Śrīmad-Bhāgavatam 7.9.30 -- March 8, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.30
+2495	2457	Śrīmad-Bhāgavatam 7.9.31 -- March 9, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.31
+2496	2457	Śrīmad-Bhāgavatam 7.9.32 -- March 10, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.32
+2497	2457	Śrīmad-Bhāgavatam 7.9.33 -- March 11, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.33
+2498	2457	Śrīmad-Bhāgavatam 7.9.34 -- March 12, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.34
+2499	2457	Śrīmad-Bhāgavatam 7.9.35 -- March 13, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.35
+2500	2457	Śrīmad-Bhāgavatam 7.9.36 -- March 14, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.36
+2501	2457	Śrīmad-Bhāgavatam 7.9.37 -- March 15, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.37
+2502	2457	Śrīmad-Bhāgavatam 7.9.38, Śrī Gaura-Pūrṇimā -- March 16, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.38,
+2503	2457	Śrīmad-Bhāgavatam 7.9.39 -- March 17, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.39
+2504	2457	Śrīmad-Bhāgavatam 7.9.4 -- February 11, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.4
+2505	2457	Śrīmad-Bhāgavatam 7.9.4 -- February 18, 1977, Māyāpur	Śrīmad-Bhāgavatam 7.9.4
+2506	2457	Śrīmad-Bhāgavatam 7.9.40 -- March 18, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.40
+2507	2457	Śrīmad-Bhāgavatam 7.9.41 -- March 19, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.41
+2508	2457	Śrīmad-Bhāgavatam 7.9.42 -- March 22, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.42
+2509	2457	Śrīmad-Bhāgavatam 7.9.43 -- February 22, 1972, Visakhapatnam	Śrīmad-Bhāgavatam 7.9.43
+2510	2457	Śrīmad-Bhāgavatam 7.9.43 -- March 23, 1976, Calcutta	Śrīmad-Bhāgavatam 7.9.43
+2511	2457	Śrīmad-Bhāgavatam 7.9.44 -- March 26, 1976, Delhi	Śrīmad-Bhāgavatam 7.9.44
+2512	2457	Śrīmad-Bhāgavatam 7.9.46 -- April 1, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 7.9.46
+2513	2457	Śrīmad-Bhāgavatam 7.9.47 -- April 2, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 7.9.47
+2514	2457	Śrīmad-Bhāgavatam 7.9.48 -- April 3, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 7.9.48
+2515	2457	Śrīmad-Bhāgavatam 7.9.49 -- April 4, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 7.9.49
+2516	2457	Śrīmad-Bhāgavatam 7.9.5 -- February 12, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.5
+2517	2457	Śrīmad-Bhāgavatam 7.9.5 -- February 25, 1977, Māyāpur	Śrīmad-Bhāgavatam 7.9.5
+2518	2457	Śrīmad-Bhāgavatam 7.9.50 -- April 5, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 7.9.50
+2519	2457	Śrīmad-Bhāgavatam 7.9.51 -- April 6, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 7.9.51
+2520	2457	Śrīmad-Bhāgavatam 7.9.52 -- April 7, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 7.9.52
+2521	2457	Śrīmad-Bhāgavatam 7.9.53 -- April 8, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 7.9.53
+2522	2457	Śrīmad-Bhāgavatam 7.9.54 -- April 9, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 7.9.54
+2523	2457	Śrīmad-Bhāgavatam 7.9.55 -- April 10, 1976, Vṛndāvana	Śrīmad-Bhāgavatam 7.9.55
+2524	2457	Śrīmad-Bhāgavatam 7.9.6 -- February 26, 1977, Māyāpur	Śrīmad-Bhāgavatam 7.9.6
+2525	2457	Śrīmad-Bhāgavatam 7.9.7 -- February 14, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.7
+2526	2457	Śrīmad-Bhāgavatam 7.9.7 -- February 27, 1977, Māyāpur	Śrīmad-Bhāgavatam 7.9.7
+2527	2457	Śrīmad-Bhāgavatam 7.9.8 -- July 1, 1968, Montreal	Śrīmad-Bhāgavatam 7.9.8
+2528	2457	Śrīmad-Bhāgavatam 7.9.8 -- July 2, 1968, Montreal	Śrīmad-Bhāgavatam 7.9.8
+2529	2457	Śrīmad-Bhāgavatam 7.9.8 -- October 21, 1968, Seattle	Śrīmad-Bhāgavatam 7.9.8
+2530	2457	Śrīmad-Bhāgavatam 7.9.8 -- March 21, 1969, Hawaii	Śrīmad-Bhāgavatam 7.9.8
+2531	2457	Śrīmad-Bhāgavatam 7.9.8 -- March 5, 1972, Calcutta	Śrīmad-Bhāgavatam 7.9.8
+2532	2457	Śrīmad-Bhāgavatam 7.9.8 -- February 15, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.8
+2533	2457	Śrīmad-Bhāgavatam 7.9.8 -- February 28, 1977, Māyāpur	Śrīmad-Bhāgavatam 7.9.8
+2534	2457	Śrīmad-Bhāgavatam 7.9.9 -- July 4, 1968, Montreal	Śrīmad-Bhāgavatam 7.9.9
+2535	2457	Śrīmad-Bhāgavatam 7.9.9 -- July 6, 1968, Montreal	Śrīmad-Bhāgavatam 7.9.9
+2536	2457	Śrīmad-Bhāgavatam 7.9.9 -- February 16, 1976, Māyāpur	Śrīmad-Bhāgavatam 7.9.9
+2537	2457	Śrīmad-Bhāgavatam 7.9.9 -- March 1, 1977, Māyāpur	Śrīmad-Bhāgavatam 7.9.9
+2539	2538	Śrīmad-Bhāgavatam 7.12.1 -- April 12, 1976, Bombay	Śrīmad-Bhāgavatam 7.12.1
+2540	2538	Śrīmad-Bhāgavatam 7.12.2 -- April 13, 1976, Bombay	Śrīmad-Bhāgavatam 7.12.2
+2541	2538	Śrīmad-Bhāgavatam 7.12.3 -- April 14, 1976, Bombay	Śrīmad-Bhāgavatam 7.12.3
+2542	2538	Śrīmad-Bhāgavatam 7.12.4 -- April 15, 1976, Bombay	Śrīmad-Bhāgavatam 7.12.4
+2543	2538	Śrīmad-Bhāgavatam 7.12.5 -- April 16, 1976, Bombay	Śrīmad-Bhāgavatam 7.12.5
+2544	2538	Śrīmad-Bhāgavatam 7.12.6 -- April 17, 1976, Bombay	Śrīmad-Bhāgavatam 7.12.6
+2546	2545	Śrīmad-Bhāgavatam 10.22.35 -- March 19, 1971, Bombay	Śrīmad-Bhāgavatam 10.22.35
+2547	2545	Śrīmad-Bhāgavatam 11.3.21 -- April 13, 1969, New York	 Śrīmad-Bhāgavatam 11.3.21
+2548	2545	Śrīmad-Bhāgavatam 12.2.1 -- March 18, 1968, San Francisco	 Śrīmad-Bhāgavatam 12.2.1
+2550	2549	Śrī Brahma-saṁhitā, Lecture -- November 9, 1968, Los Angeles	Śrī Brahma-saṁhitā, Lecture
+2551	2549	Śrī Brahma-saṁhitā, Lecture -- July 28, 1971, New York	Śrī Brahma-saṁhitā, Lecture
+2552	2549	Śrī Brahma-saṁhitā, Lecture -- September 7, 1973, Stockholm	Śrī Brahma-saṁhitā, Lecture
+2553	2549	Śrī Brahma-saṁhitā, Verse 29 -- November 5, 1968, Los Angeles	Śrī Brahma-saṁhitā, Verse 29
+2554	2549	Śrī Brahma-saṁhitā, Verse 32 -- July 26, 1971, New York	Śrī Brahma-saṁhitā, Verse 32
+2555	2549	Śrī Brahma-saṁhitā, Verse 32 [partially recorded] -- August 14, 1972, Los Angeles	Śrī Brahma-saṁhitā, Verse 32
+2556	2549	Śrī Brahma-saṁhitā, Verse 33 -- July 19, 1971, New York	Śrī Brahma-saṁhitā, Verse 33
+2557	2549	Śrī Brahma-saṁhitā, Verse 33 -- July 27, 1971, New York	Śrī Brahma-saṁhitā, Verse 33
+2558	2549	Śrī Brahma-saṁhitā, Verse 33 -- September 6, 1973, Stockholm	Śrī Brahma-saṁhitā, Verse 33
+2559	2549	Śrī Brahma-saṁhitā, Verse 34 -- September 13, 1968 , San Francisco	Śrī Brahma-saṁhitā, Verse 34
+2560	2549	Śrī Brahma-saṁhitā, Verse 35 -- July 31, 1971, New York	Śrī Brahma-saṁhitā, Verse 35
+2562	2561	Śrī Īśopaniṣad Invocation Lecture [partially recorded] -- April 27, 1970, Los Angeles	Śrī Īśopaniṣad Invocation Lecture
+2563	2561	Śrī Īśopaniṣad Invocation Lecture -- April 28, 1970, Los Angeles	Śrī Īśopaniṣad Invocation Lecture
+2564	2561	Śrī Īśopaniṣad Lecture [partially recorded] -- July 8, 1971, Los Angeles	Śrī Īśopaniṣad Lecture
+2565	2561	Śrī Īśopaniṣad, Mantra 1 -- October 30, 1968, Los Angeles	Śrī Īśopaniṣad, Mantra 1
+2566	2561	Śrī Īśopaniṣad, Mantra 1 -- April 29, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 1
+2567	2561	Śrī Īśopaniṣad, Mantra 1 -- April 30, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 1
+2568	2561	Śrī Īśopaniṣad, Mantra 1 -- May 2, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 1
+2569	2561	Śrī Īśopaniṣad, Mantra 1 -- May 3, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 1
+2570	2561	Śrī Īśopaniṣad, Mantra 1 -- May 4, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 1
+2571	2561	Śrī Īśopaniṣad, Mantra 2-4 -- May 6, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 2-4
+2572	2561	Śrī-Īśopaniṣad, Mantra 3 -- May 5, 1970, Los Angeles	Śrī-Īśopaniṣad, Mantra 3
+2573	2561	Śrī Īśopaniṣad, Mantra 5 -- May 7, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 5
+2574	2561	Śrī Īśopaniṣad, Mantra 6 -- May 8, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 6
+2575	2561	Śrī Īśopaniṣad, Mantra 7 -- May 9, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 7
+2576	2561	Śrī Īśopaniṣad, Mantra 7 -- May 10, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 7
+2577	2561	Śrī Īśopaniṣad, Mantra 8 -- May 11, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 8
+2578	2561	Śrī Īśopaniṣad, Mantra 8 -- May 12, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 8
+2579	2561	Śrī Īśopaniṣad, Mantra 9 -- May 13, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 9
+2580	2561	Śrī Īśopaniṣad, Mantra 9-10 -- May 14, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 9-10
+2581	2561	Śrī Īśopaniṣad, Mantra 10 -- May 15, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 10
+2582	2561	Śrī Īśopaniṣad, Mantra 11 -- May 16, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 11
+2583	2561	Śrī Īśopaniṣad, Mantra 13-15 -- May 18, 1970, Los Angeles	Śrī Īśopaniṣad, Mantra 13-15
