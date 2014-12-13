@@ -138,39 +138,48 @@
         {
             NSDictionary * dict = [self.wordList objectAtIndex:i];
             NSDictionary * blobs = [dict objectForKey:@"blobs"];
-            [blobs enumerateKeysAndObjectsUsingBlock:^(id key, id value, BOOL * stop) {
-                NSString * word = [dict objectForKey:[self.wordList keyName]];
-                NSData * data = (NSData *)value;
-            
+            [blobs enumerateKeysAndObjectsUsingBlock:^(id keyPage, id valuePages, BOOL * stop) {
+                // key - index name
+                // value - dictionary
+                NSString * indexName = (NSString *)keyPage;
+                NSDictionary * pages = (NSDictionary *)valuePages;
+                
+                [pages enumerateKeysAndObjectsUsingBlock:^(id pageId, id value, BOOL *stop) {
 
-                if ([data length] > 50000)
-                {
-                    NSURL * fileURL = [NSURL fileURLWithPath:[objDir stringByAppendingPathComponent:[NSString stringWithFormat:@"w_%ld", self.counter]]];
-                    self.counter++;
-                    [data writeToURL:fileURL atomically:YES];
-                    fprintf(self->fileB, "%s\t%d\t%s\t%ld\t",
-                            [(NSString *)key UTF8String],
-                            [[dict objectForKey:@"uid"] unsignedIntValue],
-                            [word UTF8String],
-                            0L);
-                    fprintf(self->fileB, "%s\n", [[fileURL absoluteString] UTF8String]);
-                }
-                else
-                {
-                    fprintf(self->fileA, "%s\t%d\t%s\t%ld\t",
-                            [(NSString *)key UTF8String],
-                            [[dict objectForKey:@"uid"] unsignedIntValue],
-                            [word UTF8String],
-                            0L);
-                    const unsigned char * bytes = [data bytes];
-                    NSInteger k, m;
-                    m = [data length];
-                    for (k =0; k < m; k++)
+                    NSNumber * page = (NSNumber *)pageId;
+                    NSString * word = [dict objectForKey:[self.wordList keyName]];
+                    NSData * data = (NSData *)value;
+                    
+                    
+                    if ([data length] > 50000)
                     {
-                        fprintf(self->fileA, "%02x", bytes[k]);
+                        NSURL * fileURL = [NSURL fileURLWithPath:[objDir stringByAppendingPathComponent:[NSString stringWithFormat:@"w_%ld", self.counter]]];
+                        self.counter++;
+                        [data writeToURL:fileURL atomically:YES];
+                        fprintf(self->fileB, "%s\t%d\t%s\t%ld\t",
+                                [indexName UTF8String],
+                                [[dict objectForKey:@"uid"] unsignedIntValue],
+                                [word UTF8String],
+                                [page integerValue]);
+                        fprintf(self->fileB, "%s\n", [[fileURL absoluteString] UTF8String]);
                     }
-                    fprintf(self->fileA, "\n");
-                }
+                    else
+                    {
+                        fprintf(self->fileA, "%s\t%d\t%s\t%ld\t",
+                                [indexName UTF8String],
+                                [[dict objectForKey:@"uid"] unsignedIntValue],
+                                [word UTF8String],
+                                [page integerValue]);
+                        const unsigned char * bytes = [data bytes];
+                        NSInteger k, m;
+                        m = [data length];
+                        for (k =0; k < m; k++)
+                        {
+                            fprintf(self->fileA, "%02x", bytes[k]);
+                        }
+                        fprintf(self->fileA, "\n");
+                    }
+                }];
 
             }];
             //NSLog(@"word %@ length = %ld", [dict objectForKey:@"text"], [[dict objectForKey:@"blob"] length]/6);
@@ -289,6 +298,8 @@
     }];
 }
 
+#define PAGE_SIZE_X 0x10000
+
 -(void)addWordOccurence:(NSString *)aWord inRecord:(uint32_t)aRecord withPosition:(uint16_t)aPosition forIndex:(NSString *)idxTag
 {
     NSDictionary * wordObject = [self.wordList objectForKey:aWord];
@@ -301,16 +312,25 @@
                       blobs, @"blobs", nil];
         [self.wordList addObject:wordObject];
     }
-    
+
+    NSMutableData * recs = nil;
+    NSMutableDictionary * pages = nil;
     //NSDictionary * wid = [self getWordID:aWord];
     NSMutableDictionary * blobs = [wordObject objectForKey:@"blobs"];
-    if ([blobs objectForKey:idxTag] == nil) {
-        NSMutableData * md = [[NSMutableData alloc] initWithCapacity:1000];
-        [blobs setObject:md forKey:idxTag];
+    NSNumber * page = [NSNumber numberWithInteger:(aRecord/PAGE_SIZE_X)*PAGE_SIZE_X];
+    pages = [blobs objectForKey:idxTag];
+    if (pages == nil) {
+        pages = [NSMutableDictionary new];
+        [blobs setObject:pages forKey:idxTag];
     }
-    NSMutableData * recs = [blobs objectForKey:idxTag];
+    
+    recs = [pages objectForKey:page];
+    if (recs == nil) {
+        recs = [[NSMutableData alloc] initWithCapacity:1000];
+        [pages setObject:recs forKey:page];
+    }
     // zapisuje rec_id aj proximity
-    uint32_t adx1 = CFSwapInt32HostToLittle(aRecord);
+    uint32_t adx1 = CFSwapInt32HostToLittle(aRecord % PAGE_SIZE_X);
     uint16_t adx2 = CFSwapInt16HostToLittle(aPosition);
     
     [recs appendBytes:&adx1 length:4];

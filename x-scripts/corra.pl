@@ -38,8 +38,12 @@ while(<$fh>)
     {
           if (exists $levels->{$parts[2]})
           {
-              printf $oh ("%s\t%s\t%s\t%s\n", $parts[0], $parts[1], $levels->{$parts[2]}, $parts[3]);
+              printf $oh ("%s\t%s\t%s\t%s\n", $parts[0], $parts[1], $parts[2], $levels->{$parts[2]});
               printf ("Old: %s\nNew: %s\n\n", $parts[3], $levels->{$parts[2]});
+          }
+          else
+          {
+              printf $oh ("%s\n", $line);
           }
     }
 }
