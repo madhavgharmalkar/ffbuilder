@@ -21,8 +21,15 @@ int main(int argc, const char * argv[]) {
                 i++;
             }
         }
-        NSString * script = [NSString stringWithContentsOfFile:file encoding:NSUTF8StringEncoding error:NULL];
-        [builder executeScript:script];
+        if ([file length] == 0)
+        {
+            printf("Usage:  vbstyles -i <filename>\nOutput file is defined in configuration file.\n");
+        }
+        else
+        {
+            NSString * script = [NSString stringWithContentsOfFile:file encoding:NSUTF8StringEncoding error:NULL];
+            [builder executeScript:script];
+        }
     }
     return 0;
 }

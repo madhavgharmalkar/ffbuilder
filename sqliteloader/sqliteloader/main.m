@@ -24,6 +24,7 @@ int main(int argc, const char * argv[]) {
         NSString *colsSpec;
         NSString *inputFile;
         NSString *targetFile;
+        NSString *updateColumn = nil;
         Loader * loader = [Loader new];
         
         for(int i = 1; i < argc; i++)
@@ -37,6 +38,11 @@ int main(int argc, const char * argv[]) {
             else if (strcmp(argv[i], "-cols")==0 && (i + 1 < argc))
             {
                 colsSpec = [NSString stringWithCString:argv[i+1] encoding:NSASCIIStringEncoding];
+                i++;
+            }
+            else if (strcmp(argv[i], "-update")==0 && (i + 1 < argc))
+            {
+                updateColumn = [NSString stringWithCString:argv[i+1] encoding:NSASCIIStringEncoding];
                 i++;
             }
             else if (strcmp(argv[i], "-i")==0 && (i + 1 < argc))
@@ -60,6 +66,10 @@ int main(int argc, const char * argv[]) {
         NSLog(@"  columns     : %@", colsSpec);
         NSLog(@"  input file  : %@", inputFile);
         NSLog(@"  target file : %@", targetFile);
+        if (updateColumn != nil)
+        {
+            NSLog(@"  update column : %@", updateColumn);
+        }
         NSLog(@"  ================================== ");
         
         if ([tableName length] == 0 || [colsSpec length] == 0 ||
@@ -76,6 +86,7 @@ int main(int argc, const char * argv[]) {
             NSLog(@"first subpart is column name, second subpart is column data type");
             NSLog(@"accepted data types are: integer, text, blob, blobfile (file url of data file)");
             NSLog(@"-noclean mean, that table will not be deleted before loading (used for updates)");
+            NSLog(@"-update <columnname>   : this will cause updating records for values specified by <columnname>");
         }
         else
         {
@@ -83,6 +94,7 @@ int main(int argc, const char * argv[]) {
             loader.columns = colsSpec;
             loader.inputFile = inputFile;
             loader.targetFile = targetFile;
+            loader.updateColumn = updateColumn;
             
             [loader load];
         }

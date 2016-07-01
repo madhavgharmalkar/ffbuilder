@@ -46,6 +46,7 @@
                               forKey:parts[2]];
         }
     }
+    
 }
 
 -(BOOL)validate
@@ -119,6 +120,15 @@
     }
 }
 
+-(BOOL)eligibleForBuild:(NSString *)text recordId:(int)recId
+{
+    if (recId == 1415 || recId == 13052 || recId == 203095)
+        return true;
+    
+    NSRange range = [text rangeOfString:@"<BUILDVIEW>"];
+    return (range.location != NSNotFound);
+}
+
 -(void)processText:(NSString *)text
           recordId:(int)recId
          styleName:(NSString *)style
@@ -135,8 +145,7 @@
             self->levelRecIds[i] = -1;
             self->levelBuildViews[i] = NO;
         }
-        NSRange range = [text rangeOfString:@"<BUILDVIEW>"];
-        self->levelBuildViews[level] = (range.location != NSNotFound);
+        self->levelBuildViews[level] = [self eligibleForBuild:text recordId:recId];
         self->levelRecs[level] = [FlatFileUtils removeTags:text];
         self->levelRecIds[level] = self.gid;
         self.gid++;
@@ -170,7 +179,7 @@
             [self insertRecord:recId toGroup:@"Translations" maxLevel:self.maxLevel];
             [self insertRecord:recId toGroup:@"Verses & Translations" maxLevel:self.maxLevel];
         }
-        else if ([levelName isEqualToString:@"LE_Verse_Text"] && ![style isEqualToString:@"PA_Audio_Bg"])
+        else if ([levelName isEqualToString:@"PA_Verse_Text"] && ![style isEqualToString:@"PA_Audio_Bg"])
         {
             [self insertRecord:recId toGroup:@"Verses" maxLevel:self.maxLevel];
             [self insertRecord:recId toGroup:@"Verses & Translations" maxLevel:self.maxLevel];

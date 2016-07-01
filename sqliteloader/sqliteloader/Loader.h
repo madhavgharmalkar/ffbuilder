@@ -16,6 +16,7 @@
 @property NSString * columns;
 @property NSString * inputFile;
 @property NSString * targetFile;
+@property NSString * updateColumn;
 
 
 @property NSMutableArray * columnTypes;

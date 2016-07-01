@@ -143,6 +143,7 @@
 
     [data writeToFile:self.targetFile atomically:YES];
 
+    NSLog(@"Output writen to file: %@", self.targetFile);
     NSLog(@"Done - Building vbstylist");
 }
 

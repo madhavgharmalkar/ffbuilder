@@ -43,7 +43,30 @@
 {
     NSMutableString * str = [[NSMutableString alloc] init];
     
-    [str appendFormat:@"insert into %@ (%@) values (%@)", self.tableName, [self.columnNames componentsJoinedByString:@","], [self.columnSubst componentsJoinedByString:@","]];
+    int matchIndex = -1;
+    if (self.updateColumn != nil)
+    {
+        [str appendFormat:@"update %@ set ", self.tableName];
+        for (int i = 0; i < self.columnNames.count; i++) {
+            if (i > 0)
+            {
+                [str appendFormat:@","];
+            }
+            if ([self.updateColumn isEqualToString:[self.columnNames[i] description]])
+                matchIndex = i;
+            [str appendFormat:@" %@ = %@ ", [self.columnNames objectAtIndex:i],
+             [self.columnSubst objectAtIndex:i]];
+        }
+        [str appendFormat:@" where "];
+        if (matchIndex >= 0)
+        {
+            [str appendFormat:@" %@ = %@", self.updateColumn, [[self.columnSubst objectAtIndex:matchIndex] description]];
+        }
+    }
+    else
+    {
+        [str appendFormat:@"insert into %@ (%@) values (%@)", self.tableName, [self.columnNames componentsJoinedByString:@","], [self.columnSubst componentsJoinedByString:@","]];
+    }
     
     self.command = [self.database createCommand:str];
     
@@ -59,7 +82,7 @@
 
     [self prepareCommand];
     
-    if (self.noClean == NO)
+    if (self.noClean == NO && self.updateColumn == nil)
     {
         [self.database execute:[NSString stringWithFormat:@"delete from %@", self.tableName]];
     }
@@ -105,6 +128,12 @@
 -(void)processline:(NSString *)line
 {
     NSArray * arr = [line componentsSeparatedByString:@"\t"];
+    if ([line hasPrefix:@"#"])
+    {
+        printf("%s\n", [line UTF8String]);
+        return;
+    }
+    
     if (arr.count != self.columnTypes.count)
     {
         NSLog(@"ERROR: columns count does not match for line:\n  %@", line);
@@ -137,7 +166,10 @@
         }
         if ([self.command execute] != SQLITE_DONE)
         {
-            NSLog(@"Error when inserting.");
+            if (self.updateColumn != nil)
+                NSLog(@"Error when updating by column %@", self.updateColumn);
+            else
+                NSLog(@"Error when inserting.");
         }
     }
 }
