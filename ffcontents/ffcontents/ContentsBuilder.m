@@ -89,13 +89,13 @@
         [self processText:dict];
         count ++;
         
-        if (count % 1000 == 0) {
-            NSString * str = [NSString stringWithFormat:@"processed %d lines", count];
+        if (count % 20000 == 0) {
+            NSString * str = [NSString stringWithFormat:@"Processed %d lines\n", count];
             printf("%s", str.UTF8String);
-            for(int i = 0; i < str.length; i++)
+            /*for(int i = 0; i < str.length; i++)
             {
                 printf("\b");
-            }
+            }*/
             fflush(stdout);
         }
     }

@@ -63,15 +63,15 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "-i /Work/vb2014/tables/texts-b.txt"
+            argument = "-i /Work/vb2016/tables/texts-b.txt"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "-odir /Work/vb2014/tables"
+            argument = "-odir /Work/vb2016/tables"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "-l /Work/vb2014/tables/levels.txt"
+            argument = "-l /Work/vb2016/tables/levels.txt"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

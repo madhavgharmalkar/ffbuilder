@@ -122,8 +122,8 @@
 
 -(BOOL)eligibleForBuild:(NSString *)text recordId:(int)recId
 {
-    if (recId == 1415 || recId == 13052 || recId == 203095)
-        return true;
+    //if (recId == 1415 || recId == 13052 || recId == 203095)
+    //    return true;
     
     NSRange range = [text rangeOfString:@"<BUILDVIEW>"];
     return (range.location != NSNotFound);
@@ -179,7 +179,7 @@
             [self insertRecord:recId toGroup:@"Translations" maxLevel:self.maxLevel];
             [self insertRecord:recId toGroup:@"Verses & Translations" maxLevel:self.maxLevel];
         }
-        else if ([levelName isEqualToString:@"PA_Verse_Text"] && ![style isEqualToString:@"PA_Audio_Bg"])
+        else if ([levelName isEqualToString:@"LE_Verse_Text"] && ![style isEqualToString:@"PA_Audio_Bg"])
         {
             [self insertRecord:recId toGroup:@"Verses" maxLevel:self.maxLevel];
             [self insertRecord:recId toGroup:@"Verses & Translations" maxLevel:self.maxLevel];
