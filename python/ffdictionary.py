@@ -15,5 +15,5 @@ if __name__=='__main__':
         exit(0)
     # working directory
     output_dir = os.environ.get('FBUILD_OUT')
-    dir_files = ['../fff-dict/dict_sp.txt', '../fff-dict/dict-monier.txt']
+    dir_files = ['../data/dict_sp.txt', '../data/dict-monier.txt', '../data/dict-vbase.txt']
     DictionaryBuilderRun(dir_files, output_dir)
