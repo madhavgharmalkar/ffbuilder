@@ -30,7 +30,10 @@ print('==== INDEXING ====')
 if new_db:
     ffindexer.FFIndexerRun(output_dir)
 else:
-    Indexer.BlobIndexerRun(output_dir)
+    # file keywords3 serves as example
+    # there should format for each line:
+    # <recordid> TAB <keyword1> SP <keyword2> SP ..... NL
+    Indexer.BlobIndexerRun(output_dir,kwFile='../data/keywords3.txt')
 
 print('==== VIEWS ====')
 ffviews.ViewBuilderRun(output_dir)
