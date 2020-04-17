@@ -46,20 +46,20 @@ NSString * highlighterColors[] = {
 {
     if (str == nil)
         return nil;
-    
+
     NSMutableString * text = [[NSMutableString alloc] initWithString:str];
-    
+
     int start = 0;
     int end = 0;
     int status = 0;
     int removeRange = 0;
     int removedCount = 1;
-    
-    NSSet * spaceTags = [NSSet setWithObjects:@"<CR>", @"<HR>", @"<HS>", @"<SP>", 
+
+    NSSet * spaceTags = [NSSet setWithObjects:@"<CR>", @"<HR>", @"<HS>", @"<SP>",
                          @"<SB>", @"</SS>", @"<TA>", @"</TA>", @"<CE>",
                          @"</CE>", @"<GP>", @"<GD>", @"<GM>", @"<GT>",
                          @"<GQ>", @"<GI>", @"<GA>", @"<GF>", nil];
-    
+
     while (removedCount > 0) {
         removedCount = 0;
         for(int i = 0; (removedCount == 0) && (i < [text length]); i++)
@@ -96,7 +96,7 @@ NSString * highlighterColors[] = {
                     status = 0;
                 }
             }
-            
+
             if (removeRange == 1) {
                 NSRange foundRange = NSMakeRange(start, end - start + 1);
                 NSString * extractedTag = [text substringWithRange:foundRange];
@@ -109,7 +109,7 @@ NSString * highlighterColors[] = {
             }
         }
     }
-    
+
     return text;
 }
 
@@ -117,9 +117,9 @@ NSString * highlighterColors[] = {
 {
     if (str == nil)
         return nil;
-    
+
     NSMutableString * text = [[NSMutableString alloc] initWithString:str];
-    
+
     int start = 0;
     int end = 0;
     int status = 0;
@@ -127,12 +127,12 @@ NSString * highlighterColors[] = {
     int removedCount = 1;
     int pwLevel = 0;
     int pwStart = 0;
-    
-    NSSet * spaceTags = [NSSet setWithObjects:@"<CR>", @"<HR>", @"<HS>", @"<SP>", 
+
+    NSSet * spaceTags = [NSSet setWithObjects:@"<CR>", @"<HR>", @"<HS>", @"<SP>",
                          @"<SB>", @"</SS>", @"<TA>", @"</TA>", @"<CE>",
                          @"</CE>", @"<GP>", @"<GD>", @"<GM>", @"<GT>",
                          @"<GQ>", @"<GI>", @"<GA>", @"<GF>", nil];
-    
+
     while (removedCount > 0) {
         removedCount = 0;
         for(int i = 0; (removedCount == 0) && (i < [text length]); i++)
@@ -169,7 +169,7 @@ NSString * highlighterColors[] = {
                     status = 0;
                 }
             }
-            
+
             if (removeRange == 1) {
                 NSRange foundRange = NSMakeRange(start, end - start + 1);
                 NSString * extractedTag = [text substringWithRange:foundRange];
@@ -195,7 +195,7 @@ NSString * highlighterColors[] = {
             }
         }
     }
-    
+
     return text;
 }
 
@@ -203,7 +203,7 @@ NSString * highlighterColors[] = {
 {
     NSData * data = [aString dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
     NSMutableData * mdata = [[NSMutableData alloc] initWithLength:([data length] + 4)];
-    
+
     const unsigned char * src = [data bytes];
     unsigned char * md = [mdata mutableBytes];
     int count = [data length];
@@ -217,10 +217,10 @@ NSString * highlighterColors[] = {
         }
     }
     [mdata setLength:j];
-    
+
     NSString * str = [[NSString alloc] initWithData:mdata encoding:NSASCIIStringEncoding];
     mdata = nil;
-    
+
     return str;
 }
 
@@ -228,7 +228,7 @@ NSString * highlighterColors[] = {
 {
 	NSData * data = [aString dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
 	NSMutableData * mdata = [[NSMutableData alloc] initWithLength:([data length] + 4)];
-	
+
 	const unsigned char * src = [data bytes];
 	unsigned char * md = [mdata mutableBytes];
 	int count = [data length];
@@ -242,7 +242,7 @@ NSString * highlighterColors[] = {
 		{
 			md[i] = src[i];
 		}
-		else 
+		else
 		{
 			md[i] = 32;
 			if (i > 0 && md[i-1] == '.')
@@ -252,10 +252,10 @@ NSString * highlighterColors[] = {
 	if (count > 0 && md[count-1] == '.')
 		md[count-1] = ' ';
 	[mdata setLength:count];
-    
+
 	NSString * str = [[NSString alloc] initWithData:mdata encoding:NSASCIIStringEncoding];
 	mdata = nil;
-    
+
     return str;
 }
 
@@ -319,7 +319,7 @@ NSString * highlighterColors[] = {
 	int brackets = 0;
 	int status = MAKEARRAY_STATUS_DEFAULT;
     int nextStatus = MAKEARRAY_STATUS_DEFAULT;
-    
+
 	// main import procedure
 	for(int idx = 0; idx < [_buffer length]; idx++)
 	{
@@ -385,7 +385,7 @@ NSString * highlighterColors[] = {
                     }
                     break;
                 }
-                else 
+                else
                 {
                     [part appendFormat:@">"];
                 }
@@ -403,9 +403,9 @@ NSString * highlighterColors[] = {
                 [part appendFormat:@"%c", rd];
             }
 		}
-        
+
 	}
-    
+
     if ([part length] > 0)
     {
         [self pushCopy:part toArray:tagParts];
@@ -430,7 +430,7 @@ NSCharacterSet * g_flatFileTagString_charSet = nil;
         {
             g_flatFileTagString_charSet = [NSCharacterSet characterSetWithCharactersInString:@"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+-/"];
         }
-        
+
         NSCharacterSet * tagSet = g_flatFileTagString_charSet;
         int startIdx = 0;
         if ([_buffer characterAtIndex:0] == '<')
@@ -500,7 +500,7 @@ NSCharacterSet * g_flatFileTagString_charSet = nil;
             [_buffer appendFormat:@"&#%d;", chr];
         }
     }
-    
+
     return acceptText;
 }
 
@@ -619,7 +619,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 {
     if (hcParaStarted == NO) {
         hcParaStarted = YES;
-        
+
         [target appendString:[paraStyle htmlTextForTag:@"p"]];
     }
 }
@@ -642,7 +642,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
             hcSpanStarted = NO;
         }
     }
-    
+
     // starting new formating tags
     if ([charStyle hasChanges])
     {
@@ -678,7 +678,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
         [target appendString:@"</span>"];
         hcSpanStarted = NO;
     }
-    
+
     [target appendString:@"</p>"];
     hcParaStarted = NO;
 }
@@ -708,12 +708,12 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 	return nil;
 }
 
--(NSString *)readColor:(NSArray *)tagArr index:(int *)startIndex 
+-(NSString *)readColor:(NSArray *)tagArr index:(int *)startIndex
 {
 	int vr, vg, vb;
 	NSString * str;
 	NSString * strColor = @"";
-	
+
 	if (*startIndex < [tagArr count]) {
 		str = [tagArr objectAtIndex:*startIndex];
 		if ([str isEqual:@"DC"] || [str isEqual:@"NO"])
@@ -726,7 +726,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 		vg = [(NSString *)[tagArr objectAtIndex:*startIndex] intValue];
 		*startIndex += 2;
 		vb = [(NSString *)[tagArr objectAtIndex:*startIndex] intValue];
-		
+
 		strColor = [NSString stringWithFormat:@"#%02x%02x%02x", vr, vg, vb];
 		*startIndex +=2;
 		if (*startIndex >= [tagArr count])
@@ -748,12 +748,12 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 	NSString * side;
 	NSArray  * postfix;
 	NSString * value;
-	
+
 	NSString * strWidth = nil;
 	NSString * strStyle = nil;
 	NSString * strColor = nil;
-	
-	while (*startIndex < [arrTag count]) 
+
+	while (*startIndex < [arrTag count])
 	{
 		strWidth = @"0";
 		strStyle = @"solid";
@@ -823,7 +823,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 {
 	NSString * str;
 	NSString * paramName = @"margin-left";
-	
+
 	str = [self inchToPoints:[arrTag objectAtIndex:*startIdx]];
 	if (str == nil) {
 		if ([arrTag count] <= *startIdx || [[arrTag objectAtIndex:*startIdx] isEqual:@";"]) {
@@ -852,7 +852,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 			*startIdx += 1;
 		}
 	} else {
-		[obj setValue:str forKey:@"margin-left"];	
+		[obj setValue:str forKey:@"margin-left"];
 		*startIdx += 1;
 		if ([arrTag count] <= *startIdx || [[arrTag objectAtIndex:*startIdx] isEqual:@";"]) {
 			return;
@@ -868,8 +868,8 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 		str = [self inchToPoints:[arrTag objectAtIndex:*startIdx]];
 		[obj setValue:str forKey:@"text-indent"];
 		return;
-	}		
-    
+	}
+
 	return;
 }
 
@@ -877,7 +877,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 {
 	int vr, vg, vb;
 	NSString * str;
-	
+
 	if (*startIndex < [tagArr count]) {
 		str = [tagArr objectAtIndex:*startIndex];
 		if ([str isEqual:@"DC"] || [str isEqual:@"NO"])
@@ -890,8 +890,8 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 		vg = [(NSString *)[tagArr objectAtIndex:*startIndex] intValue];
 		*startIndex += 2;
 		vb = [(NSString *)[tagArr objectAtIndex:*startIndex] intValue];
-		
-		[obj setValue:[NSString stringWithFormat:@"#%02x%02x%02x", vr, vg, vb] 
+
+		[obj setValue:[NSString stringWithFormat:@"#%02x%02x%02x", vr, vg, vb]
                forKey:prefix];
 		*startIndex +=2;
 		if (*startIndex >= [tagArr count])
@@ -916,13 +916,13 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 {
 	NSData * s = [str dataUsingEncoding:NSWindowsCP1252StringEncoding];
     NSMutableString * result = [[NSMutableString alloc] initWithCapacity:[s length]];
-    
+
 	const unsigned char * bt = [s bytes];
 	int len = [s length];
-	
+
     [result appendString:tag];
     [result appendString:@"_"];
-    
+
 	for(int i = 0; i < len; i++)
 	{
         if (isalpha(bt[i])) {
@@ -933,7 +933,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
             [result appendFormat:@"_%d", bt[i]];
         }
 	}
-	
+
     return result;
 }
 
@@ -959,9 +959,9 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 -(void)readParaFormating:(NSArray *)arrTag fromIndex:(int)stidx target:(HtmlStyle *)obj
 {
 	NSString * value = nil;
-	
+
 	NSMutableString * str = [[NSMutableString alloc] initWithCapacity:64];
-	
+
 	for(int i = stidx; i < [arrTag count]; i++)
 	{
 		NSString * tag = [arrTag objectAtIndex:i];
@@ -1007,7 +1007,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 				i++;
 			}
 		}
-        
+
 	}
 
 }
@@ -1032,13 +1032,13 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 
 #pragma mark -
 
--(void)processTag:(FlatFileTagString *)tag forHtmlTarget:(HtmlString *)target 
+-(void)processTag:(FlatFileTagString *)tag forHtmlTarget:(HtmlString *)target
        withStyles:(HtmlStylesCollection *)styles
         paragraphStyle:(HtmlStyle *)paraStyle
         characterStyle:(HtmlStyleTracker *)charStyle
          record:(NSDictionary *)recordDict
          pwLevels:(NSMutableArray *)pwLevel
-     pwParaStarts:(NSMutableArray *)pwParaStart 
+     pwParaStarts:(NSMutableArray *)pwParaStart
      pwLinkStyles:(NSMutableArray *)pwLinkStyle
 {
     NSArray * tagArr = [tag createArray];
@@ -1074,7 +1074,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
         [target setAcceptText:(restCount == catchPwCounter)];
         [self checkParagraphStart:target paragraphStyle:paraStyle];
 
-        
+
         if ([recordDict objectForKey:@"NamedPopup"]) {
             [target appendString:[NSString stringWithFormat:@"<a class=\"LK_%@\" href=\"vbase://inlinepopup/DP/%@/%d\">", classFormat, [FlatFileUtils encodeLinkSafeString:[recordDict valueForKey:@"NamedPopup"]], hcPwCounter]];
             linkStarted = YES;
@@ -1088,7 +1088,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
             [pwLinkStyle removeLastObject];
         }
     }
-    else if ([str isEqual:@"NT"]) 
+    else if ([str isEqual:@"NT"])
     {
         hcNtCounter++;
         [target setAcceptText:(hcNtCounter == catchNtCounter)];
@@ -1122,7 +1122,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
         [self.ethDict setValue:[NSString stringWithFormat:@"eth_%d", gEthCounter] forKey:@"D"];
         [target appendString:@"<table style='font-family:Helvetica;font-size:14pt;text-align:left'>"];
         [target appendString:[NSString stringWithFormat:@"<tr><td><img id='%@' src='vbase://stylist_images/%@' style='cursor:pointer;' onclick=\"eth_show_hide('%@');eth_expand('%@', '%@', '%@');\"></td><td>", [self.ethDict valueForKey:@"C"], [self.ethDict valueForKey:(ethDefaultExpanded ? @"A" : @"B")], [self.ethDict valueForKey:@"D"], [self.ethDict valueForKey:@"C"], [self.ethDict valueForKey:@"A"], [self.ethDict valueForKey:@"B"]]];
-        
+
     } else if ([str isEqualToString:@"ETB"]) {
         [self finishHtmlFormating:target paragraphStyle:paraStyle characterStyle:charStyle];
         [self finishEtlStarted:target];
@@ -1139,7 +1139,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
         }
         [target appendString:@"</td></tr></table>"];
         self.ethStyle = @"";
-        
+
     } else if ([str isEqualToString:@"ETL"]) {
         [self finishHtmlFormating:target paragraphStyle:paraStyle characterStyle:charStyle];
         [paraStyle clear];
@@ -1177,7 +1177,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
             self.ethStyle = @"";
         }
     }
-    
+
     // extended para styles
     if ([str isEqual:@"PS"]) {
         NSString * safeString = [FlatFileString stringToSafe:[tagArr objectAtIndex:2] tag:@"PA"];
@@ -1188,7 +1188,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
         NSString * safeString = [FlatFileString stringToSafe:[tagArr objectAtIndex:2] tag:@"LE"];
         [paraStyle setStyleName:safeString];
     }
-    
+
     // reading paragraph styles
     if ([str isEqual:@"AP"]) {
         [paraStyle setValue:[NSString stringWithFormat:@"%@in", [tagArr objectAtIndex:2]]
@@ -1204,7 +1204,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
     }
     else if ([str isEqual:@"JU"]) {
         [paraStyle setValue:[self alignFromString:[tagArr objectAtIndex:2]]
-                     forKey:@"text-align"]; 
+                     forKey:@"text-align"];
     }
     else if ([str isEqual:@"LH"]) {
         double v = [[tagArr objectAtIndex:2] doubleValue];
@@ -1225,13 +1225,13 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
             [self readColor:tagArr withPrefix:@"background-color-x" index:&i target:paraStyle];
         }
     }
-    else if ([str isEqual:@"TS"]) { 
+    else if ([str isEqual:@"TS"]) {
     }
 
-    
-    
-    
-    
+
+
+
+
     if ([str isEqual:@"BC"]) {
         if ([tagArr count] == 1 || [[tagArr objectAtIndex:2] isEqual:@"DC"])
         {
@@ -1357,11 +1357,11 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
             hcSupChanged = YES;
         }
     }
-    
+
     //
     // tag for controlling
     //
-    
+
     if ([str isEqual:@"CR"]) {
         [target appendString:@"<br>"];
     }
@@ -1417,7 +1417,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
     else if ([str isEqual:@"QL"] || [str isEqual:@"EN"]) {
         NSString * query = [tagArr objectAtIndex:4];
         [target appendString:[NSString stringWithFormat:@"<a class=\"%@\" href=\"vbase://links/%@/%@\">",
-                              [FlatFileString stringToSafe:[tagArr objectAtIndex:2] tag:@"LK"], 
+                              [FlatFileString stringToSafe:[tagArr objectAtIndex:2] tag:@"LK"],
                               str,
                               [FlatFileUtils encodeLinkSafeString:query]]];
         linkStarted = YES;
@@ -1426,7 +1426,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
     else if ([str isEqual:@"PX"]) {
         [self checkParagraphStart:target paragraphStyle:paraStyle];
         [target appendString:[NSString stringWithFormat:@"<a class=\"%@\" href=\"vbase://popup/%@\">",
-                              [FlatFileString stringToSafe:[tagArr objectAtIndex:2] tag:@"LK"], 
+                              [FlatFileString stringToSafe:[tagArr objectAtIndex:2] tag:@"LK"],
                               [FlatFileUtils encodeLinkSafeString:[tagArr objectAtIndex:4]]]];
         linkStarted = YES;
     }
@@ -1459,7 +1459,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
     else if ([str isEqual:@"/DL"] || [str isEqual:@"/ML"] || [str isEqual:@"EL"]
              || [str isEqual:@"/EN"] || [str isEqual:@"/JL"]
              || [str isEqual:@"/PX"] || [str isEqual:@"/OL"] || [str isEqual:@"/PL"] || [str isEqual:@"/QL"]
-             || [str isEqual:@"/PW"] || [str isEqual:@"/WW"]) 
+             || [str isEqual:@"/PW"] || [str isEqual:@"/WW"])
     {
         if (linkStarted) {
             [target appendString:@"</a>"];
@@ -1508,7 +1508,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
             {
                 [self readParaFormating:tagArr fromIndex:(4+counts*2) target:dict];
             }
-            else 
+            else
             {
                 [self readParaFormating:tagArr fromIndex:2 target:dict];
             }
@@ -1537,27 +1537,27 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
     {
         [target appendString:@"</table>"];
     }
-    
+
 }
 
 +(NSString *)removeTags:(NSString *)str
 {
     if (str == nil)
         return nil;
-    
+
     NSMutableString * text = [[NSMutableString alloc] initWithString:str];
-    
+
     int start = 0;
     int end = 0;
     int status = 0;
     int removeRange = 0;
     int removedCount = 1;
-    
+
     NSSet * spaceTags = [NSSet setWithObjects:@"<CR>", @"<HR>", @"<HS>", @"<SP>",
                          @"<SB>", @"</SS>", @"<TA>", @"</TA>", @"<CE>",
                          @"</CE>", @"<GP>", @"<GD>", @"<GM>", @"<GT>",
                          @"<GQ>", @"<GI>", @"<GA>", @"<GF>", nil];
-    
+
     while (removedCount > 0) {
         removedCount = 0;
         for(int i = 0; (removedCount == 0) && (i < [text length]); i++)
@@ -1594,7 +1594,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
                     status = 0;
                 }
             }
-            
+
             if (removeRange == 1) {
                 NSRange foundRange = NSMakeRange(start, end - start + 1);
                 NSString * extractedTag = [text substringWithRange:foundRange];
@@ -1607,7 +1607,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
             }
         }
     }
-    
+
     return text;
 }
 
@@ -1686,7 +1686,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
         [target appendString:[self styleName]];
         [target appendString:@"\""];
     }
-    
+
     if ([[self format] count] > 0) {
         [target appendString:@" style=\""];
         [target appendString:[self styleCssText]];
@@ -1716,7 +1716,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
             [str appendFormat:@"%@:'%@'", key, val];
         }
     }
-    
+
     return str;
 }
 
@@ -1799,7 +1799,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 		return @"Helvetica";
 	if ([fname hasPrefix:@"Sanskrit-"])
 		return @"Times";
-	
+
 	// this is when converting to Unicode Vedabase
 	if ([fname isEqual:@"ScaHelvetica"] || [fname isEqual:@"ScaOptima"])
 		return @"Helvetica";
@@ -1810,7 +1810,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 	if ([fname isEqual:@"scagoudy"])
 		return @"Times";
 	// end convertion to Unicode Vedabase
-	
+
 	return fname;
 }
 
@@ -1820,7 +1820,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 		return @"audio/mpeg";
 	if ([str isEqual:@"AcroExch.Document"])
 		return @"application/pdf";
-	
+
 	return str;
 }
 
@@ -1832,7 +1832,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 #pragma mark -
 
 @implementation GPMutableInteger
-    
+
 @synthesize value;
 
 -(id)init
@@ -1893,7 +1893,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
 -(void)removeTrailingNonAlphanumeric:(NSMutableString *)word
 {
     NSCharacterSet * chs = [NSCharacterSet alphanumericCharacterSet];
-    
+
     NSInteger top = [word length];
     NSInteger index = [word length] - 1;
     for(NSInteger i = index; i >= 0; i--)
@@ -1907,7 +1907,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
             break;
         }
     }
-    
+
     if (top != [word length])
     {
         [word setString:[word substringToIndex:index]];
@@ -1928,7 +1928,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
     int start = 0;
     int end = 0;
     int tagIdentified = 0;
-    
+
     NSData * data = [self.text dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
     int length = [data length];
     const char * bytes = [data bytes];
@@ -1936,7 +1936,7 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
     NSMutableString * word = [[NSMutableString alloc] init];
     FlatFileTagString * tag = [[FlatFileTagString alloc] init];
     int contains = 0; // 0 - none, 1 - alpha, 2 - num, 3 - alphanum, 4-minus,plus
-    
+
     for(int i = 0; i < length; i++)
     {
         if (status == 0) {
@@ -1970,8 +1970,8 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
                 tagIdentified = 1;
                 status = 0;
             }
-        }    
-        
+        }
+
         if (tagIdentified == 1) {
             tagIdentified = 0;
             [tag clear];
@@ -2038,25 +2038,10 @@ BOOL g_FlastFileString_DataLinkAsButton = NO;
             }
         }
     }
-    
+
     [self tryProcess:word];
-    
+
     [delegate pushEndfromIndexer:self];
 }
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

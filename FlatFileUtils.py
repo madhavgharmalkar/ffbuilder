@@ -1,5 +1,11 @@
-
 import urllib.parse
+
+MAKEARRAY_STATUS_DEFAULT = 0
+MAKEARRAY_STATUS_START_DECISION = 1
+MAKEARRAY_STATUS_QUOTE_READ = 2
+MAKEARRAY_STATUS_END_QUOTE = 3
+MAKEARRAY_STATUS_READ_TAG  = 4
+
 
 class FlatFileUtils:
     highlighterColors = [
@@ -174,39 +180,35 @@ class FlatFileUtils:
 
 
 class FlatFileTagString:
-    def __init__(self):
-        self.buffer = ''
+    def __init__(self,tagText=''):
+        self.buffer = tagText
         self.extractedTag = ''
     def clear(self):
         self.buffer = ''
         self.extractedTag = ''
 
     def appendChar(self,c):
-        self.buffer += c
-        return
+        self.buffer += chr(c)
 
-    def appendString:(self,str):
+    def appendString(self,str):
         self.buffer += str
-        return
 
     def buffer(self):
         return self.buffer
 
     def createArray(self):
-    	part = ''
-    	tagParts = []
-    	brackets = 0;
-        MAKEARRAY_STATUS_DEFAULT = 0
-        MAKEARRAY_STATUS_START_DECISION = 1
-        MAKEARRAY_STATUS_QUOTE_READ = 2
-        MAKEARRAY_STATUS_END_QUOTE = 3
-        MAKEARRAY_STATUS_READ_TAG  = 4
-    	status = MAKEARRAY_STATUS_DEFAULT;
-        nextStatus = MAKEARRAY_STATUS_DEFAULT;
+        part = ''
+        tagParts = []
+        brackets = 0
+        status = MAKEARRAY_STATUS_DEFAULT
+        nextStatus = MAKEARRAY_STATUS_DEFAULT
+        rd = ''
 
-    	// main import procedure
-    	for idx in range(len(self.buffer)):
+        # main import procedure
+        idx = 0
+        while idx < len(self.buffer):
             rd = self.buffer[idx]
+            #print(status, rd)
             if status == MAKEARRAY_STATUS_DEFAULT:
                 if rd == '<':
                     status = MAKEARRAY_STATUS_START_DECISION
@@ -231,9 +233,8 @@ class FlatFileTagString:
                 else:
                     tagParts.append(part)
                     part = ''
-                    idx--
+                    idx-=1
                     status = MAKEARRAY_STATUS_READ_TAG
-                    continue
             elif status == MAKEARRAY_STATUS_READ_TAG:
                 if rd == '<':
                     brackets+=1
@@ -244,7 +245,7 @@ class FlatFileTagString:
                         part=''
                     if rd != ' ':
                         part=''
-                        tagParts.append(string(rd))
+                        tagParts.append(rd)
                 elif rd == '>':
                     brackets-=1
                     if brackets == 0:
@@ -261,21 +262,25 @@ class FlatFileTagString:
                     status = MAKEARRAY_STATUS_QUOTE_READ
                 else:
                     part += rd
+            idx += 1
 
         if len(part) > 0:
             tagParts.append(part)
 
-        return tagParts;
+        return tagParts
 
     def tag(self):
         if len(self.extractedTag)>0:
             return self.extractedTag
 
-        i=self.buffer.find('<')
+        i = self.buffer.find('<')
+        if i>=0:
+            i+=1
         while i<len(self.buffer):
             c = self.buffer[i]
             if c.isalpha() or c in ['+','-','/']:
                 self.extractedTag+=c
+                i+=1
             else:
                 break
         return self.extractedTag
@@ -284,9 +289,19 @@ class FlatFileTagString:
 
 
 class HtmlStyle:
-    styleName = ''
-    format = {}
-    styleNameChanged = False
+    def __init__(self):
+        self._styleName = None
+        self.format = {}
+        self.styleNameChanged = False
+
+    @property
+    def styleName(self):
+        return self._styleName
+
+    @styleName.setter
+    def styleName(self,str):
+        self._styleName=str
+        self.styleNameChanged=True
 
     def __getitem__(self,key):
         return self.format[str]
@@ -306,46 +321,97 @@ class HtmlStyle:
     def clearFormat(self):
         self.format = {}
 
+    @property
     def styleCssText(self):
         str = ''
+        for key,val in self.format.items():
+            if len(str)>0: str += ';'
+            if ' ' in val:
+                str += '{}:{}'.format(key,val)
+            else:
+                str += '{}:\'{}\''.format(key,val)
         return str
 
     def htmlTextForTag(self,tag):
-        str = ''
-        return str
+        target = '<' + tag
+        if not self.styleName and len(self.styleName) > 0:
+            target += f' class="{self.styleName}"'
+
+        if len(self.format) > 0:
+            target += f' style="{self.styleCssText}"'
+
+        target += '>'
+        return target
 
     def clear(self):
-        return
+        self.format = {}
+        self.styleName = None
+        self.styleNameChanged = False
 
 class HtmlStyleTracker(HtmlStyle):
-    formatOld = {}
-    formatChanges = []
-
-    def clearChanges(self):
+    def __init__(self):
+        self.formatOld = {}
         self.formatChanges = []
 
+    def __setitem__(self,key,value):
+        if key not in self.formatChanges:
+            self.formatOld[key] = self.format[key]
+        self.formatChanges.append(key)
+        HtmlStyle.__setitem__(self,key,value)
+
+    def __delitem__(self,key):
+        if key not in self.formatChanges:
+            self.formatOld[key] = self.format[key]
+        self.formatChanges.append(key)
+        HtmlStyle.__delitem__(self,key)
+
+    def clearChanges(self):
+        self.formatOld = dict(self.format)
+        self.formatChanges = []
+        self.styleNameChanged = False
+
     def hasChanges(self):
-        return len(self.formatChanges)>0
+        return self.styleNameChanged or len(self.formatChanges)>0
 
 
 class HtmlStylesCollection:
-    styles = []
+    def __init__(self):
+        self.styles = []
 
     def addStyle(self,style):
         self.styles.append(style)
         return
 
     def substitutionFontName(self,fname):
-        str = fname
-        return str
+        if fname=="Sanskrit-Helvetica":
+            return "Helvetica"
+        if fname.startswith("Sanskrit-"):
+            return "Times"
+
+        # this is when converting to Unicode Vedabase
+        if fname=="ScaHelvetica" or fname=="ScaOptima":
+            return "Helvetica"
+        if fname.startswith("Sca"):
+            return "Times"
+        if fname=="Balaram" or fname=="Dravida":
+            return "Times"
+        if fname=="scagoudy":
+            return "Times"
+        # end convertion to Unicode Vedabase
+        return fname
 
     def getMIMEType(self,str):
+        if str=="mp3file":
+            return "audio/mpeg"
+        if str == "AcroExch.Document":
+            return "application/pdf"
         return str
 
 
 class HtmlString:
-    buffer = ''
-    acceptText = False
+    def __init__(self):
+        self.buffer = ''
+        self.acceptText = False
 
     def string(self):
         return self.buffer
@@ -385,51 +451,54 @@ class HtmlString:
         return i
 
     def insertString(self,str,atIndex=0):
-        self.buffer[atIndex:atIndex]=str
+        self.buffer.insert(atIndex,str)
         return
 
-g_FlastFileString_DataLinkAsButton=False
+
+class GPMutableInteger:
+    def __init__(self):
+        self.value = 0
+    def increment(self):
+        self.value += 1
+    def decrement(self):
+        self.value -= 1
+    def intValue(self):
+        return self.value
 
 class FlatFileString:
-    buffer = ''
-    hcParaStarted = False
-    hcSpanStarted = False
-    hcSup = False
-    hcSupChanged = False
-    hcSub = False
-    hcSubChanged = False
-    linkStarted = False
-    buttonStarted = False
-    ethDefaultExpanded = False
-    hcPwCounter = 0
-    hcNtCounter = 0
-    hcTableRows = 0
-    hcTableColumns = 0
-    catchPwLevel = 0
-    catchPwCounter = 0
-    catchNtCounter = 0
-    ethStyle = ''
-    ethListImage = ''
-    ethDict = {}
-    ethStack = []
-    dataObjectName = None
-    paraStyleRead = None
-    validator = None
+    dataLinkAsButton = False
+    def __init__(self,tagText=''):
+        self.buffer = tagText
+        self.hcParaStarted = False
+        self.hcSpanStarted = False
+        self.hcSup = False
+        self.hcSupChanged = False
+        self.hcSub = False
+        self.hcSubChanged = False
+        self.linkStarted = False
+        self.buttonStarted = False
+        self.ethDefaultExpanded = False
+        self.hcPwCounter = 0
+        self.hcNtCounter = 0
+        self.hcTableRows = 0
+        self.hcTableColumns = 0
+        self.catchPwLevel = 0
+        self.catchPwCounter = 0
+        self.catchNtCounter = 0
+        self.ethStyle = ''
+        self.ethListImage = ''
+        self.ethDict = {}
+        self.ethStack = []
+        self.dataObjectName = None
+        self.validator = None
 
-    @staticmethod
-    def stringToSafe(str,tag):
-        return ''
-
-    @staticmethod
-    def dataLinkAsButton():
-        return g_FlastFileString_DataLinkAsButton
-
-    @staticmethod
-    def setDataLinkAsButton(bValue):
-        g_FlastFileString_DataLinkAsButton=bValue
-
+    @property
     def string(self):
         return self.buffer
+
+    @string.setter
+    def string(self,str):
+        self.buffer = str
 
     def reset(self):
         self.hcParaStarted = False
@@ -461,10 +530,6 @@ class FlatFileString:
     def setCatchNtCounter(self,val):
         self.catchNtCounter=val
 
-    @staticmethod
-    def removeTags(str):
-        return str
-
     def checkParagraphStart(self,target,paraStyle):
         if self.hcParaStarted == False:
             self.hcParaStarted = True
@@ -473,9 +538,9 @@ class FlatFileString:
     def processChar(self,chr,target,paraStyle,charStyle):
         self.checkParagraphStart(target,paraStyle)
 
-        if self.hcSubChanged and !self.hcSub:
+        if self.hcSubChanged and not self.hcSub:
             target.appendString("</sub>")
-        if self.hcSupChanged and !self.hcSup:
+        if self.hcSupChanged and not self.hcSup:
             target.appendString("</sup>")
         if charStyle.hasChanges():
             if self.hcSpanStarted:
@@ -499,7 +564,7 @@ class FlatFileString:
     def finishHtmlFormating(self,target,paraStyle,charStyle):
         if self.hcSub:
             target.appendString("</sub>")
-            hcSub = False
+            self.hcSub = False
         if self.hcSup:
             target.appendString("</sup>")
             self.hcSup = False
@@ -511,21 +576,21 @@ class FlatFileString:
         self.hcParaStarted = False
 
     def sideTextFromAbbr(self,side):
-    	if side=='AL':
+        if side=='AL':
             return ['']
-    	if side=="LF":
+        if side=="LF":
             return ["-left"]
-    	if side=="RT":
+        if side=="RT":
             return ["-right"]
-    	if side=="BT":
+        if side=="BT":
             return ["-bottom"]
-    	if side=="TP":
+        if side=="TP":
             return ["-top"]
-    	if side=="VT":
+        if side=="VT":
             return ["-top", "-bottom"]
-    	if side=="HZ":
+        if side=="HZ":
             return ["-right", "-left"]
-    	return None
+        return None
 
     def inchToPoints(self,value):
         if value.endswith('pt'):
@@ -536,74 +601,73 @@ class FlatFileString:
             return None
 
     def readColor(tagArr,startIndex):
-    	vr = 0
+        vr = 0
         vg = 0
         vb = 0
-    	str = ''
-    	strColor = ""
+        str = ''
+        strColor = ""
         assert isinstance(startIndex,RefInt)
 
-    	if startIndex.value < len(tagArr):
-    		str = tagArr[startIndex.value]
-    		if str=="DC" or str=="NO":
-    			startIndex.value += 1
-    			return ""
-    		vr = int(str)
-    		startIndex.value += 2
-    		vg = int(tagArr[startIndex.value])
-    		startIndex.value += 2
-    		vb = int(tagArr[startIndex.value])
+        if startIndex.value < len(tagArr):
+            str = tagArr[startIndex.value]
+            if str=="DC" or str=="False ":
+                startIndex.value += 1
+                return ""
+            vr = int(str)
+            startIndex.value += 2
+            vg = int(tagArr[startIndex.value])
+            startIndex.value += 2
+            vb = int(tagArr[startIndex.value])
 
-    		strColor = "#{0:2x}{1:2x}{2:2x}".format(vr, vg, vb)
+            strColor = "#{0:2x}{1:2x}{2:2x}".format(vr, vg, vb)
             assert len(strColor)==7, 'bad value for color {}'.format(strColor)
-    		startIndex.value +=2;
-    		if startIndex.value >= len(tagArr):
-    			return strColor
-    		if tagArr[startIndex.value]=="DC":
-    			startIndex.value += 1
-    		else:
-    			startIndex.value -= 1
-    	return strColor
+            startIndex.value +=2
+            if startIndex.value >= len(tagArr):
+                return strColor
+            if tagArr[startIndex.value]=="DC":
+                startIndex.value += 1
+            else:
+                startIndex.value -= 1
+        return strColor
 
     def readBorders(self,arrTag,startIndex,obj):
         assert isinstance(startIndex,RefInt)
         assert isinstance(obj,HtmlStyle)
-    	side=''
-    	postfix=[]
-    	value=''
+        side=''
+        postfix=[]
+        value=''
 
-    	strWidth = None
-    	strStyle = None
-    	strColor = None
+        strWidth = None
+        strStyle = None
+        strColor = None
 
-    	while startIndex.value < len(arrTag):
-    		strWidth = "0"
-    		strStyle = "solid"
-    		strColor = ""
-    		side = arrTag[startIndex.value]
-    		if side==';':
-    			return
-    		postfix = self.sideTextFromAbbr(side)
-    		if postfix == None:
-    			startIndex.value -= 1
-    			return
-    		startIndex.value += 2
-    		strWidth = self.inchToPoints(arrTag[startIndex.value])
-    		startIndex.value += 2
-    		value = self.inchToPoints(arrTag[startIndex.value])
+        while startIndex.value < len(arrTag):
+            strWidth = "0"
+            strStyle = "solid"
+            strColor = ""
+            side = arrTag[startIndex.value]
+            if side==';':
+                return
+            postfix = self.sideTextFromAbbr(side)
+            if postfix == None:
+                startIndex.value -= 1
+                return
+            startIndex.value += 2
+            strWidth = self.inchToPoints(arrTag[startIndex.value])
+            startIndex.value += 2
+            value = self.inchToPoints(arrTag[startIndex.value])
             for postfixitem in postfix:
                 obj["padding{}".format(postfixitem)]=value
-    		startIndex.value += 1
-    		if startIndex.value >= len(arrTag)
-    			return
-    		startIndex.value += 1
-    		value = arrTag[startIndex.value]
-    		if value=="FC":
-    			startIndex.value += 2
-    			strColor = self.readColor(arrTag,startIndex)
-    			startIndex.value += 1
-    		else:
-    			strColor = ""
+            startIndex.value += 1
+            if startIndex.value >= len(arrTag): return
+            startIndex.value += 1
+            value = arrTag[startIndex.value]
+            if value=="FC":
+                startIndex.value += 2
+                strColor = self.readColor(arrTag,startIndex)
+                startIndex.value += 1
+            else:
+                strColor = ""
 
             for item in postfix:
                 obj["border{}-width".format(item)]=strWidth
@@ -611,82 +675,82 @@ class FlatFileString:
                 obj["border{}-color".format(item)]=strColor
 
     def alignFromString(self,str):
-    	if str=="CN": return "center"
-    	if str=="RT": return "right"
-    	if str=="FL": return "justify"
-    	if str=="CA": return "left"
-    	return 'left'
+        if str=="CN": return "center"
+        if str=="RT": return "right"
+        if str=="FL": return "justify"
+        if str=="CA": return "left"
+        return 'left'
 
     def readIndentFormating(self,arrTag,startIdx,obj):
         assert isinstance(startIndex,RefInt)
         assert isinstance(obj,HtmlStyle)
-    	str=''
-    	paramName = "margin-left"
-    	str = self.inchToPoints(arrTag[startIdx.value])
+        str=''
+        paramName = "margin-left"
+        str = self.inchToPoints(arrTag[startIdx.value])
 
-    	if str == None:
-    		if len(arrTag) <= startIdx.value or arrTag[startIdx.value]==";": return
-    		while len(arrTag) > startIdx.value:
-    			str = arrTag[startIdx.value]
-    			if str=='LF': paramName = "margin-left"
-    			elif str=="RT": paramName = "margin-right"
+        if str == None:
+            if len(arrTag) <= startIdx.value or arrTag[startIdx.value]==";": return
+            while len(arrTag) > startIdx.value:
+                str = arrTag[startIdx.value]
+                if str=='LF': paramName = "margin-left"
+                elif str=="RT": paramName = "margin-right"
                 elif str=="FI": paramName = "text-indent"
                 else:
-    				startIdx.value -= 1
-    				return
-    			startIdx.value += 2
-    			if len(arrTag) <= startIdx.value or arrTag[startIdx.value]==";": return
-    			str = self.inchToPoints(arrTag[startIdx.value])
-    			obj[paramName]=str
-    			startIdx.value += 1
-    			if len(arrTag) <= startIdx.value or arrTag[startIdx.value]==";": return
-    			startIdx.value += 1
+                    startIdx.value -= 1
+                    return
+                startIdx.value += 2
+                if len(arrTag) <= startIdx.value or arrTag[startIdx.value]==";": return
+                str = self.inchToPoints(arrTag[startIdx.value])
+                obj[paramName]=str
+                startIdx.value += 1
+                if len(arrTag) <= startIdx.value or arrTag[startIdx.value]==";": return
+                startIdx.value += 1
         if str != None:
-    		obj['margin-left']=str
-    		startIdx.value += 1
-			if len(arrTag) <= startIdx.value or arrTag[startIdx.value]==";": return
-    		startIdx.value += 1
-    		str = self.inchToPoints(arrTag[startIdx.value])
-    		obj['margin-right']=str
-    		startIdx.value += 1
-    		if len(arrTag) <= startIdx.value or arrTag[startIdx.value]==";": return
-    		startIdx.value += 1
-    		str = self.inchToPoints(arrTag[startIdx.value])
-    		obj['text-indent']=str
-    	return
+            obj['margin-left']=str
+            startIdx.value += 1
+            if len(arrTag) <= startIdx.value or arrTag[startIdx.value]==";": return
+            startIdx.value += 1
+            str = self.inchToPoints(arrTag[startIdx.value])
+            obj['margin-right']=str
+            startIdx.value += 1
+            if len(arrTag) <= startIdx.value or arrTag[startIdx.value]==";": return
+            startIdx.value += 1
+            str = self.inchToPoints(arrTag[startIdx.value])
+            obj['text-indent']=str
+        return
 
     def readColor(self,tagArr,prefix,startIndex,obj):
         assert isinstance(startIndex,RefInt)
         assert isinstance(obj,HtmlStyle)
-    	vr = vg = vb = 0
-    	str = ''
+        vr = vg = vb = 0
+        str = ''
 
-    	if startIndex.value < len(tagArr):
-    		str = tagArr[startIndex.value]
-    		if str=="DC" or str=="NO":
-    			startIndex.value += 1
-    			return
-    		vr = int(str)
-    		startIndex.value += 2
-    		vg = int(tagArr[startIndex.value])
-    		startIndex.value += 2
-    		vb = int(tagArr[startIndex.value])
+        if startIndex.value < len(tagArr):
+            str = tagArr[startIndex.value]
+            if str=="DC" or str=="False ":
+                startIndex.value += 1
+                return
+            vr = int(str)
+            startIndex.value += 2
+            vg = int(tagArr[startIndex.value])
+            startIndex.value += 2
+            vb = int(tagArr[startIndex.value])
 
             colorStr = '#{0:2x}{1:2x}{2:2x}'.format(vr,vg,vb)
             assert len(colorStr)==7, 'Color string invalid: {}'.format(colorStr)
             obj[prefix]=colorStr
-    		startIndex.value +=2
-    		if startIndex.value >= len(tagArr): return
-    		if tagArr[startIndex.value]=='DC':
-    			startIndex.value += 1
-    		else:
-    			startIndex.value -= 1
+            startIndex.value +=2
+            if startIndex.value >= len(tagArr): return
+            if tagArr[startIndex.value]=='DC':
+                startIndex.value += 1
+            else:
+                startIndex.value -= 1
 
     def stringToSafe(self,str,tag):
-    	s = str.encode('cp1252','ignore')
+        s = str.encode('cp1252','ignore')
         result=tag + '_'
 
-    	for bt in s:
+        for bt in s:
             if bt.isaplha():
                 result += bt
             elif bt == ' ':
@@ -697,7 +761,7 @@ class FlatFileString:
         return result
 
     def percentValue(self, value):
-    	try:
+        try:
             d=float(value)
             if d>0.3:
                 return '{}%'.format(int(d))
@@ -711,40 +775,40 @@ class FlatFileString:
         str=''
         ri=RefInt()
         ri.value=0
-    	while ri.value < len(arrTag):
-    		tag = arrTag[i]
-    		if tag=='AP':
-    			value = self.inchToPoints(arrTag[ri.value+2])
-    			obj['margin-bottom']=value
-    			ri.inc(2)
-    		elif tag=='BP':
-    			value = self.inchToPoints(arrTag[ri.value+2])
-    			obj['margin-top']=value
-    			ri.inc(2)
-    		elif tag=='JU':
-    			value = self.alignFromString(arrTag[ri.value+2])
-    			obj['text-align']=value
-    			ri.inc(2)
-    		elif tag=='SD':
-    			ri.inc(2)
-    			self.readColor(arrTag,"background-color",ri,obj)
-    		elif tag=='LH':
-    			value = self.inchToPoints(arrTag[ri.value+2])
-    			obj['line-height']=value
-    			ri.inc(2)
-    		elif tag=='LS':
-    			value = self.percentValue(arrTag[ri.value+2])
-    			obj['line-height']=value
-    			ri.inc(2)
-    		elif tag=='IN':
-    			ri.inc(2)
-    			self.readIndentFormating(arrTag,ri,obj)
-    		elif tag=='BR':
-    			ri.inc(2)
-    			self.readBorders(arrTag,ri,obj)
-    		else:
-    			while ri.value < len(arrTag) and arrTag[ri.value]!=';':
-    				ri.inc(1)
+        while ri.value < len(arrTag):
+            tag = arrTag[i]
+            if tag=='AP':
+                value = self.inchToPoints(arrTag[ri.value+2])
+                obj['margin-bottom']=value
+                ri.inc(2)
+            elif tag=='BP':
+                value = self.inchToPoints(arrTag[ri.value+2])
+                obj['margin-top']=value
+                ri.inc(2)
+            elif tag=='JU':
+                value = self.alignFromString(arrTag[ri.value+2])
+                obj['text-align']=value
+                ri.inc(2)
+            elif tag=='SD':
+                ri.inc(2)
+                self.readColor(arrTag,"background-color",ri,obj)
+            elif tag=='LH':
+                value = self.inchToPoints(arrTag[ri.value+2])
+                obj['line-height']=value
+                ri.inc(2)
+            elif tag=='LS':
+                value = self.percentValue(arrTag[ri.value+2])
+                obj['line-height']=value
+                ri.inc(2)
+            elif tag=='IN':
+                ri.inc(2)
+                self.readIndentFormating(arrTag,ri,obj)
+            elif tag=='BR':
+                ri.inc(2)
+                self.readBorders(arrTag,ri,obj)
+            else:
+                while ri.value < len(arrTag) and arrTag[ri.value]!=';':
+                    ri.inc(1)
 
 
     def finishEtlStarted(self,target):
@@ -753,15 +817,14 @@ class FlatFileString:
             del self.ethDict['ETL-STARTED']
 
     def fullPathStylistImage(self,file):
-        return "vbase://stylist_image/{}".format(file)
+        return "vbase:#stylist_image/{}".format(file)
 
     def getObjectMIMEType(self,ob_type,ob_name):
         if ob_name.lower().endswith('.png'):
             return 'image/png'
         assert False, 'Unknown file/type ' + ob_name + ' ' + ob_type
 
-
-    def processTag(self,tag,target,styles,paraStyle,charStyle,recordDict,pwLevel,pwParaStart,pwLinkStyle):
+    def processTag(self, tag, target, styles, paraStyle, charStyle, recordDict, pwLevel, pwParaStart, pwLinkStyle):
         assert isinstance(tag,FlatFileTagString)
         assert isinstance(target,HtmlString)
         assert isinstance(styles,HtmlStylesCollection)
@@ -775,7 +838,7 @@ class FlatFileString:
         # first processing is for taga, which can influence levels of text
         #
         if str=='PW':
-            self.hcPwCounter++;
+            self.hcPwCounter+=1
             pwLevel.append(self.hcPwCounter)
             pwParaStart.append(self.hcParaStarted)
             self.hcParaStarted = False
@@ -790,7 +853,7 @@ class FlatFileString:
                 del pwLevel[-1]
             if len(pwLevel) > 0:
                 restCount = pwLevel[-1]
-            else
+            else:
                 restCount = 0
             if len(pwParaStart)>0:
                 self.hcParaStarted = pwParaStart[-1]
@@ -799,26 +862,26 @@ class FlatFileString:
             classFormat = "Popup"
             if len(pwLinkStyle) > 0:
                 classFormat = pwLinkStyle[-1]
-            target.acceptText = (restCount == catchPwCounter)
+            target.acceptText = (restCount == self.catchPwCounter)
             self.checkParagraphStart(target,paraStyle)
 
 
             if 'NamedPopup' in recordDict:
-                target.appendString("<a class=\"LK_{}\" href=\"vbase://inlinepopup/DP/{}/{}\">".format(classFormat,
-                    FlatFileUtils.encodeLinkSafeString(recordDict["NamedPopup"]), hcPwCounter))
-                linkStarted = True
+                target.appendString("<a class=\"LK_{}\" href=\"vbase:#inlinepopup/DP/{}/{}\">".format(classFormat,
+                    FlatFileUtils.encodeLinkSafeString(recordDict["NamedPopup"]), self.hcPwCounter))
+                self.linkStarted = True
             else:
-                target.appendString("<a class=\"LK_{}\" href=\"vbase://inlinepopup/RD/{}/{}\">".format(classFormat,
-                    recordDict['record'], hcPwCounter))
-                linkStarted = True
-            if len(pwLinkStyle) > 0:
-                del pwLinkStyle[-1]
+                target.appendString("<a class=\"LK_{}\" href=\"vbase:#inlinepopup/RD/{}/{}\">".format(classFormat,
+                    recordDict['record'], self.hcPwCounter))
+                self.linkStarted = True
+            if len(self.pwLinkStyle) > 0:
+                del self.pwLinkStyle[-1]
         elif str=='NT':
             self.hcNtCounter+=1
-            target.acceptText = (hcNtCounter == catchNtCounter)
+            target.acceptText = (self.hcNtCounter == self.catchNtCounter)
         elif str=="/NT":
             self.hcNtCounter-=1
-            target.acceptText = (hcNtCounter == catchNtCounter)
+            target.acceptText = (self.hcNtCounter == self.catchNtCounter)
 
         #
         # if text is not accepted, then also tags are rejected to write
@@ -832,21 +895,21 @@ class FlatFileString:
             charStyle.clearChanges()
             ethArg = ''
             self.ethStack.append(self.ethDict.copy())
-            ethArg = (tagArr[2] if len(tagArr)>=3 else "cont_book_open")
+            ethArg = tagArr[2] if len(tagArr)>=3 else "cont_book_open"
             self.ethDict['A']=ethArg
-            ethArg = (tagArr[4] if len(tagArr)>=5 else @"cont_book_closed")
+            ethArg = tagArr[4] if len(tagArr)>=5 else "cont_book_closed"
             self.ethDict['B']=ethArg
             gEthCounter+=1
             self.ethDict['C'] = "ethimg{}".format(gEthCounter)
             self.ethDict['D'] = "eth_{}".format(gEthCounter)
             target.appendString("<table style='font-family:Helvetica;font-size:14pt;text-align:left'>")
             target.appendString("<tr><td><img id='{}'".format(self.ethDict['C']))
-            target.appendString("src='vbase://stylist_images/{}' style='cursor:pointer;' ".format(self.ethDict['A' if ethDefaultExpanded else 'B']))
+            target.appendString("src='vbase:#stylist_images/{}' style='cursor:pointer;' ".format(self.ethDict['A' if self.ethDefaultExpanded else 'B']))
             target.appendString("onclick=\"eth_show_hide('{}');eth_expand('{}', '{}', '{}');\"></td><td>".format(self.ethDict["D"], self.ethDict["C"], self.ethDict["A"], self.ethDict["B"]))
         elif str=="ETB":
             self.finishHtmlFormating(target,paraStyle,charStyle)
             self.finishEtlStarted(target)
-            target.appendString("</td></tr><tr><td></td><td id='{}' style='display:{};'>".format(self.ethDict["D"], 'block' if ethDefaultExpanded else "none"))
+            target.appendString("</td></tr><tr><td></td><td id='{}' style='display:{};'>".format(self.ethDict["D"], 'block' if self.ethDefaultExpanded else "none"))
         elif str=="/ETH":
             self.finishHtmlFormating(target,paraStyle,charStyle)
             paraStyle.clear()
@@ -868,7 +931,7 @@ class FlatFileString:
             else:
                 target.appendString("<table style='font-size:14pt;' cellpadding=4>")
             target.appendString("<tr>")
-            target.appendString("<td width=20 valign=top><img src='vbase://stylist_images/{}'></td><td>".format(self.ethListImage))
+            target.appendString("<td width=20 valign=top><img src='vbase:#stylist_images/{}'></td><td>".format(self.ethListImage))
             self.ethDict['ETL_STARTED']=1
         elif str=="ETX":
             self.finishHtmlFormating(target,paraStyle,charStyle)
@@ -921,7 +984,7 @@ class FlatFileString:
             index=RefInt(2)
             self.readIndentFormating(tagArr,index2,paraStyle)
         elif str=="SD":
-            if len(tagArr) == 1 or tagArr[2]=='NO':
+            if len(tagArr) == 1 or tagArr[2]=='False ':
                 del paraStyle["background-color-x"]
             else:
                 i=RefInt(2)
@@ -1001,224 +1064,129 @@ class FlatFileString:
         elif str=="SP":
             self.hcSup = True
             self.hcSupChanged = True
-        else if ([str isEqual:@"SB"]) {
-            hcSub = YES;
-            hcSubChanged = YES;
-        }
-        else if ([str isEqual:@"/SS"]) {
-            if (hcSub) {
-                hcSub = NO;
-                hcSubChanged = YES;
-            }
-            if (hcSup) {
-                hcSup = NO;
-                hcSupChanged = YES;
-            }
-        }
+        elif str=="SB":
+            self.hcSub = True
+            self.hcSubChanged = True
+        elif str == "/SS":
+            if self.hcSub:
+                self.hcSub = False
+                self.hcSubChanged = True
+            if self.hcSup:
+                self.hcSup = False
+                self.hcSupChanged = True
 
-        //
-        // tag for controlling
-        //
+        #
+        # tag for controlling
+        #
 
-        if ([str isEqual:@"CR"]) {
-            [target appendString:@"<br>"];
-        }
-        else if ([str isEqual:@"HR"]) {
-            hcParaStarted = NO;
-        }
-        else if ([str isEqual:@"HS"]) {
-            [target appendString:@"&nbsp;"];
-        }
-        else if ([str isEqual:@"OB"]) {
-            NSString * ob_type = [tagArr objectAtIndex:2];
-            NSString * ob_name = [tagArr objectAtIndex:4];
-            NSString * ob_width = nil;
-            NSString * ob_height = nil;
-            if ([tagArr count] > 6)
-                ob_width = [tagArr objectAtIndex:6];
-            if ([tagArr count] > 8)
-                ob_height = [tagArr objectAtIndex:8];
-            //NSMutableDictionary * form = [[NSMutableDictionary alloc] initWithCapacity:10];
-            NSMutableString * s = [[NSMutableString alloc] initWithCapacity:100];
-            NSString * objectExtension = [[ob_name pathExtension] lowercaseString];
-            NSSet * imageExtensions = [NSSet setWithObjects:@"png", @"tif", @"tiff", @"jpg", @"gif", @"bmp", nil];
-            [self checkParagraphStart:target paragraphStyle:paraStyle];
-            if ([imageExtensions containsObject:objectExtension])
-            {
-                [s appendFormat:@"<img src=\"vbase://objects/%@\"", ob_name];
-                if (ob_width != nil && ob_height != nil)
-                {
-                    [s appendFormat:@" width=%@ height=%@",
-                     [self inchToPoints:ob_width],
-                     [self inchToPoints:ob_height]];
-                }
-                [s appendString:@">"];
-            } else {
-                [s appendFormat:@"<object data=\"vbase://objects/%@\"", ob_name];
-                if (ob_type != nil)
-                {
-                    [s appendFormat:@" type=\"%@\"", [self getObjectMIMEType:ob_type objectName:ob_name]];
-                }
-                if (ob_width != nil && ob_height != nil)
-                {
-                    [s appendFormat:@" width=%@ height=%@",
-                     [self inchToPoints:ob_width],
-                     [self inchToPoints:ob_height]];
-                }
-
-                [s appendFormat:@"></object>"];
-            }
-            [target appendString:s];
-
-            return;
-        }
-        else if ([str isEqual:@"QL"] || [str isEqual:@"EN"]) {
-            NSString * query = [tagArr objectAtIndex:4];
-            [target appendString:[NSString stringWithFormat:@"<a class=\"%@\" href=\"vbase://links/%@/%@\">",
-                                  [FlatFileString stringToSafe:[tagArr objectAtIndex:2] tag:@"LK"],
-                                  str,
-                                  [FlatFileUtils encodeLinkSafeString:query]]];
-            linkStarted = YES;
-            //NSLog(@"ORIGINAL QUERY: %@\nNEW QUERY: %@\n-------------------", query, [FlatFileUtils encodeLinkSafeString:query]);
-        }
-        else if ([str isEqual:@"PX"]) {
-            [self checkParagraphStart:target paragraphStyle:paraStyle];
-            [target appendString:[NSString stringWithFormat:@"<a class=\"%@\" href=\"vbase://popup/%@\">",
-                                  [FlatFileString stringToSafe:[tagArr objectAtIndex:2] tag:@"LK"],
-                                  [FlatFileUtils encodeLinkSafeString:[tagArr objectAtIndex:4]]]];
-            linkStarted = YES;
-        }
-        else if ([str isEqual:@"DL"] || [str isEqual:@"ML"] || [str isEqual:@"PL"])
-        {
-            [self checkParagraphStart:target paragraphStyle:paraStyle];
-            self.dataObjectName = [tagArr objectAtIndex:4];
-            if ([FlatFileString dataLinkAsButton])
-            {
-                [target appendString:[NSString stringWithFormat:@"<input style=\"font-size:100%%\" type=\"button\" name=\"b1\" onclick=\"location.href='vbase://links/%@/%@'\" value=\"", str, [FlatFileUtils encodeLinkSafeString:self.dataObjectName]]];
-                buttonStarted = YES;
-            }
-            else
-            {
-                [target appendString:[NSString stringWithFormat:@"<a class=\"%@\" style=\"font-size:0pt;\" href=\"vbase://links/%@/%@\"><img src=\"vbase://stylist_images/speaker\" width=40 height=40 border=0>",
-                                      [FlatFileString stringToSafe:[tagArr objectAtIndex:2] tag:@"LK"],
-                                      str,
-                                      [FlatFileUtils encodeLinkSafeString:self.dataObjectName]]];
-                linkStarted = YES;
-            }
-        }
-        else if ([str isEqual:@"WW"])
-        {
-            [self checkParagraphStart:target paragraphStyle:paraStyle];
-            [target appendString:[NSString stringWithFormat:@"<a class=\"%@\" href=\"%@\">",
-                                  [FlatFileString stringToSafe:[tagArr objectAtIndex:2] tag:@"LK"],
-                                  [tagArr objectAtIndex:4]]];
-            linkStarted = YES;
-        }
-        else if ([str isEqual:@"/DL"] || [str isEqual:@"/ML"] || [str isEqual:@"EL"]
-                 || [str isEqual:@"/EN"] || [str isEqual:@"/JL"]
-                 || [str isEqual:@"/PX"] || [str isEqual:@"/OL"] || [str isEqual:@"/PL"] || [str isEqual:@"/QL"]
-                 || [str isEqual:@"/PW"] || [str isEqual:@"/WW"])
-        {
-            if (linkStarted) {
-                [target appendString:@"</a>"];
-                linkStarted = NO;
-            } else if (buttonStarted) {
-                [target appendString:@"\">"];
-                buttonStarted = NO;
-            }
-        }
-        else if ([str isEqual:@"JL"]) {
-            if ([tagArr count] > 4)
-            {
-                NSString * s2 = [tagArr objectAtIndex:4];
-                if (s2 != nil)
-                {
-                    if ([self.validator jumpExists:s2]) {
-                        [target appendString:@"<a href=\"vbase://links/JL/"];
-                        [target appendString:[FlatFileUtils encodeLinkSafeString:s2]];
-                        [target appendString:@"\">"];
-                        linkStarted = YES;
-                    } else {
-                        [charStyle setValue:@"#909090" forKey:@"color"];
-                    }
-                }
-            }
-        }
-        else if ([str isEqual:@"RO"])
-        {
-            [self finishHtmlFormating:target paragraphStyle:paraStyle characterStyle:charStyle];
-            [target appendString:@"<tr>"];
-            hcTableRows++;
-            hcTableColumns=0;
-        }
-        else if ([str isEqual:@"TB"]) {
-            [target appendString:@"  &nbsp;&nbsp;&nbsp; "];
-        }
-        else if ([str isEqual:@"TA"]) {
-            [self finishHtmlFormating:target paragraphStyle:paraStyle characterStyle:charStyle];
-            NSMutableString * tableTag = [[NSMutableString alloc] initWithCapacity:10];
-            [tableTag setString:@"<table"];
-            if ([tagArr count] > 2)
-            {
-                HtmlStyle * dict = [[HtmlStyle alloc] init];
-                int counts = [(NSString *)[tagArr objectAtIndex:2] intValue];
-                if (counts > 0)
-                {
-                    [self readParaFormating:tagArr fromIndex:(4+counts*2) target:dict];
-                }
-                else
-                {
-                    [self readParaFormating:tagArr fromIndex:2 target:dict];
-                }
-                [tableTag appendFormat:@" style='"];
-                [tableTag appendString:[dict styleCssText]];
-                [tableTag appendFormat:@"'>"];
-
-            }
-            else {
-                [tableTag appendFormat:@">"];
-            }
-
-            [target appendString:tableTag];
-            hcTableRows = 0;
-            hcTableColumns = 0;
-        }
-        else if ([str isEqual:@"CE"])
-        {
-            hcTableColumns++;
-            [target appendString:@"<td>"];
-        }
-        else if ([str isEqual:@"/CE"]) {
-            [target appendString:@"</td>"];
-        }
-        else if ([str isEqual:@"/TA"])
-        {
-            [target appendString:@"</table>"];
-        }
-
-    }
+        if str == "CR":
+            target += "<br>"
+        elif str == "HR":
+            self.hcParaStarted = False
+        elif str == "HS":
+            target += "&nbsp;"
+        elif str == "OB":
+            ob_type = tagArr[2]
+            ob_name = tagArr[4]
+            ob_width = None
+            ob_height = None
+            if len(tagArr) > 6: ob_width = tagArr[6]
+            if len(tagArr) > 8: ob_height = tagArr[8]
+            s = ''
+            objectFileName,objectExtension = os.path.splitext(ob_name).lower()
+            imageExtensions = [".png", ".tif", ".tiff", ".jpg", ".gif", ".bmp"]
+            self.checkParagraphStart(target,paraStyle)
+            if objectExtension in imageExtensions:
+                s += f"<img src=\"vbase:#objects/{ob_name}\""
+                if ob_width != None and ob_height != None:
+                    s += " width={} height={}".format(self.inchToPoints(ob_width), self.inchToPoints(ob_height))
+                s += ">"
+            else:
+                s += "<object data=\"vbase:#objects/{}\"".format(ob_name)
+                if ob_type:
+                    s += " type=\"{}\"".format( self.getObjectMIMEType(ob_type,ob_name))
+                if ob_width != None and ob_height != None:
+                    s += " width={} height={}".format(self.inchToPoints(ob_width), self.inchToPoints(ob_height))
+                s += "></object>"
+            target += s
+            return
+        elif str == "QL" or str == "EN":
+            query = tagArr[4]
+            target += "<a class=\"{}\" href=\"vbase:#links/{}/{}\">".format( FlatFileString.stringToSafe(tagArr[2],"LK"), str, FlatFileUtils.encodeLinkSafeString(query))
+            self.linkStarted = True
+        elif str == "PX":
+            self.checkParagraphStart(target,paraStyle)
+            target += "<a class=\"{}\" href=\"vbase:#popup/{}\">".format( FlatFileString.stringToSafe(tagArr[2],"LK"), FlatFileUtils.encodeLinkSafeString(tagArr[4]))
+            self.linkStarted = True
+        elif str == "DL" or str == "ML" or str == "PL":
+            self.checkParagraphStart(target,paraStyle)
+            self.dataObjectName = tagArr[4]
+            if FlatFileString.dataLinkAsButton:
+                target += "<input style=\"font-size:100%%\" type=\"button\" name=\"b1\" onclick=\"location.href='vbase:#links/{}/{}'\" value=\"".format(str, FlatFileUtils.encodeLinkSafeString(self.dataObjectName))
+                self.buttonStarted = True
+            else:
+                target += "<a class=\"{}\" style=\"font-size:0pt;\" href=\"vbase:#links/{}/{}\"><img src=\"vbase:#stylist_images/speaker\" width=40 height=40 border=0>".format( FlatFileString.stringToSafe( tagArr[2],"LK"), str, FlatFileUtils.encodeLinkSafeString(self.dataObjectName))
+                self.linkStarted = True
+        elif str == "WW":
+            self.checkParagraphStart(target,paraStyle)
+            target += "<a class=\"{}\" href=\"{}\">".format( FlatFileString.stringToSafe(tagArr[2],"LK"), tagArr[4])
+            self.linkStarted = True
+        elif str == "/DL" or str == "/ML" or str == "EL" or str == "/EN" or str == "/JL" or str == "/PX" or str == "/OL" or str == "/PL" or str == "/QL" or str == "/PW" or str == "/WW":
+            if self.linkStarted:
+                target += "</a>"
+                self.linkStarted = False
+            elif self.buttonStarted:
+                target += "\">"
+                self.buttonStarted = False
+        elif str == "JL":
+            if len(tagArr) > 4:
+                s2 = tagArr[4]
+                if s2:
+                    if self.validator.jumpExists(s2):
+                        target += "<a href=\"vbase:#links/JL/"
+                        target += FlatFileUtils.encodeLinkSafeString(s2)
+                        target += "\">"
+                        self.linkStarted = True
+                    else:
+                        self.charStyle['color'] = "#909090"
+        elif str == "RO":
+            self.finishHtmlFormating(target,paraStyle,charStyle)
+            target += "<tr>"
+            self.hcTableRows+=1
+            self.hcTableColumns=0
+        elif str == "TB":
+            target += "  &nbsp;&nbsp;&nbsp;"
+        elif str == "TA":
+            self.finishHtmlFormating(target, paraStyle, charStyle)
+            tableTag = '<table'
+            if len(tagArr) > 2:
+                dict = HtmlStyle()
+                counts = int(tagArr[2])
+                if counts > 0:
+                    self.readParaFormating(tagArr, 4+counts*2, dict)
+                else:
+                    self.readParaFormating(tagArr, 2, dict)
+                tableTag += " style='"
+                tableTag += dict.styleCssText()
+                tableTag += "'>"
+            else:
+                tableTag += ">"
+            target += tableTag
+            self.hcTableRows = 0
+            self.hcTableColumns = 0
+        elif str == "CE":
+            self.hcTableColumns += 1
+            target += "<td>"
+        elif str == "/CE":
+            target += "</td>"
+        elif str == "/TA":
+            target += "</table>"
 
 
 
 class RefInt:
-    value=0
     def __init__(self,value=0):
         self.value=value
 
     def inc(self,iv):
         value += iv
-
-class FlatFileStringIndexer:
-    delegate = None
-    text = ''
-    properties = {}
-
-    def parse(self):
-        return
-
-    def objectForKey(self,key):
-        return
-
-    def setObject(property,forKey='_default_'):
-        properties[forKey] = property
-        return

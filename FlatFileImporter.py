@@ -1,26 +1,31 @@
 
+#from GPStreamReadFile import GPStreamReadFile
+#from VBFolioBuilder import VBFolioBuilder
+import GPDebugger
 from GPStreamReadFile import GPStreamReadFile
 from VBFolioBuilder import VBFolioBuilder
-from GPDebugger import GPDebugger
+from FlatFileUtils import FlatFileTagString
 import os
+import sys, traceback
+
+NUMFLAG_DECIMAL = 10
+NUMFLAG_INT     = 20
+NUMFLAG_HEXA    = 30
+
+
+RF2STRING    = 180
+RF2DOUBLEDOT = 200
+RF2PLUS      = 220
+RF2MINUS     = 240
+RF2PERCENT   = 260
+RF2EOT       = 280
+RF2NUM       = 300
+RF2DOLLAR    = 320
+RF2COMMA     = 330
+RF2SEMICOLON = 350
+
 
 class FlatFileImporter:
-    NUMFLAG_DECIMAL = 10
-    NUMFLAG_INT     = 20
-    NUMFLAG_HEXA    = 30
-
-
-    RF2STRING    = 180
-    RF2DOUBLEDOT = 200
-    RF2PLUS      = 220
-    RF2MINUS     = 240
-    RF2PERCENT   = 260
-    RF2EOT       = 280
-    RF2NUM       = 300
-    RF2DOLLAR    = 320
-    RF2COMMA     = 330
-    RF2SEMICOLON = 350
-
     def __init__(self):
         self.fileQueue = []
         self.cancelPending = False
@@ -37,17 +42,21 @@ class FlatFileImporter:
         self.inputPath = ''
         self.requestedCancel = False
         self.sansDictionaries = []
+        self.importLineNumber = 0
 
     def openFile(self,fileName):
+        print('Importer.openFile:', fileName)
         file = GPStreamReadFile(fileName)
         self.fileQueue.insert(0,file)
         GPDebugger.setFileName(os.path.basename(fileName))
 
+    @property
     def currentFileName(self):
         if len(self.fileQueue)>0:
             return self.fileQueue[0].fileName
         return None
 
+    @property
     def currentFile(self):
         if len(self.fileQueue)>0:
             return self.fileQueue[0]
@@ -70,6 +79,7 @@ class FlatFileImporter:
             rc = gpf.getChar()
             if rc >= 0:
                 return rc
+            print('Importer.closeFile:', self.fileQueue[0].fileName)
             del self.fileQueue[0]
 
         return -1
@@ -77,68 +87,71 @@ class FlatFileImporter:
     def openOutputFile(self,outputFile):
         self.outputFileName = outputFile
 
-
-    def processTag(self,textDB,tagBuffer,predefinedKeys=[],tagsToOmit=[],tagsAddedToPlain=[]):
-        tagText = tagBuffer.tag()
-        if tagText in tagsAddedToPlain:
-            textDB.currentPlain.appendString(tagBuffer.mutableBuffer())
-        if tagText not in tagsToOmit and tagText not in predefinedKeys:
-            arr = tagBuffer.createArray()
-            textDB.acceptTagArray(arr,tagBuffer)
-            if textDB.requestedFileName != None:
-                self.openFile(textDB.requestedFileName)
-                textDB.requestedFileName = None
+    def flatFileScanner(self):
+        brackets = 0
+        counter = 0
+        tagBuffer = None
+        while not self.requestedCancel:
+            counter += 1
+            rd = self.readChar()
+            if rd == -1: break
+            if rd == 13: continue
+            if rd == 10:
+                self.importLineNumber += 1
+                self.currentFile.setLineNumber(self.importLineNumber)
+                GPDebugger.setLineNumber(self.importLineNumber)
+            if brackets == 0:
+                if rd == ord('<'):
+                    rd = self.readChar()
+                    if rd == -1: break
+                    if rd == ord('<'):
+                        yield rd
+                    else:
+                        tagBuffer = FlatFileTagString()
+                        tagBuffer.clear()
+                        tagBuffer.appendString('<')
+                        tagBuffer.appendChar(rd)
+                        brackets += 1
+                else:
+                    if rd != 10 and rd != 13:
+                        yield rd
+            else:
+                tagBuffer.appendChar(rd)
+                if rd == ord('<'):
+                    brackets += 1
+                elif rd == ord('>'):
+                    brackets -= 1
+                    if brackets == 0:
+                        yield tagBuffer
 
     def parseFile(self):
         rd = 0
         counter = 0
         lineNumber = 1
-        brackets = 0
-        tagBuffer = FlatFileTagString()
         predefinedKeys = []
-        textDB = VBFolioBuilder()
+        GPDebugger.createInstanceWithDirectory(self.workingDirectory)
+        textDB = VBFolioBuilder(self.workingDirectory)
         textDB.inputPath = self.inputPath
         textDB.fileInfo += 'FILE={}'.format(self.outputFileName)
         textDB.safeStringReplace = self.safeStringReplace
-        textDB.supressIndexing = !self.indexing
+        textDB.supressIndexing = not self.indexing
         textDB.contentDict = {}
 
         textDB.acceptStart()
-        tagsAddedToPlain = ["AUDIO", "BUILDVIEW", "BD", "BD-", "BD+", "CTUSE", "CTDEF", "CE", "/CE", "CR", "/CS", "DECOR", "DL", "/DL", "FC", "FD", "FLOW", "FT", "/FD", "GP", "GT", "GD", "GM", "GQ", "GI", "GA", "GF", "HD", "HD-", "HD+", "HR", "HS", "IN", "IT", "IT+", "IT-", "/JL", "JU", "KT", "KN", "LH", "LT", "LS", "ML", "/ML", "NT", "/NT", "PL", "/PL",  "PN", "/PN", "PT", "PX", "/PX", "RO", "SB", "SD", "SH", "SO", "SO-", "SO+", "SP", "/SS", "TA", "/TA", "TB", "UN", "UN-", "UN+", "WW", "/WW", "ETH", "ETB", "/ETH", "ETL", "/ETL", "ETS", "ETX", "STP", "STPLAST", "STPDEF"]
+        tagsAddedToPlain = ["AUDIO", "BUILDVIEW", "BD", "BD-", "BD+", "BC", "CTUSE", "CTDEF", "CE", "/CE", "CR", "/CS", "DECOR", "DL", "/DL", "FC", "FD", "FLOW", "FT", "/FD", "GP", "GT", "GD", "GM", "GQ", "GI", "GA", "GF", "HD", "HD-", "HD+", "HR", "HS", "IN", "IT", "IT+", "IT-", "/JL", "JU", "KT", "KN", "LH", "LT", "LS", "ML", "/ML", "NT", "/NT", "PL", "/PL",  "PN", "/PN", "PT", "PX", "/PX", "RO", "SB", "SD", "SH", "SO", "SO-", "SO+", "SP", "/SS", "TA", "/TA", "TB", "UN", "UN-", "UN+", "WW", "/WW", "ETH", "ETB", "/ETH", "ETL", "/ETL", "ETS", "ETX", "STP", "STPLAST", "STPDEF"]
 
         tagsToOmit = ["AUDIO", "BUILDVIEW", "CD", "CD-", "CTUSE", "CTDEF", "CD+", "/ETH", "ETX", "ETL", "ETH", "ETB", "FLOW", "FD", "/FD", "FE", "GP", "KN-", "KN+", "KT-", "KT+", "HL", "LS", "LW", "OU", "NT", "/NT", "OU-", "OU+", "PB", "PN", "/PN", "QT", "RE", "RX", "SH", "SH+", "SH-", "STP", "STPLAST", "STPDEF", "TP", "TS", "VI", "WP"]
 
-        while !self.requestedCancel:
-            counter += 1
-            rd = self.readChar()
-            if rd == -1: break
-            if rd == '\n':
-                lineNumber += 1
-                self.currentFile.setLineNumber(lineNumber)
-                GPDebugger.setLineNumber:lineNumber
-            if brackets == 0:
-                if rd == '<':
-                    rd = self.readChar()
-                    if rd == -1: break
-                    if rd == '<':
-                        textDB.acceptChar(rd)
-                    else:
-                        tagBuffer.clear()
-                        tagBuffer.appendChar('<')
-                        tagBuffer.appendChar(rd)
-                        brackets += 1
-                else:
-                    if rd != '\n' and rd != '\r':
-                        textDB.acceptChar(rd)
+        for t in self.flatFileScanner():
+            if isinstance(t,int):
+                textDB.acceptChar(t)
+            elif isinstance(t,FlatFileTagString):
+                self.processTag(textDB,t,predefinedKeys=predefinedKeys,
+                    tagsToOmit=tagsToOmit,tagsAddedToPlain=tagsAddedToPlain)
             else:
-                tagBuffer.appendChar(rd)
-                if rd == '<':
-                    brackets += 1
-                elif rd == '>':
-                    brackets -= 1
-                    if brackets == 0:
-                        self.processTag(textDB,tagBuffer,predefinedKeys=predefinedKeys,tagsToOmit=tagsToOmit,tagsAddedToPlain=tagsAddedToPlain)
-                        tagBuffer.clear()
+                print (type(t),t)
+
+
         textDB.acceptEnd()
 
         print("Saving Files...")
@@ -150,5 +163,21 @@ class FlatFileImporter:
         GPDebugger.endWrite()
         print("Folio Building done.")
 
-
-        
+    def processTag(self, textDB, tagBuffer, predefinedKeys=[], tagsToOmit=[], tagsAddedToPlain=[]):
+        tagText = tagBuffer.tag()
+        try:
+            if tagText in tagsAddedToPlain:
+                textDB.currentPlainAppend(tagBuffer.buffer)
+            if tagText not in tagsToOmit and tagText not in predefinedKeys:
+                arr = tagBuffer.createArray()
+                textDB.acceptTagArray(arr,tagBuffer)
+                if arr[0] in ["DI","FI"]:
+                    fileName = arr[2].replace('\\','/')
+                    fileName = os.path.join(textDB.inputPath,fileName)
+                    print('request open file', fileName)
+                    self.openFile(fileName)
+        except:
+            print('='*60)
+            traceback.print_stack(file=sys.stdout)
+            traceback.print_exc(file=sys.stdout)
+            print('-'*60)
