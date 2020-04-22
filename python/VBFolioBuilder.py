@@ -697,7 +697,7 @@ class VBFolioBuilder:
     def saveStylesExamples(self):
         i = 0
         exported = []
-        with open('example-styles.html','wt') as examples:
+        with self.openDumpFile('styles-examples.html') as examples:
             examples.write("<html><head><title>Styles Examples</title><link href=\"styles.css\" type=text/css rel=stylesheet></head><body><h1><a href=\"by-font/index.html\">Fonts</a> | Styles</h1><p><table border=1>\n")
             for dict in self.temparrStyles:
                 if not dict or 'name' not in dict: continue
@@ -751,11 +751,10 @@ class VBFolioBuilder:
                             log.info("font size = {}, size = %d", fontSize, size)
 
     def saveStylesObject(self):
-        with open('styles.css', 'wt') as strStyles:
+        with self.openDumpFile('styles.css') as strStyles:
             exported = []
 
             self.cleaningStyles()
-            self.saveStylesExamples()
 
             print("started Generating Styles")
             for i,dict in enumerate(self.temparrStyles):
@@ -798,6 +797,7 @@ class VBFolioBuilder:
 
     def saveFolio(self):
         self.saveStylesObject()
+        self.saveStylesExamples()
         self.saveAllRecords()
         self.saveAllPopups()
         print('save groups...')
@@ -818,8 +818,7 @@ class VBFolioBuilder:
 
     def openDumpFile(self,fileName):
         filePath = os.path.join(GPDebugger.dumpDirectory,fileName)
-        file = open(filePath,'wt')
-        return file
+        return open(filePath,'wt',encoding='utf-8')
 
     def closeDumpFile(self,pfile):
         if pfile:
@@ -858,22 +857,13 @@ class VBFolioBuilder:
         self.definedObjects = None
 
     #pragma mark -
-    #pragma mark Helper Functions
-
-    def logTagArray(self,arrParts):
-        print("==[TAG_ARRAY]==\n {}".format(arrParts))
-
-    #pragma mark -
-    #pragma mark Managing Text within Paragraph
+    #pragma mark Paragraph Managemenet
 
     def restoreCurrentTarget(self):
         #self.finishHtmlText
         self.recordStack = self.recordStack[:-1]
         if self.currentClassDefined:
             fontGroup = self.fontGroupFromStyle(self.currentClass)
-
-    #pragma mark -
-    #pragma mark Paragraph Managemenet
 
     def recordWillStartRead(self, strType):
         self.flagSub = True
@@ -901,13 +891,9 @@ class VBFolioBuilder:
             self.notes.append(dict)
             self.recordStack.append(dict)
             #<PW:Style Name,Width,Height,"Title">
-            # .
-            # .    (Popup Window Text)
-            # .
+            # .... (Popup Window Text) ...
             # <LT>
-            # .
-            # .    (Link Text)
-            # .
+            # .... (Link Text) ...
             # </PW>
             #<PX:Style,"Title"> . . . </PX>
         else:
