@@ -33,13 +33,13 @@ def fontGroupFromFontNameInt(fname):
     print("\n{} / {}".format(fname, GPDebugger.fileLocationPlain()))
     return VBFB_FONTGROUP_BALARAM
 
-def changeFontName(self,fontName):
+def changeFontName(fontName):
     group = fontGroupFromFontNameInt(fontName)
-    if self.fontGroup == VBFB_FONTGROUP_SANSKRIT or self.fontGroup == VBFB_FONTGROUP_BALARAM or self.fontGroup == VBFB_FONTGROUP_WINDGDINGS:
+    if group == VBFB_FONTGROUP_SANSKRIT or group == VBFB_FONTGROUP_BALARAM or group == VBFB_FONTGROUP_WINDGDINGS:
         return 'Times'
-    elif self.fontGroup == VBFB_FONTGROUP_BENGALI:
+    elif group == VBFB_FONTGROUP_BENGALI:
         return fontName
-    elif self.fontGroup == VBFB_FONTGROUP_DEVANAGARI or self.fontGroup == VBFB_FONTGROUP_RMDEVA:
+    elif group == VBFB_FONTGROUP_DEVANAGARI or group == VBFB_FONTGROUP_RMDEVA:
         return 'Sanskrit 2003'
     else:
         return fontName

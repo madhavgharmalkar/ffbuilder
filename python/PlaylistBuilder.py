@@ -69,7 +69,7 @@ class PlaylistBuilder:
                 self.levelRecIds[i] = -1
 
         if style=="PA_Audio_Bg":
-            print(recId, text)
+            #print(recId, text)
             r1 = text.find("<AUDIO:\"")
             r1l = 8
             if r1<0:

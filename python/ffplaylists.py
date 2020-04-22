@@ -1,5 +1,5 @@
 from PlaylistBuilder import PlaylistBuilder
-
+import os
 
 def PlaylistBuilderRun(output_dir):
     vb = PlaylistBuilder()

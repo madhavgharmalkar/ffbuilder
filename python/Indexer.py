@@ -50,8 +50,7 @@ class Indexer:
 
     def doIndexing(self):
         count = 0
-        len = 0
-        if self.keywordFileName != None and  len(self.keywordFileName) > 0 and os.path.exists(self.keywordFileName):
+        if self.keywordFileName != None and len(self.keywordFileName) > 0 and os.path.exists(self.keywordFileName):
             print("START KEYWORDS INDEXING")
             lineCount = 0
             with open(self.keywordFileName,'rt',encoding='utf-8') as file:

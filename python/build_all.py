@@ -42,7 +42,7 @@ print('==== PLAYLISTS ====')
 ffplaylists.PlaylistBuilderRun(output_dir)
 
 print('==== DICTIONARIES ====')
-dir_files = ['../data/dict_sp.txt', '../data/dict-monier.txt', '../data/dict-vbase.txt']
+dir_files = ['../data/dict-sp.txt', '../data/dict-monier.txt', '../data/dict-vbase.txt']
 ffdictionary.DictionaryBuilderRun(dir_files, output_dir)
 
 print('==== CREATE DATABASE ====')

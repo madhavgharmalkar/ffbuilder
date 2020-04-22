@@ -37,98 +37,145 @@ create_queries = [
 
 tables = [
    {
+       "table":"contents",
+       "columns":"level:integer,record:integer,parent:integer,title:text,simpletitle:text,subtext:text",
+       "file":"contents.txt",
+       "f_old": True,
+       "f_new": False
+   },
+   {
+       "table":"words",
+       "columns":"idx:text,uid:integer,word:text,indexbase:integer,data:blob",
+       "file":"words_a.txt",
+       "f_old": True,
+       "f_new": False
+   },
+   {
+       "table":"words",
+       "columns":"idx:text,uid:integer,word:text,indexbase:integer,data:blobfile",
+       "file":"words_b.txt",
+       "f_old": True,
+       "f_new": False
+   },
+   {
       "table":"docinfo",
       "columns":"name:text,valuex:text,idx:integer",
-      "file":"docinfo.txt"
+      "file":"docinfo.txt",
+      "f_old": True,
+      "f_new": True
    },
    {
       "table":"objects",
       "columns":"objectName:text,objectData:blobfile,objectType:text",
-      "file":"objects.txt"
+      "file":"objects.txt",
+      "f_old": True,
+      "f_new": True
    },
    {
       "table":"groups",
       "columns":"groupname:text,groupid:integer",
-      "file":"groups.txt"
+      "file":"groups.txt",
+      "f_old": True,
+      "f_new": True
    },
    {
       "table":"groups_detail",
       "columns":"groupid:integer,recid:integer",
-      "file":"groups_detail.txt"
+      "file":"groups_detail.txt",
+      "f_old": True,
+      "f_new": True
+   },
+   {
+       "table":"texts",
+       "columns":"recid:integer,plain:text,levelname:text,stylename:text",
+       "file":"texts-b.txt",
+       "f_old": True,
+       "f_new": False
    },
    {
       "table":"levels",
       "columns":"id:integer,original:text,level:text",
-      "file":"levels.txt"
+      "file":"levels.txt",
+      "f_old": True,
+      "f_new": True
    },
    {
       "table":"popup",
       "columns":"title:text,class:text,plain:text",
-      "file":"popup.txt"
+      "file":"popup.txt",
+      "f_old": True,
+      "f_new": True
    },
    {
       "table":"jumplinks",
       "columns":"title:text,recid:integer",
-      "file":"jumplinks.txt"
+      "file":"jumplinks.txt",
+      "f_old": True,
+      "f_new": True
    },
    {
       "table":"styles",
       "columns":"id:integer,name:text",
-      "file":"styles.txt"
+      "file":"styles.txt",
+      "f_old": True,
+      "f_new": True
    },
    {
       "table":"styles_detail",
       "columns":"styleid:integer,name:text,valuex:text",
-      "file":"styles_detail.txt"
+      "file":"styles_detail.txt",
+      "f_old": True,
+      "f_new": True
    },
    {
       "table":"playlists",
       "columns":"id:integer,parent:integer,title:text",
-      "file":"playlists.txt"
+      "file":"playlists.txt",
+      "f_old": True,
+      "f_new": True
    },
    {
       "table":"playlists_detail",
       "columns":"parent:integer,ordernum:integer,objectName:text",
-      "file":"playlists_details.txt"
+      "file":"playlists_details.txt",
+      "f_old": True,
+      "f_new": True
    },
    {
       "table":"textviews",
       "columns":"parent:integer,id:integer,title:text",
-      "file":"views.txt"
+      "file":"views.txt",
+      "f_old": True,
+      "f_new": True
    },
    {
       "table":"textviews_texts",
       "columns":"parent:integer,textid:integer",
-      "file":"view_details.txt"
+      "file":"view_details.txt",
+      "f_old": True,
+      "f_new": True
    },
    {
       "table":"dictionary",
       "columns":"id:integer,name:text",
-      "file":"dictionary.txt"
+      "file":"dictionary.txt",
+      "f_old": True,
+      "f_new": True
    },
    {
       "table":"dict_words",
       "columns":"id:integer,word:text,simple:text",
-      "file":"dict_words.txt"
+      "file":"dict_words.txt",
+      "f_old": True,
+      "f_new": True
    },
    {
       "table":"dict_means",
       "columns":"wordid:integer,dictid:integer,recid:integer,meaning:text",
-      "file":"dict_means.txt"
+      "file":"dict_means.txt",
+      "f_old": True,
+      "f_new": True
    }
-]
-
-tables_extra = [
-    {
-        "table":"contents",
-        "columns":"level:integer,record:integer,parent:integer,title:text,simpletitle:text,subtext:text",
-        "file":"contents.txt"
-    },
-    {
-        "table":"texts",
-        "columns":"recid:integer,plain:text,levelname:text,stylename:text",
-        "file":"texts-b.txt"
-    }
 ]
 
 def blob2data(blob):
@@ -136,6 +183,12 @@ def blob2data(blob):
     for i in range(0,len(blob),2):
         stream.write(int(blob[i:i+2],16).to_bytes(1,byteorder='little',signed=False))
     return stream.getvalue()
+
+def applicable_query(query,new_db):
+    if new_db:
+        return 'f_new' in query and query['f_new']==True
+    else:
+        return 'f_old' in query and query['f_old']==True
 
 #
 # new_db is flag that tells if created database is in new format or old format
@@ -156,14 +209,10 @@ def CreateDatabase(outdir,initial_queries=create_queries,table_defs=None,new_db=
         c.execute(query)
 
     db.commit()
-    if table_defs==None:
-        if new_db:
-            table_defs = tables
-        else:
-            table_defs = tables + tables_extra
-    for query in table_defs:
+    for query in tables:
+        if not applicable_query(query,new_db): continue
         columns = [a.split(':') for a in query['columns'].split(',')]
-        querytext = 'INSERT INTO ' + query['table'] + ' VALUES (' + ('?,'*len(columns)).strip(',') + ')'
+        querytext = 'INSERT INTO ' + query['table'] + '(' + ','.join([c[0] for c in columns]) + ')' + ' VALUES (' + ('?,'*len(columns)).strip(',') + ')'
         data = []
         with open(os.path.join(outdir,'tables',query['file']),'rt',encoding='utf-8') as rf:
             for line in rf:
