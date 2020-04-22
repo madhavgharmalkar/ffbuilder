@@ -1,4 +1,5 @@
 import urllib.parse
+from FontGroups import changeFontName
 
 MAKEARRAY_STATUS_DEFAULT = 0
 MAKEARRAY_STATUS_START_DECISION = 1
@@ -381,24 +382,6 @@ class HtmlStylesCollection:
     def addStyle(self,style):
         self.styles.append(style)
         return
-
-    def substitutionFontName(self,fname):
-        if fname=="Sanskrit-Helvetica":
-            return "Helvetica"
-        if fname.startswith("Sanskrit-"):
-            return "Times"
-
-        # this is when converting to Unicode Vedabase
-        if fname=="ScaHelvetica" or fname=="ScaOptima":
-            return "Helvetica"
-        if fname.startswith("Sca"):
-            return "Times"
-        if fname=="Balaram" or fname=="Dravida":
-            return "Times"
-        if fname=="scagoudy":
-            return "Times"
-        # end convertion to Unicode Vedabase
-        return fname
 
     def getMIMEType(self,str):
         if str=="mp3file":
@@ -991,9 +974,6 @@ class FlatFileString:
                 self.readColor(tagArr,"background-color-x",i,paraStyle)
         elif str=='TS':
             pass
-
-
-
         if str=="BC":
             if len(tagArr) == 1 or tagArr[2]=="DC":
                 del charStyle["background-color-x"]
@@ -1039,7 +1019,7 @@ class FlatFileString:
                 del charStyle["font-family"]
             else:
                 fontName = tagArr[2]
-                charStyle["font-family"]=styles.substitutionFontName(fontName)
+                charStyle["font-family"]=changeFontName(fontName)
         elif str=="IT-":
             charStyle["font-style"]="normal"
         elif str=="IT":

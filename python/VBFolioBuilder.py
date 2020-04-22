@@ -1,15 +1,19 @@
-
-from FlatFileUtils import *
-import GPDebugger
-import GPTagHelper
-from RKSortedList import RKSortedList
-from RKKeySet import RKKeySet
-import Flat
+from io import StringIO
 import logging
 import datetime
 import os
 import os.path
-from io import StringIO
+
+from FlatFileUtils import *
+from RKSortedList import RKSortedList
+from RKKeySet import RKKeySet
+from FontGroups import changeFontName,fontGroupFromFontNameInt, VBFB_FONTGROUP_BALARAM, VBFB_FONTGROUP_DEVANAGARI, VBFB_FONTGROUP_SANSKRIT, VBFB_FONTGROUP_BENGALI, VBFB_FONTGROUP_WINDGDINGS, VBFB_FONTGROUP_RMDEVA
+import GPDebugger
+import GPTagHelper
+import Flat
+import uni2deva
+import rmdeva2uni
+import indevr2uni
 
 
 CURM_NONE = 0
@@ -21,17 +25,7 @@ kContStripMax = 240
 
 OUTPUT_UNICODE = 1
 
-VBFB_FONTGROUP_BALARAM    = 0
-VBFB_FONTGROUP_DEVANAGARI = 1
-VBFB_FONTGROUP_SANSKRIT   = 2
-VBFB_FONTGROUP_BENGALI    = 3
-VBFB_FONTGROUP_WINDGDINGS = 4
-
 log = logging.getLogger('builder')
-
-balaramFontSet = ["Balaram", "Terminal", "Dravida", "scagoudy", "Basset", "Times New Roman", "Times New Roman Greek", "Bold PS 12cpi", "Times New Roman Baltic", "Times New Roman Special G1", "Arial Narrow", "Univers", "Times New", "MS Sans Serif", "CG Times", "TimesN", "Bookman Old Style", "Poetica", "Microsoft Sans Serif", "Helvetica Narrow", "France", "Sanvito Roman", "C Helvetica Condensed", "Garamond BoldCondensed", "Drona", "Garamond BookCondensed", "TimesTen Roman", "Tms Rmn", "Chn JSong SG", "Book Antiqua", "Courier New", "Courier", "Monaco", "Font13399", "Geneva", "Arial", "Times", "New York", "GillSans Bold", "Symbol", "Font14956", "Arial Unicode MS", "Galliard", "Tamalten", "Bhaskar", "Tahoma", "Time Roman", "Timingala", "Tamal", "Garamond", "Gaudiya", "Helvetica", "BhaskarItal", "Calibri", "HGoudyOldStyleBTBoldItalic", "Lucida Grande"]
-devanagariFontSet = ["Indevr", "RM Devanagari", "Helv", "indevr"]
-bengaliFontSet = ["Inbeni", "Inbenr", "Inbeno", "Inbenb"]
 
 def balaramToOemSize(uniChar):
     balaram2oemSize = [ 0,    1,   2,   3,  4,   5,   6,   7,   8,   9,  10,  11,  12,  13,  14,  15, 16,  17,  18,  19, 20,  21,  22,  23,  24,  25,  26,  27,  28,  29,  30,  31, 32,  32,  32,  32, 32,  32,  32,  32,  32,  32,  32,  32,  32,  32,  46,  32, 48,  49,  50,  51, 52,  53,  54,  55,  56,  57,  32,  32,  32,  32,  32,  32, 32,  65,  66,  67, 68,  69,  70,  71,  72,  73,  74,  75,  76,  77,  78,  79, 80,  81,  82,  83, 84,  85,  86,  87,  88,  89,  90,  32,  32,  32,  32,  32, 32,  97,  98,  99,100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112,113, 114, 115,116, 117, 118, 119, 120, 121, 122,  32,  32,  32,  32,  32, 32,  32,  32,  32,  32,  32,  32,  32,  32,  32,  32,  32, 32,  32,  32,  32, 32,  32,  32,  32,  32,  32,  32,  32,  32,  32,  32,  32,  32,  32,  32,  32, 32,  32,  32,  32,  32,  32,  32,  32,  32,  32,  97,  32, 105,  32,  32,  32, 32,  32,  32,  32,  32,  32,  32,  32,  32,  32, 117,  32,  32,  32,  32,  32, 109, 97,  97,  97,  97, 114,  32, 115, 117, 105, 101, 110, 110, 105, 111, 110, 100, 115, 100, 111,  97, 111, 116,  32,  32, 104, 117,  32,117, 121, 32,  108, 109,  97,  97,  97,  97, 114,  32, 115, 114, 105,  32, 110, 110, 105,  32, 110, 32, 115, 100, 111,  32, 111, 116,  32,  32, 104, 117, 108, 117, 121,  32, 108, 0,   0,   0,   0 ]
@@ -60,6 +54,8 @@ def wingdingsToUnicode(uniChar):
         return 32
     elif uniChar == 74:
         return 0x263a
+    elif uniChar == 92:
+        return 0x0950
     print("Wingdings char used:", uniChar)
     return 32
 
@@ -72,8 +68,6 @@ def balaramToUnicode(uniChar):
     return mconv[uniChar - 128]
 
 
-
-
 def dd(dict,k,v):
     if not dict: return v
     if k not in dict: return v
@@ -82,6 +76,7 @@ def dd(dict,k,v):
 class VBFolioBuilder:
     def __init__(self,directory):
         self.fileInfo = ''
+        self.rawChars = ''
         self.currFields = {}
         self.definedObjects = {}
         self.contRoot = []
@@ -149,6 +144,7 @@ class VBFolioBuilder:
         self.inputPath = ''
         self.linkTagStarted = False
         self.lastInlinePopup = 1
+        self.unrecognizedTags = []
 
     def __del__(self):
         self.closeDumpFiles()
@@ -157,27 +153,9 @@ class VBFolioBuilder:
         if fname in self.speedFontGroupName:
             return self.speedFontGroupName[fname]
 
-        number = self.fontGroupFromFontNameInt(fname)
+        number = fontGroupFromFontNameInt(fname)
         self.speedFontGroupName[fname] = number
         return number
-
-    def fontGroupFromFontNameInt(self,fname):
-        if fname.startswith("Sanskrit-"):
-            return VBFB_FONTGROUP_SANSKRIT
-        if fname.startswith("Sca") or fname in balaramFontSet:
-            return VBFB_FONTGROUP_BALARAM
-
-        if fname in devanagariFontSet:
-            return VBFB_FONTGROUP_DEVANAGARI
-
-        if fname=="Wingdings":
-            return VBFB_FONTGROUP_WINDGDINGS
-
-        if fname in bengaliFontSet:
-            return VBFB_FONTGROUP_BENGALI
-
-        log.warning("{} / {}".format(fname, GPDebugger.fileLocationPlain()))
-        return VBFB_FONTGROUP_BALARAM
 
     def fontNameFromStyle(self,sname):
         if sname in self.speedFontNameStyle:
@@ -350,20 +328,11 @@ class VBFolioBuilder:
         elif str=='/FD':
             pass
         elif str=="FC":
-            if count == 1 or tagArr[2]=="DC":
-                pass
-                #[self endCharTag:"color"]
-            else:
-                pass
-                #NSMutableDictionary * dict = [[NSMutableDictionary alloc] initWithCapacity:2]
-                #int i = 2
-                #[GPTagHelper readColor:tagArr withPrefix:"value" index:&i target:dict]
-                #if (dict["value"])
-                #    [self startCharTag:"color" data:dict["value"]]
-                #[dict release]
+            pass
         elif str=="FT":
             if count == 1:
                 self.fontGroup = self.previousFontGroup
+                self.currentPlainAppend('<FT>')
             else:
                 fontName = tagArr[2]
                 if 'fonts' not in self.currentRecord:
@@ -371,9 +340,10 @@ class VBFolioBuilder:
                 self.currentRecord['fonts'].append(fontName)
                 self.previousFontGroup = self.fontGroup
                 self.fontGroup = self.fontGroupFromFontName(fontName)
+                self.currentPlainAppend('<FT:"{}">'.format(changeFontName(fontName)))
         elif str=="HR":
-                #[self.currentText appendFormat:"<br>"];
-                pass
+            #[self.currentText appendFormat:"<br>"];
+            pass
         elif str=="GR":
             grpId = self.groupMap.idForKey(tagArr[2])
             self.fileTableGroups.write("{}\t{}\n".format(grpId, self.currentRecordID))
@@ -387,14 +357,11 @@ class VBFolioBuilder:
             #[self endCharTag:"font-style"]
             pass
         elif str=="IT+":
-            #[self startCharTag:"font-style" data:"italic"]
             pass
         elif str=="JD":
             o = tagArr[2].replace('\'','-')
             self.fileTableJumplinks.write("{}\t{}\n".format(o, self.currentRecordID))
         elif str=="JU":
-            #[self.currentFormat appendFormat:"text-align:{};",
-            #[GPTagHelper alignFromString:tagArr[2]]]
             pass
         elif str=="LT":
             d = self.currentRecord
@@ -402,9 +369,6 @@ class VBFolioBuilder:
             self.currentPlainAppend("<PX:\"{}\",\"{}\">".format(d["pwLinkStyle"], d["title"]))
             self.linkTagStarted = True
         elif str=="LH":
-            #double v = [tagArr[2] doubleValue]
-            #if ([self.currentFormat length] > 0) [self.currentFormat appendFormat:";"]
-            #[self.currentFormat appendFormat:"line-height:%f%%;", v*100.0]
             pass
         elif str=='LW':
             pass
@@ -439,8 +403,6 @@ class VBFolioBuilder:
             self.levels = []
             for idx in range(2,count,2):
                 originalLevelName = tagArr[idx]
-                #if (self.safeStringReplace[originalLevelName])
-                #    originalLevelName = self.safeStringReplace[originalLevelName]
                 sx = Flat.stringToSafe(originalLevelName, "LE")
                 levelDict = {'original': originalLevelName,
                     'safe': sx,
@@ -688,30 +650,49 @@ class VBFolioBuilder:
         elif str=='TS':
             pass
         else:
-            log.warning("--------------------------------------------------\nUnrecognized tag: {}\n".format(tagArr))
+            if str not in self.unrecognizedTags:
+                self.unrecognizedTags.append(str)
+                log.warning("--------------------------------------------------")
+                log.warning("Unrecognized tag: {}".format(tagArr))
 
     def acceptChar(self,rfChar):
         if self.commentText: return
-        convertedChar = 0
+        convertedChar = ''
 
         if self.fontGroup == VBFB_FONTGROUP_SANSKRIT:
-            convertedChar = sanskritTimesToUnicode(rfChar)
+            convertedChar = chr(sanskritTimesToUnicode(rfChar))
         elif self.fontGroup == VBFB_FONTGROUP_BALARAM:
-            convertedChar = balaramToUnicode(rfChar)
+            convertedChar = chr(balaramToUnicode(rfChar))
         elif self.fontGroup == VBFB_FONTGROUP_WINDGDINGS:
-            convertedChar = wingdingsToUnicode(rfChar)
+            convertedChar = chr(wingdingsToUnicode(rfChar))
         elif self.fontGroup == VBFB_FONTGROUP_BENGALI:
-            convertedChar = bengaliToUnicode(rfChar)
+            convertedChar = chr(bengaliToUnicode(rfChar))
         elif self.fontGroup == VBFB_FONTGROUP_DEVANAGARI:
-            convertedChar = rfChar
+            convertedChar = uni2deva.NormalizeChar(rfChar)
+        elif self.fontGroup == VBFB_FONTGROUP_RMDEVA:
+            convertedChar = uni2deva.NormalizeChar(rfChar)
 
-        tchr = '<<'
-        if convertedChar != ord('<'):
-            tchr = chr(convertedChar)
+        # we need to duplicate < in order to convert it to flat file notation
+        if convertedChar == '<': convertedChar += '<'
         if self.bCharToBuff:
-            self.strBuff += tchr
+            self.strBuff += convertedChar
         else:
-            self.currentPlainAppend(tchr)
+            self.rawChars += convertedChar
+
+    def acceptCharEnd(self):
+        if len(self.rawChars)==0: return
+        str = None
+        if self.fontGroup == VBFB_FONTGROUP_DEVANAGARI:
+            str = indevr2uni.Indevr2Unicode(self.rawChars)
+            #print(self.rawChars, str)
+        elif self.fontGroup == VBFB_FONTGROUP_RMDEVA:
+            str = rmdeva2uni.RMDeva2Unicode(self.rawChars, normalize=False)
+            #print(self.rawChars, str)
+        else:
+            str = self.rawChars
+
+        self.currentPlainAppend(str)
+        self.rawChars = ''
 
     def saveStylesExamples(self):
         i = 0
@@ -740,17 +721,12 @@ class VBFolioBuilder:
                     dictFormat = dict["format"]
                     if 'font-family' in dictFormat:
                         fontName = dictFormat["font-family"]
-                        myFontGroup = self.fontGroupFromFontName(fontName)
-                        if myFontGroup == VBFB_FONTGROUP_BALARAM:
-                            newValue = "Times"
-                        else:
-                            newValue = fontName
-                        #newValue = [GPTagHelper substitutionFontName:fontName]
+                        newValue = changeFontName(fontName)
                         if newValue=="Times" or newValue == "Helvetica":
                             del dictFormat["font-family"]
                         else:
                             dictFormat['font-family'] = newValue
-                            if myFontGroup == VBFB_FONTGROUP_BALARAM:
+                            if newValue != 'Times' and newValue == fontName:
                                 log.info("Font in Styles - {}", newValue)
 
                     if 'text-align' in dictFormat and dictFormat['text-align'] in ['left', 'justify']:
@@ -955,8 +931,8 @@ class VBFolioBuilder:
 
         self.fileTableTexts.write("{}\t{}\t{}\t{}\n".format(d["id"], d['plain'].getvalue(), levelName, styleName))
 
-        if self.currentRecordID % 20000 == 0:
-            print("Record", self.currentRecordID)
+        if self.currentRecordID % 200 == 0:
+            print("\rRecord", self.currentRecordID, end='           ')
 
     #pragma mark -
     #pragma mark getter functions

@@ -180,42 +180,6 @@ def getValue(dict, str, prefix, name):
     str += name
     return dict[str]
 
-fontSubx = { "Balaram": "Times",
-    "Dravida": "Times",
-    "scagoudy": "Times",
-    "Rama-Palatino": "Times",
-    "Times New Roman": "Times",
-    "Tamal": "Times",
-    "Rama Garamond Plus": "Times",
-    "New York": "Times",
-    "Bhaskar": "Times",
-    "HGoudyOldStyleBTBoldItalic": "Times",
-    "Poetica": "Times",
-    "Shiksha": "Times",
-    "Drona": "Times",
-    "Sanskrit_Times": "Times",
-    "Sanskrit Benguiat": "Times",
-    "Palatino Sanskrit Hu 2": "Times",
-    "Font13399": "Times",
-    "Calibri": "Times",
-    "Tahoma": "Helvetica",
-    "Arial": "Helvetica",
-    "Arial Unicode MS": "Helvetica",
-    "Courier New": "Helvetica",
-    "ScaHelvetica": "Helvetica",
-    "Sanskrit-Helvetica": "Helvetica",
-    "ScaOptima": "Helvetica",
-}
-
-def substitutionFontName(fname):
-    if fname.startswith("Sanskrit-"):
-        return "Times"
-    if fname.startswith('Sca'):
-        return "Times"
-    if fname in fontSubx:
-        return fontSubx[fname]
-    return fname
-
 def readParaFormating(dict, prefix, obj):
     value = None
     str = ''

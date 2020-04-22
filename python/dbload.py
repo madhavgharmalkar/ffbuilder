@@ -1,6 +1,7 @@
 import sqlite3
 import os
 import os.path
+from io import BytesIO
 
 create_queries = [
 'create table docinfo(name text, valuex text, idx integer)',
@@ -130,6 +131,12 @@ tables_extra = [
     }
 ]
 
+def blob2data(blob):
+    stream = BytesIO()
+    for i in range(0,len(blob),2):
+        stream.write(int(blob[i:i+2],16).to_bytes(1,byteorder='little',signed=False))
+    return stream.getvalue()
+
 #
 # new_db is flag that tells if created database is in new format or old format
 # new format means that texts, contents and indexing is outside of sqlite database file
@@ -169,6 +176,8 @@ def CreateDatabase(outdir,initial_queries=create_queries,table_defs=None,new_db=
                         elif columns[i][1] == 'blobfile':
                             with open(line[i],'rb') as rbf:
                                 d.append(rbf.read())
+                        elif columns[i][1] == 'blob':
+                            d.append(blob2data(line[i]))
                         else:
                             d.append(line[i])
                     data.append(d)

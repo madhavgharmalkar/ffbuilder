@@ -79,7 +79,7 @@ class FlatFileImporter:
             rc = gpf.getChar()
             if rc >= 0:
                 return rc
-            print('Importer.closeFile:', self.fileQueue[0].fileName)
+            print('\nImporter.closeFile:', self.fileQueue[0].fileName)
             del self.fileQueue[0]
 
         return -1
@@ -113,8 +113,7 @@ class FlatFileImporter:
                         tagBuffer.appendChar(rd)
                         brackets += 1
                 else:
-                    if rd != 10 and rd != 13:
-                        yield rd
+                    yield rd
             else:
                 tagBuffer.appendChar(rd)
                 if rd == ord('<'):
@@ -138,20 +137,24 @@ class FlatFileImporter:
         textDB.contentDict = {}
 
         textDB.acceptStart()
-        tagsAddedToPlain = ["AUDIO", "BUILDVIEW", "BD", "BD-", "BD+", "BC", "CTUSE", "CTDEF", "CE", "/CE", "CR", "/CS", "DECOR", "DL", "/DL", "FC", "FD", "FLOW", "FT", "/FD", "GP", "GT", "GD", "GM", "GQ", "GI", "GA", "GF", "HD", "HD-", "HD+", "HR", "HS", "IN", "IT", "IT+", "IT-", "/JL", "JU", "KT", "KN", "LH", "LT", "LS", "ML", "/ML", "NT", "/NT", "PL", "/PL",  "PN", "/PN", "PT", "PX", "/PX", "RO", "SB", "SD", "SH", "SO", "SO-", "SO+", "SP", "/SS", "TA", "/TA", "TB", "UN", "UN-", "UN+", "WW", "/WW", "ETH", "ETB", "/ETH", "ETL", "/ETL", "ETS", "ETX", "STP", "STPLAST", "STPDEF"]
+        tagsAddedToPlain = ["AUDIO", "BUILDVIEW", "BD", "BD-", "BD+", "BC", "CTUSE", "CTDEF", "CE", "/CE", "CR", "/CS", "DECOR", "DL", "/DL", "FC", "FD", "FLOW", "/FD", "GP", "GT", "GD", "GM", "GQ", "GI", "GA", "GF", "HD", "HD-", "HD+", "HR", "HS", "IN", "IT", "IT+", "IT-", "/JL", "JU", "KT", "KN", "LH", "LT", "LS", "ML", "/ML", "NT", "/NT", "PL", "/PL",  "PN", "/PN", "PT", "PX", "/PX", "RO", "SB", "SD", "SH", "SO", "SO-", "SO+", "SP", "/SS", "TA", "/TA", "TB", "UN", "UN-", "UN+", "WW", "/WW", "ETH", "ETB", "/ETH", "ETL", "/ETL", "ETS", "ETX", "STP", "STPLAST", "STPDEF"]
 
-        tagsToOmit = ["AUDIO", "BUILDVIEW", "CD", "CD-", "CTUSE", "CTDEF", "CD+", "/ETH", "ETX", "ETL", "ETH", "ETB", "FLOW", "FD", "/FD", "FE", "GP", "KN-", "KN+", "KT-", "KT+", "HL", "LS", "LW", "OU", "NT", "/NT", "OU-", "OU+", "PB", "PN", "/PN", "QT", "RE", "RX", "SH", "SH+", "SH-", "STP", "STPLAST", "STPDEF", "TP", "TS", "VI", "WP"]
+        tagsToOmit = ["AUDIO", "BUILDVIEW", "CD", "CD-", "CTUSE", "CTDEF", "CD+", "DI", "/ETH", "ETX", "ETL", "ETH", "ETB", "FLOW", "FD", "/FD", "FE", "GP", "KN-", "KN+", "KT-", "KT+", "HL", "LS", "LW", "OU", "NT", "/NT", "OU-", "OU+", "PB", "PN", "/PN", "QT", "RE", "RX", "SH", "SH+", "SH-", "STP", "STPLAST", "STPDEF", "TP", "TS", "VI", "WP"]
 
         for t in self.flatFileScanner():
             if isinstance(t,int):
-                textDB.acceptChar(t)
+                if t==10 or t==13:
+                    textDB.acceptCharEnd()
+                else:
+                    textDB.acceptChar(t)
             elif isinstance(t,FlatFileTagString):
+                textDB.acceptCharEnd()
                 self.processTag(textDB,t,predefinedKeys=predefinedKeys,
                     tagsToOmit=tagsToOmit,tagsAddedToPlain=tagsAddedToPlain)
             else:
                 print (type(t),t)
 
-
+        textDB.acceptCharEnd()
         textDB.acceptEnd()
 
         print("Saving Files...")
@@ -171,7 +174,9 @@ class FlatFileImporter:
             if tagText not in tagsToOmit and tagText not in predefinedKeys:
                 arr = tagBuffer.createArray()
                 textDB.acceptTagArray(arr,tagBuffer)
-                if arr[0] in ["DI","FI"]:
+            if tagText in ["DI","FI"]:
+                arr = tagBuffer.createArray()
+                if len(arr)>2:
                     fileName = arr[2].replace('\\','/')
                     fileName = os.path.join(textDB.inputPath,fileName)
                     print('request open file', fileName)
