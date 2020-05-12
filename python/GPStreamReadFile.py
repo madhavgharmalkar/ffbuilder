@@ -18,12 +18,13 @@ class GPStreamReadFile:
             return -1
         return ord(c)
 
-    def setLineNumber(self,line):
-        self.lineNumber = line
-
     def size(self):
         pos = self.fileHandle.ftell()
         self.fileHandle.seek(0,2)
         siz = self.fileHandle.ftell()
         self.fileHandle.see(pos,0)
         return siz
+
+    @property
+    def fileLocation(self):
+        return 'File: {}, Line: {}'.format(self.fileName, self.lineNumber)

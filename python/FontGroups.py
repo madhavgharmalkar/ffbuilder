@@ -7,7 +7,7 @@ VBFB_FONTGROUP_BENGALI    = 3
 VBFB_FONTGROUP_WINDGDINGS = 4
 VBFB_FONTGROUP_RMDEVA     = 5
 
-balaramFontSet = ["Balaram", "Terminal", "Dravida", "scagoudy", "Basset", "Times New Roman", "Times New Roman Greek", "Bold PS 12cpi", "Times New Roman Baltic", "Times New Roman Special G1", "Arial Narrow", "Univers", "Times New", "MS Sans Serif", "CG Times", "TimesN", "Bookman Old Style", "Poetica", "Microsoft Sans Serif", "Helvetica Narrow", "France", "Sanvito Roman", "C Helvetica Condensed", "Garamond BoldCondensed", "Drona", "Garamond BookCondensed", "TimesTen Roman", "Tms Rmn", "Chn JSong SG", "Book Antiqua", "Courier New", "Courier", "Monaco", "Font13399", "Geneva", "Arial", "Times", "New York", "GillSans Bold", "Symbol", "Font14956", "Arial Unicode MS", "Galliard", "Tamalten", "Bhaskar", "Tahoma", "Time Roman", "Timingala", "Tamal", "Garamond", "Gaudiya", "Helvetica", "BhaskarItal", "Calibri", "HGoudyOldStyleBTBoldItalic", "Lucida Grande"]
+balaramFontSet = ["Balaram", "Terminal", "Dravida", "scagoudy", "Basset", "Times New Roman", "Times New Roman Greek", "Bold PS 12cpi", "Times New Roman Baltic", "Times New Roman Special G1", "Arial Narrow", "Univers", "Times New", "MS Sans Serif", "CG Times", "TimesN", "Bookman Old Style", "Poetica", "Microsoft Sans Serif", "Helvetica Narrow", "France", "Sanvito Roman", "C Helvetica Condensed", "Garamond BoldCondensed", "Drona", "Garamond BookCondensed", "TimesTen Roman", "Tms Rmn", "Chn JSong SG", "Book Antiqua", "Courier New", "Courier", "Monaco", "Font13399", "Geneva", "Arial", "Times", "New York", "GillSans Bold", "Symbol", "Font14956", "Arial Unicode MS", "Galliard", "Tamalten", "Bhaskar", "Tahoma", "Time Roman", "Timingala", "Tamal", "Garamond", "Gaudiya", "Helvetica", "BhaskarItal", "Calibri", "HGoudyOldStyleBTBoldItalic", "Lucida Grande", "Goudy Old Style", "Cambria CE", "Cambria", "StarBats", "BellCentennial"]
 devanagariFontSet = ["Indevr", "Helv", "indevr"]
 devanagariRMFontSet = ["RM Devanagari"]
 bengaliFontSet = ["Inbeni", "Inbenr", "Inbeno", "Inbenb"]
@@ -30,7 +30,7 @@ def fontGroupFromFontNameInt(fname):
     if fname in bengaliFontSet:
         return VBFB_FONTGROUP_BENGALI
 
-    print("\n{} / {}".format(fname, GPDebugger.fileLocationPlain()))
+    print("\n{} / {}".format(fname, GPDebugger.fileLocation))
     return VBFB_FONTGROUP_BALARAM
 
 def changeFontName(fontName):

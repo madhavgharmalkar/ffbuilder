@@ -21,6 +21,7 @@ dumpDirectory = ''
 dumpObjectDirectory = ''
 outputDirectory = ''
 write_style = WRITE_NONE
+fileLocation = ''
 
 PAGE_RECS = 10000
 
@@ -28,7 +29,6 @@ g_is_debug = False
 outputSingle = None
 outputSingleCounter = 0
 outSingleRecs = 0
-lineNum = 0
 
 def dd(dict,k,v):
     if not dict: return v
@@ -156,12 +156,6 @@ def writeTag(tagName,aText):
     if gps:
         gps.file.write(f'{aText}\n')
 
-def fileLocation():
-    return f"File:&nbsp;{fileName}<br>line:&nbsp;{lineNum}"
-
-def fileLocationPlain():
-    return f"File: {fileName}, line: {lineNum}"
-
 def _writeByStyle(text, style, fileLoc, rid):
     recid = int(int(rid)/PAGE_RECS)
     gps = _styleStream(style)
@@ -245,9 +239,6 @@ def endWrite():
             gps.file.close()
             gps.file = None
         dictTags = {}
-
-def setLineNumber(a):
-    lineNum = a
 
 def setFileName(text):
     fileName = text

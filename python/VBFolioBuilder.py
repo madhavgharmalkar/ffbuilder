@@ -116,7 +116,6 @@ class VBFolioBuilder:
         self.textSizeMultiplier = 1.0
         self.previousFontGroup = 0
         self.shouldFlush = 0
-        self.supressIndexing = False
         self.excludedQueryLinks = []
         self.fileTableDocInfo = None
         self.fileTableTexts = None
@@ -632,7 +631,7 @@ class VBFolioBuilder:
         elif str=="TB":
             pass
         elif str=="TA":
-            GPDebugger.writeTag(str, GPDebugger.fileLocationPlain)
+            GPDebugger.writeTag(str, GPDebugger.fileLocation)
         elif str=="CE":
             pass
         elif str=="/CE":

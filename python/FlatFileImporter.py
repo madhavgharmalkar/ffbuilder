@@ -28,21 +28,16 @@ RF2SEMICOLON = 350
 class FlatFileImporter:
     def __init__(self):
         self.fileQueue = []
-        self.cancelPending = False
         self.storePath = ''
+        self.workingDirectory = ''
+        self.safeStringReplace = {}
+        self.inputPath = ''
         self.unreadChar = ''
         self.isUnread = False
         self.outputFileName = ''
-        self.excludedQLFileName = ''
-        self.indexing = True
         self.validateQueries = True
         self.divideFiles = True
-        self.workingDirectory = ''
-        self._propertiesArray = []
-        self.inputPath = ''
         self.requestedCancel = False
-        self.sansDictionaries = []
-        self.importLineNumber = 0
 
     def openFile(self,fileName):
         print('Importer.openFile:', fileName)
@@ -97,9 +92,8 @@ class FlatFileImporter:
             if rd == -1: break
             if rd == 13: continue
             if rd == 10:
-                self.importLineNumber += 1
-                self.currentFile.setLineNumber(self.importLineNumber)
-                GPDebugger.setLineNumber(self.importLineNumber)
+                self.currentFile.lineNumber += 1
+                GPDebugger.fileLocation = self.currentFile.fileLocation
             if brackets == 0:
                 if rd == ord('<'):
                     rd = self.readChar()
@@ -133,7 +127,6 @@ class FlatFileImporter:
         textDB.inputPath = self.inputPath
         textDB.fileInfo += 'FILE={}'.format(self.outputFileName)
         textDB.safeStringReplace = self.safeStringReplace
-        textDB.supressIndexing = not self.indexing
         textDB.contentDict = {}
 
         textDB.acceptStart()
