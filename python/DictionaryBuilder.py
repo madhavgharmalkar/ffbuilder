@@ -57,9 +57,9 @@ class DictionaryBuilder:
                 rid += 1
 
     def process(self):
-        self.fileMean = open(os.path.join(self.outputDir, "dict_means.txt"), 'wt', encoding='utf-8')
-        self.fileInst = open(os.path.join(self.outputDir, "dictionary.txt"), 'wt', encoding='utf-8')
-        self.fileWord = open(os.path.join(self.outputDir, "dict_words.txt"), 'wt', encoding='utf-8')
+        self.fileMean = open(os.path.join(self.outputDir, "tables", "dict_means.txt"), 'wt', encoding='utf-8')
+        self.fileInst = open(os.path.join(self.outputDir, "tables", "dictionary.txt"), 'wt', encoding='utf-8')
+        self.fileWord = open(os.path.join(self.outputDir, "tables", "dict_words.txt"), 'wt', encoding='utf-8')
 
         if len(self.inputFiles) > 0:
             dictionaries = {}

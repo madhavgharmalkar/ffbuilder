@@ -5,8 +5,10 @@ import Indexer
 import ffviews
 import ffplaylists
 import ffdictionary
-import dbload
+#import dbload
+
 import os
+import time
 
 if os.environ.get('FBUILD_OUT')==None:
     print('Missing environment variable FBUILD_OUT with output directory for folio building files (e.g. ../flat-output)')
@@ -18,13 +20,17 @@ if os.environ.get('FBUILD_IN')==None:
 # working directory
 output_dir = os.environ.get('FBUILD_OUT')
 input_file = os.environ.get('FBUILD_IN')
+kwordsFile = '../data/keywords4.txt'
 new_db = False
 
+print('Have you prepared file', kwordsFile, '?')
+time.sleep(3)
+
 print('==== ANALYZER ====')
-ffanalyzer.FFAnalyzerRun(output_dir,input_file)
+#ffanalyzer.FFAnalyzerRun(output_dir,input_file)
 
 print('==== CONTENTS ====')
-ffcontents.ContentBuilderRun(output_dir)
+#ffcontents.ContentBuilderRun(output_dir)
 
 print('==== INDEXING ====')
 if new_db:
@@ -33,7 +39,7 @@ else:
     # file keywords3 serves as example
     # there should format for each line:
     # <recordid> TAB <keyword1> SP <keyword2> SP ..... NL
-    Indexer.BlobIndexerRun(output_dir,kwFile='../data/keywords3.txt')
+    Indexer.BlobIndexerRun(output_dir,kwFile=kwordsFile)
 
 print('==== VIEWS ====')
 ffviews.ViewBuilderRun(output_dir)
@@ -45,5 +51,5 @@ print('==== DICTIONARIES ====')
 dir_files = ['../data/dict-sp.txt', '../data/dict-monier.txt', '../data/dict-vbase.txt']
 ffdictionary.DictionaryBuilderRun(dir_files, output_dir)
 
-print('==== CREATE DATABASE ====')
-dbload.CreateDatabase(output_dir,new_db=new_db)
+#print('==== CREATE DATABASE ====')
+#dbload.CreateDatabase(output_dir,new_db=new_db)
