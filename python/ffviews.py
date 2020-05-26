@@ -8,7 +8,7 @@ def ViewBuilderRun(output_dir):
     vb.inputFile = os.path.join(output_dir, 'tables', 'texts-b.txt')
     vb.outputDir = os.path.join(output_dir, 'tables')
     vb.contentItems = [
-        '02 bhagavad gita as it is with audio',
+        '02 bhagavad gita as it is',
         '03 srimad bhagavatam bhagavata purana',
         '04 sri caitanya caritamrta'
     ]
