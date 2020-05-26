@@ -568,12 +568,38 @@ class MergeTexts:
 
         return recs
 
+    def get_future_map(self):
+        recs = [-1] * (self.oldFolio.maxRecord+1)
+        # go through content and set record mappings
+        assigned = [False] * (self.newFolio.maxRecord + 1)
+
+        for cidx in range(len(self.oldFolio.contents)-1,-1,-1):
+            ci = self.oldFolio.contents[cidx]
+            if ci.foreignRecordID>=0:
+                recs[ci.recordID] = ci.foreignRecordID
+                assigned[ci.foreignRecordID] = True
+                if ci.subStart < ci.subEnd:
+                    tidx = ci.foreignRecordID
+                    for nidx in range(ci.subStart,ci.subEnd+1):
+                        tidx += 1
+                        if tidx<0 or tidx>self.oldFolio.maxRecord:
+                            continue
+                        if recs[nidx]>0: break
+                        if assigned[tidx]: break
+                        recs[nidx] = tidx
+                        assigned[tidx] = True
+
+        for nidx in range(len(recs)-2):
+            if recs[nidx]>0 and recs[nidx+1]==-1 and recs[nidx+2]==recs[nidx]+2:
+                recs[nidx+1]=recs[nidx]+1
+
+        return recs
+
+
     def export(self):
         with open(self.newFolio.historyRecordsFile,'wt',encoding='utf-8') as wb:
-            for index,a in enumerate(self.get_history_map()):
-                if a[0]==-1 and a[1]!=-1:
-                    a[0] = a[1]
-                print(f'{index}\t{a[0]}',file=wb)
+            for i,a in enumerate(self.get_future_map()):
+                print(f'{i}\t{a}',file=wb)
 
 load_existing = False
 

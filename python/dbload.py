@@ -12,6 +12,7 @@ create_queries = [
 'create index igroup on groups(groupname)',
 'create index igroup2 on groups_detail(groupid)',
 'create table levels(level text, id integer, original text)',
+'create table histrec(rec2014 integer, rec2019 integer)',
 'create table popup(title text, class text, plain text)',
 'create index ipopup on popup(title)',
 'create table jumplinks(title text, recid integer)',
@@ -25,6 +26,7 @@ create_queries = [
 'create table dict_words(id integer, word text, simple text)',
 'create table dict_means(wordid integer, dictid integer, recid integer PRIMARY KEY ASC ON CONFLICT REPLACE AUTOINCREMENT, meaning text)',
 'create index idict_means on dict_means(dictid,wordid)',
+'create index ihist1 on histrec(rec2014)',
 'create table contents(title text, record integer, parent integer, level integer, simpletitle text, subtext text)',
 'create index icontents on contents(parent)',
 'create index icontents2 on contents(level)',
@@ -89,6 +91,13 @@ tables = [
        "table":"texts",
        "columns":"recid:integer,plain:text,levelname:text,stylename:text",
        "file":"texts-b.txt",
+       "f_old": True,
+       "f_new": False
+   },
+   {
+       "table":"histrec",
+       "columns":"rec2014:integer,rec2019:integer",
+       "file":"historec.txt",
        "f_old": True,
        "f_new": False
    },
@@ -214,26 +223,28 @@ def CreateDatabase(outdir,initial_queries=create_queries,table_defs=None,new_db=
         columns = [a.split(':') for a in query['columns'].split(',')]
         querytext = 'INSERT INTO ' + query['table'] + '(' + ','.join([c[0] for c in columns]) + ')' + ' VALUES (' + ('?,'*len(columns)).strip(',') + ')'
         data = []
-        with open(os.path.join(outdir,'tables',query['file']),'rt',encoding='utf-8') as rf:
-            for line in rf:
-                d = []
-                line = line.strip('\n').split('\t')
-                if len(line)==len(columns):
-                    for i in range(len(line)):
-                        if columns[i][1] == 'integer':
-                            d.append(int(line[i]))
-                        elif columns[i][1] == 'blobfile':
-                            with open(line[i],'rb') as rbf:
-                                d.append(rbf.read())
-                        elif columns[i][1] == 'blob':
-                            d.append(blob2data(line[i]))
-                        else:
-                            d.append(line[i])
-                    data.append(d)
-        print('Query:', querytext, end=' ')
-        print('Data:', len(data))
-        c.executemany(querytext,data)
-        db.commit()
+        filePath = os.path.join(outdir,'tables',query['file'])
+        if os.path.exists(filePath):
+            with open(filePath,'rt',encoding='utf-8') as rf:
+                for line in rf:
+                    d = []
+                    line = line.strip('\n').split('\t')
+                    if len(line)==len(columns):
+                        for i in range(len(line)):
+                            if columns[i][1] == 'integer':
+                                d.append(int(line[i]))
+                            elif columns[i][1] == 'blobfile':
+                                with open(line[i],'rb') as rbf:
+                                    d.append(rbf.read())
+                            elif columns[i][1] == 'blob':
+                                d.append(blob2data(line[i]))
+                            else:
+                                d.append(line[i])
+                        data.append(d)
+            print('Query:', querytext, end=' ')
+            print('Data:', len(data))
+            c.executemany(querytext,data)
+            db.commit()
     db.commit()
     db.close()
 
