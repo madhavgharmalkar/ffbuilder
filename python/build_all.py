@@ -27,10 +27,10 @@ print('Have you prepared file', kwordsFile, '?')
 time.sleep(3)
 
 print('==== ANALYZER ====')
-#ffanalyzer.FFAnalyzerRun(output_dir,input_file)
+ffanalyzer.FFAnalyzerRun(output_dir,input_file)
 
 print('==== CONTENTS ====')
-#ffcontents.ContentBuilderRun(output_dir)
+ffcontents.ContentBuilderRun(output_dir)
 
 print('==== INDEXING ====')
 if new_db:

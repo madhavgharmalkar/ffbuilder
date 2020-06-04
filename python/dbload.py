@@ -27,7 +27,7 @@ create_queries = [
 'create table dict_means(wordid integer, dictid integer, recid integer PRIMARY KEY ASC ON CONFLICT REPLACE AUTOINCREMENT, meaning text)',
 'create index idict_means on dict_means(dictid,wordid)',
 'create index ihist1 on histrec(rec2014)',
-'create table contents(title text, record integer, parent integer, level integer, simpletitle text, subtext text)',
+'create table contents(title text, record integer, parent integer, level integer, simpletitle text, subtext text, node_children integer, node_code text, node_type integer, next_sibling integer)',
 'create index icontents on contents(parent)',
 'create index icontents2 on contents(level)',
 'create table words(word text, uid integer, indexbase integer, data blob, idx text)',
@@ -40,7 +40,7 @@ create_queries = [
 tables = [
    {
        "table":"contents",
-       "columns":"level:integer,record:integer,parent:integer,title:text,simpletitle:text,subtext:text",
+       "columns":"level:integer,record:integer,parent:integer,title:text,simpletitle:text,subtext:text,node_children:integer,node_code:text,node_type:integer,next_sibling:integer",
        "file":"contents.txt",
        "f_old": True,
        "f_new": False
@@ -205,7 +205,7 @@ def applicable_query(query,new_db):
 # old format means that everything is included in sqlite db file
 #
 def CreateDatabase(outdir,initial_queries=create_queries,table_defs=None,new_db=False):
-    filename = os.path.join(outdir,'data','folio.db')
+    filename = os.path.join(outdir,'data','folio.ivd')
 
     if os.path.exists(filename):
         os.remove(filename)

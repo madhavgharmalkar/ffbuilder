@@ -9,6 +9,17 @@ from FlatFileUtils import FlatFileTagString
 kStackMax     = 64
 kContStripMax = 240
 
+class ContentLevelRecordMap:
+    def __init__(self):
+        self.reclev = [0] * kContStripMax
+    def setEnd(self,endrec):
+        self.reclev = [endrec] * kContStripMax
+    def setRecordForLevel(self,rec,lev):
+        for i in range(lev,len(self.reclev)):
+            self.reclev[i] = rec
+    def getRecordForLevel(self,lev):
+        return self.reclev[lev]
+
 class ContentsBuilder:
     def __init__(self):
         self.outputFile = None
@@ -25,6 +36,8 @@ class ContentsBuilder:
         self.stpdefs = {}
         self.contentArray = []
         self.lastContentItemInserted = {}
+        self.maxRecordId = 0
+        self.maxLevelAllowed = 7
 
     def validate(self):
         return len(self.inputFile) > 0 and len(self.outputDir) > 0 and len(self.levelFile) > 0
@@ -54,6 +67,7 @@ class ContentsBuilder:
                 levelName = part[2]
                 styleName = part[3]
                 recId = int(part[0])
+                if self.maxRecordId<recId: self.maxRecordId = recId
 
                 dict = {
                     'RECORDID': recId,
@@ -67,12 +81,14 @@ class ContentsBuilder:
                 print("{}\t{}\t{}\t{}".format(recId, dict['plain'].getvalue(), levelName, styleName), file=self.textFile)
 
                 self.processText(dict)
+
                 count +=1
 
                 if count % 2000 == 0:
                     print(f'\rProcessed {count} lines', end='')
             print()
 
+        self.setEndRecordIds()
         self.saveContents()
         self.outputFile.close()
         self.textFile.close()
@@ -95,7 +111,7 @@ class ContentsBuilder:
                     target = self.lastContentItemInserted["subtext"]
                     target.write("<STP:{}>{}".format(hook, plainText))
         # save record to contents
-        self.saveRecordToContents(dict)
+        return self.saveRecordToContents(dict)
 
     def getLevelIndex(self,levelName):
         if not levelName or len(levelName) == 0:
@@ -117,6 +133,7 @@ class ContentsBuilder:
                 # :: current level (nLevel) must not be higher than level of found STPLAST
                 # :: in order to write content item into contents
                 return level < nLevel
+        if nLevel>self.maxLevelAllowed: return True
         return False
 
     def setDict(self,dict,str):
@@ -286,7 +303,18 @@ class ContentsBuilder:
         if levelName in self.stpdefs:
             contentItem['STPDEF'] = self.stpdefs[levelName]
 
-        return
+        return contentItem
+
+    def setEndRecordIds(self):
+        map = ContentLevelRecordMap()
+        map.setEnd(self.maxRecordId)
+        lastLevel = -1
+        for cidx in range(len(self.contentArray)-1,-1,-1):
+            ci = self.contentArray[cidx]
+            ci['node_count'] = 0 if lastLevel <= ci['level'] else 1
+            ci['nextSibling'] = map.getRecordForLevel(ci['level'])
+            map.setRecordForLevel(ci['record'],ci['level'])
+            lastLevel = ci['level']
 
     def saveContents(self):
         ai = 0
@@ -297,6 +325,7 @@ class ContentsBuilder:
             contItem['itemid'] = contentItemId
             level = contItem['level']
             parent = contItem['record']
+            child_count = contItem['node_count']
             if 'children' in contItem:
                 children = sorted(contItem['children'], key='simpletitle')
                 for contChild in children:
@@ -306,12 +335,16 @@ class ContentsBuilder:
                     contChild['level'] = level + 1
 
             # writes to dump file
-            self.outputFile.write("{}\t{}\t{}\t{}\t{}\t{}\n".format(
-                    contItem['level'],
-                    contItem['record'],
-                    contItem['parent'],
-                    contItem["text"],
-                    contItem["simpletitle"],
-                    contItem["subtext"].getvalue()))
+            self.outputFile.write("{}\t".format(contItem['level']))
+            self.outputFile.write("{}\t".format(contItem['record']))
+            self.outputFile.write("{}\t".format(contItem['parent']))
+            self.outputFile.write("{}\t".format(contItem["text"]))
+            self.outputFile.write("{}\t".format(contItem["simpletitle"]))
+            self.outputFile.write("{}\t".format(contItem["subtext"].getvalue()))
+            self.outputFile.write("{}\t".format(child_count))
+            self.outputFile.write("{}\t".format('C'))
+            node_type = 1 if child_count==0 else 2
+            self.outputFile.write("{}\t".format(node_type))
+            self.outputFile.write("{}\n".format(contItem['nextSibling']))
 
         print("Done - Saving Content")
